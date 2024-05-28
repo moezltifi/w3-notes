@@ -6,13 +6,11 @@
 .content{
     margin-left: 200px;
 }
-/* Add a CSS class to style the selected link */
 .w3-sidebar a.selected {
     background-color: #f0f0f0;
     color: #333;
   }
   
-  /* Style for the unselected links */
   .w3-sidebar a {
     text-decoration: none;
     display: block;
@@ -20,9 +18,16 @@
     color: #fff;
   }
   
-  /* Hover effect for links */
   .w3-sidebar a:hover {
     background-color: #ddd;
     color: #333;
+  }
+.w3-button {
+    padding: 15px 20px; 
+  }
+  
+  #sidebar {
+    height: 100%; 
+    overflow-y: auto; 
   }
   
