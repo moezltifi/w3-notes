@@ -8,8 +8,6 @@ function showSections(course) {
   var sidebar = document.getElementById('sidebar');
   var content = document.getElementById('content');
 
-  sidebar.style.display = 'none';
-
   sidebar.innerHTML = '';
 
   sections[course].forEach(function(section) {
@@ -19,12 +17,11 @@ function showSections(course) {
     link.textContent = section;
     link.onclick = function() {
       showContent(course, section);
-      sidebar.style.display = 'block';
     };
     sidebar.appendChild(link);
   });
 
-  content.innerHTML = "<h2 >Welcome select a section from the sidebar to start learning</h2>";
+  content.innerHTML = "<h2>Welcome, select a section from the sidebar to start learning</h2>";
 }
 
 function showContent(course, section) {
@@ -41,16 +38,9 @@ function showContent(course, section) {
     case 'html':
       contentToDisplay = htmlContent[section];
       break;
-    case 'css':
-      contentToDisplay = cssContent[section];
-      break;
-    case 'javascript':
-      contentToDisplay = javascriptContent[section];
-      break;
     default:
       contentToDisplay = "<h2>No content available</h2>";
   }
-
   content.innerHTML = contentToDisplay;
 }
-content.innerHTML="<h2 >Welcome select a section from the headbar to start learning</h2>";
+showSections('html');
