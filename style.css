@@ -1,29 +1,38 @@
 .w3-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    background-color: #282a35;
+    color: #dfeaeb;
+    height: 50px;
 }
 .content {
     margin-left: 100px; 
+    margin-top: 70px;
     height: 100vh;
 }
-.w3-sidebar a.selected {
+.selected {
     background-color: #f0f0f0;
     color: #333;
 }
 .w3-sidebar {
-    width: 100px; 
-    display: flex;
-    flex-direction:column ;
+    font-size: 20px;
+    width:25%;
+    display: flex; 
+    flex-direction: column;
     padding: 5px;
-    color: #fff;
+    color: #0a0a0a;
     height: 100vh;
     top: 0; 
-    overflow-y: auto; 
-    padding-top: 50px;
+    overflow-y: scroll;
+    margin-top: 50px;
+    background-color: #e7e9eb;
 }
 .w3-sidebar a:hover {
-    background-color: #ddd;
-    color: #333;
+    background-color: #04aa6d;
+    color: #e7e9eb;
 }
 .w3-button {
     padding: 15px 20px;
@@ -31,9 +40,10 @@
 .w3-sidebar {
     height: 100%;
 }
-@media(max-width: 468px) {
+
+@media(max-width: 608px) {
     .content {
-        margin-left: 70px;
+        margin-left: 170px;
     }
     .w3-bar {
         display: flex;
@@ -41,7 +51,10 @@
     }
     .w3-sidebar {
         padding: 2px;
-        padding-top: 50px;
-        width: 80px; 
+        margin-top: 50px;
+        width: 150px; 
     }
+}
+#sidebar{
+    font-size: 30px;
 }

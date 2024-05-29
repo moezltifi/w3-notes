@@ -5,23 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="w3-bar w3-teal">
-    <a class="w3-button" onclick="showSections('html')">HTML</a>
-    <a class="w3-button" onclick="showSections('css')">CSS</a>
-    <a class="w3-button" onclick="showSections('javascript')">JavaScript</a>
+  <div class="w3-bar">
+    <a class="w3-button" id="HTML" onclick="showSections('HTML')">HTML</a>
+    <a class="w3-button" id="CSS" onclick="showSections('CSS')">CSS</a>
+    <a class="w3-button" id="JavaScript" onclick="showSections('JavaScript')">JavaScript</a>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="w3-sidebar w3-bar-block w3-teal col-2" id="sidebar">
-      </div>
-      <div class="content col-10" style="text-align: center;" id="content">
-      </div>
-    </div>
+  <div class="w3-sidebar w3-bar-block" id="sidebar" >
+
   </div>
+  <div class="content" style="text-align: center;" id="content"></div>
+
   <script src="index.js"></script>
 </body>
 </html>
