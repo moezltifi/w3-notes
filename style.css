@@ -1,6 +1,6 @@
 .w3-bar {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .content {
     margin-left: 100px; 
@@ -12,23 +12,14 @@
 }
 .w3-sidebar {
     width: 100px; 
-    text-decoration: none;
-    display: block;
-    padding: 10px;
+    display: flex;
+    flex-direction:column ;
+    padding: 5px;
     color: #fff;
     height: 100vh;
-    position: fixed; 
     top: 0; 
-    left: 0; 
-    z-index: 1000; 
     overflow-y: auto; 
-    margin-top: 50px;
-}
-img{
-    width: 100px;
-    height: 80px;
-    margin-left: 0px;
-    padding-left: 0px;
+    padding-top: 50px;
 }
 .w3-sidebar a:hover {
     background-color: #ddd;
@@ -40,13 +31,17 @@ img{
 .w3-sidebar {
     height: 100%;
 }
-@media(max-width: 568px) {
+@media(max-width: 468px) {
     .content {
         margin-left: 70px;
     }
+    .w3-bar {
+        display: flex;
+        justify-content: center;
+    }
     .w3-sidebar {
         padding: 2px;
-        margin-top: 50px;
+        padding-top: 50px;
         width: 80px; 
     }
 }
