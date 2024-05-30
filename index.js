@@ -16,7 +16,7 @@ function showSections(course) {
   sections[course].forEach(function(section) {
     var link = document.createElement('a');
     link.href = '#';
-    link.classList.add('w3-bar-item', 'w3-button');
+    link.classList.add('w3-bar-item', 'w3-button','sidebar-button');
     link.textContent = section;
     link.onclick = function() {
       showContent(course, section);
