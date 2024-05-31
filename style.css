@@ -26,6 +26,7 @@
   color: #0a0a0a;
   height: 100vh;
   top: 0;
+  left: 0;
   overflow-y: scroll;
   background-color: #e7e9eb;
 }
