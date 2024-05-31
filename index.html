@@ -4,20 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>w3-notes</title>
-  <link rel="icon" href="https://www.w3schools.com/favicon.ico">  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" href="https://www.w3schools.com/favicon.ico">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="w3-bar">
-    <a class="w3-button" id="HTML" onclick="showSections('HTML')">HTML</a>
-    <a class="w3-button" id="CSS" onclick="showSections('CSS')">CSS</a>
-    <a class="w3-button" id="JavaScript" onclick="showSections('JavaScript')">JavaScript</a>
-  </div>
-  <div class="w3-sidebar w3-bar-block" id="sidebar" >
+  <div class="w3-main" style="margin-left:200px">
+    <div class="w3-bar">
+      <button class="w3-button w3-xlarge w3-hide-large open"  onclick="w3_open()">&#9776;</button>
+      <a class="w3-button" id="HTML" onclick="showSections('HTML')">HTML</a>
+      <a class="w3-button" id="CSS" onclick="showSections('CSS')">CSS</a>
+      <a class="w3-button" id="JavaScript" onclick="showSections('JavaScript')">JavaScript</a>
+      <div class="w3-container">
+      </div>
+    </div>
+  
+  <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
 
   </div>
-  <div class="content" id="content"></div>
 
-  <script src="index.js"></script>
+  <div class="w3-container">
+    <div class="content" id="content">
+    </div>
+  </div>
+</div>
+<script src="index.js"></script>
 </body>
 </html>
