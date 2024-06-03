@@ -8,11 +8,9 @@ function showSections(course) {
   var sidebar = document.getElementById('mySidebar');
   var content = document.getElementById('content');
 
-  // Clear sidebar and content
   sidebar.innerHTML = '';
   content.innerHTML = '';
 
-  // Highlight the clicked button
   var buttons = document.querySelectorAll('.w3-button');
   buttons.forEach(function(button) {
     button.style.backgroundColor = '';
@@ -20,7 +18,6 @@ function showSections(course) {
   var clickedButton = document.getElementById(course);
   clickedButton.style.backgroundColor = '#04aa6d';
 
-  // Display sections in the sidebar
   sections[course].forEach(function(section) {
     var link = document.createElement('a');
     link.href = '#';
