@@ -1,7 +1,7 @@
 var sections = {
   HTML: ['Introduction', 'Tags', 'Attributes', 'Forms'],
-  CSS: ['Selectors', 'Box Model', 'Flexbox', 'Grid'],
-  JavaScript: ['Variables', 'Functions', 'DOM Manipulation', 'Events']
+  CSS: ['Selectors', 'Box_Model', 'Flexbox', 'Grid'],
+  JavaScript: ['Variables', 'Functions', 'DOM_Manipulation', 'Events']
 };
 
 function showSections(course) {
@@ -41,16 +41,22 @@ function showContent(course, section) {
       var contentToDisplay;
 
       var htmlContent = {
-        Introduction: Content.employees[0].Introduction,
-        Tags: Content.employees[1].Tags,
-        Attributes: Content.employees[2].Attributes,
-        Forms: Content.employees[3].Forms
+        Introduction: Content.html[0].Introduction,
+        Tags: Content.html[1].Tags,
+        Attributes: Content.html[2].Attributes,
+        Forms: Content.html[3].Forms
       };
       var cssContent = {
-        Selectors: "<h2>CSS Selectors</h2><p>This is the section about CSS selectors.</p>",
+      Selectors: Content.css[0].Selectors,
+      Box_Model: Content.css[1].Box_Model,
+      Flexbox: Content.css[2].Flexbox,
+      Grid: Content.css[3].Grid
       };
       var javascriptContent = {
-        Variables: "<h2>JavaScript Variables</h2><p>This is the section about JavaScript variables.</p>",
+        Variables: Content.javascript[0].Variables,
+        Functions: Content.javascript[1].Functions,
+        DOM_Manipulation: Content.javascript[2].DOM_Manipulation,
+        Events: Content.javascript[3].Events
       };
       
       switch (course) {

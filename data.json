@@ -18,7 +18,7 @@
         "Selectors": "<h2>CSS Selectors</h2><p>This is the section about CSS selectors.</p>"
       },
       {
-        "Box Model": "<h2>Box Model</h2><p>This is the section about the CSS Box Model.</p>"
+        "Box_Model": "<h2>Box Model</h2><p>This is the section about the CSS Box Model.</p>"
       },
       {
         "Flexbox": "<h2>Flexbox</h2><p>This is the section about CSS Flexbox.</p>"
@@ -35,7 +35,7 @@
         "Functions": "<h2>JavaScript Functions</h2><p>This is the section about JavaScript functions.</p>"
       },
       {
-        "Dom Manipulation": "<h2>DOM Manipulation</h2><p>This is the section about DOM manipulation.</p>"
+        "Dom_Manipulation": "<h2>DOM Manipulation</h2><p>This is the section about DOM manipulation.</p>"
       },
       {
         "Events": "<h2>Events</h2><p>This is the section about JavaScript events.</p>"
