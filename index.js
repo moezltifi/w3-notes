@@ -1,14 +1,14 @@
 var sections = {
   HTML: ['Introduction', 'Tags', 'Attributes', 'Forms'],
   CSS: ['Selectors', 'Box_Model', 'Flexbox', 'Grid'],
-  JavaScript: ['Variables', 'Functions', 'DOM_Manipulation', 'Events']
+  JavaScript: ['Variables', 'Functions', 'Dom_Manipulation', 'Events']
 };
 
 function showSections(course) {
   var sidebar = document.getElementById('mySidebar');
   var content = document.getElementById('content');
 
-  sidebar.innerHTML = '';
+  sidebar.innerHTML = '<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()"> Close &times; </button>'; 
   content.innerHTML = '';
 
   var buttons = document.querySelectorAll('.w3-button');
@@ -33,30 +33,23 @@ function showSections(course) {
 }
 
 function showContent(course, section) {
-  fetch('data.json')
-    .then(response => response.json())
-    .then(data => {
-      Content=data
-      var content = document.getElementById('content');
-      var contentToDisplay;
-
       var htmlContent = {
-        Introduction: Content.html[0].Introduction,
-        Tags: Content.html[1].Tags,
-        Attributes: Content.html[2].Attributes,
-        Forms: Content.html[3].Forms
+        Introduction: html.Introduction,
+        Tags: html.Tags,
+        Attributes: html.Attributes,
+        Forms: html.Forms
       };
       var cssContent = {
-      Selectors: Content.css[0].Selectors,
-      Box_Model: Content.css[1].Box_Model,
-      Flexbox: Content.css[2].Flexbox,
-      Grid: Content.css[3].Grid
+      Selectors: css.Selectors,
+      Box_Model: css.Box_Model,
+      Flexbox: css.Flexbox,
+      Grid: css.Grid
       };
       var javascriptContent = {
-        Variables: Content.javascript[0].Variables,
-        Functions: Content.javascript[1].Functions,
-        DOM_Manipulation: Content.javascript[2].DOM_Manipulation,
-        Events: Content.javascript[3].Events
+        Variables: javascript.Variables,
+        Functions: javascript.Functions,
+        Dom_Manipulation: javascript.Dom_Manipulation,
+        Events: javascript.Events
       };
       
       switch (course) {
@@ -75,8 +68,6 @@ function showContent(course, section) {
       content.innerHTML = contentToDisplay;
       var clickedButton = document.getElementById(course);
       clickedButton.style.backgroundColor = "#04aa6d";
-    })
-    .catch(error => console.error('Error fetching JSON:', error));
 }
 
 function w3_open() {
