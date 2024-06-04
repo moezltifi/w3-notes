@@ -1,11 +1,9 @@
-
 var sections = {
   CSS: Object.keys(css),
   JavaScript: Object.keys(javascript),
   HTML: Object.keys(html)
 };
 
-console.log(Object.keys(html));
 function showSections(course) {
   var sidebar = document.getElementById('mySidebar');
   var content = document.getElementById('content');
