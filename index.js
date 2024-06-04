@@ -1,9 +1,11 @@
+
 var sections = {
-  HTML: ['Introduction', 'Tags', 'Attributes', 'Forms'],
-  CSS: ['Selectors', 'Box_Model', 'Flexbox', 'Grid'],
-  JavaScript: ['Variables', 'Functions', 'Dom_Manipulation', 'Events']
+  CSS: Object.keys(css),
+  JavaScript: Object.keys(javascript),
+  HTML: Object.keys(html)
 };
 
+console.log(Object.keys(html));
 function showSections(course) {
   var sidebar = document.getElementById('mySidebar');
   var content = document.getElementById('content');
@@ -32,42 +34,46 @@ function showSections(course) {
   content.innerHTML = "<h2>Welcome, select a section from the sidebar to start learning</h2>";
 }
 
+showSections('HTML');
+
 function showContent(course, section) {
-      var htmlContent = {
-        Introduction: html.Introduction,
-        Tags: html.Tags,
-        Attributes: html.Attributes,
-        Forms: html.Forms
-      };
-      var cssContent = {
-      Selectors: css.Selectors,
-      Box_Model: css.Box_Model,
-      Flexbox: css.Flexbox,
-      Grid: css.Grid
-      };
-      var javascriptContent = {
-        Variables: javascript.Variables,
-        Functions: javascript.Functions,
-        Dom_Manipulation: javascript.Dom_Manipulation,
-        Events: javascript.Events
-      };
-      
-      switch (course) {
-        case 'HTML':
-          contentToDisplay = htmlContent[section];
-          break;
-        case 'CSS':
-          contentToDisplay = cssContent[section];
-          break;
-        case 'JavaScript':
-          contentToDisplay = javascriptContent[section];
-          break;
-        default:
-          contentToDisplay = "<h2>No content available</h2>";
-      }
-      content.innerHTML = contentToDisplay;
-      var clickedButton = document.getElementById(course);
-      clickedButton.style.backgroundColor = "#04aa6d";
+  var htmlContent = {
+    Introduction: html.Introduction.join(""),
+    Tags: html.Tags.join(""),
+    Attributes: html.Attributes.join(""),
+    Forms: html.Forms.join("")
+  };
+
+  var cssContent = {
+    Selectors: css.Selectors.join(""),
+    Box_Model: css.Box_Model.join(""),
+    Flexbox: css.Flexbox.join(""),
+    Grid: css.Grid.join("")
+  };
+
+  var javascriptContent = {
+    Variables: javascript.Variables.join(""),
+    Functions: javascript.Functions.join(""),
+    Dom_Manipulation: javascript.Dom_Manipulation.join(""),
+    Events: javascript.Events.join("")
+  };
+
+  switch (course) {
+    case 'HTML':
+      contentToDisplay = htmlContent[section];
+      break;
+    case 'CSS':
+      contentToDisplay = cssContent[section];
+      break;
+    case 'JavaScript':
+      contentToDisplay = javascriptContent[section];
+      break;
+    default:
+      contentToDisplay = "<h2>No content available</h2>";
+  }
+  content.innerHTML = contentToDisplay;
+  var clickedButton = document.getElementById(course);
+  clickedButton.style.backgroundColor = "#04aa6d";
 }
 
 function w3_open() {
