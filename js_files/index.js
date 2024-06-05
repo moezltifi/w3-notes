@@ -1,9 +1,12 @@
+const Css=Object.keys(css);
+const Html=Object.keys(html)
+const Javascript=Object.keys(javascript)
 var sections = {
   CSS: Object.keys(css),
-  JavaScript: Object.keys(javascript),
+  JavaScript: Javascript,
   HTML: Object.keys(html)
 };
-
+console.log(Object.keys(html));
 function showSections(course) {
   var sidebar = document.getElementById('mySidebar');
   var content = document.getElementById('content');
@@ -35,26 +38,19 @@ function showSections(course) {
 showSections('HTML');
 
 function showContent(course, section) {
-  var htmlContent = {
-    Introduction: html.Introduction.join(""),
-    Tags: html.Tags.join(""),
-    Attributes: html.Attributes.join(""),
-    Forms: html.Forms.join("")
-  };
+  var htmlContent = {};
+  Html.forEach((section) =>{
+    htmlContent[section]= html[section].join("");
+});
+  var cssContent = {}
+    Css.forEach((section) =>{
+      cssContent[section]= css[section].join("");
+  });
 
-  var cssContent = {
-    Selectors: css.Selectors.join(""),
-    Box_Model: css.Box_Model.join(""),
-    Flexbox: css.Flexbox.join(""),
-    Grid: css.Grid.join("")
-  };
-
-  var javascriptContent = {
-    Variables: javascript.Variables.join(""),
-    Functions: javascript.Functions.join(""),
-    Dom_Manipulation: javascript.Dom_Manipulation.join(""),
-    Events: javascript.Events.join("")
-  };
+  var javascriptContent = {}
+    Javascript.forEach((section) =>{
+      javascriptContent[section]= javascript[section].join("");
+  });
 
   switch (course) {
     case 'HTML':
@@ -73,13 +69,4 @@ function showContent(course, section) {
   var clickedButton = document.getElementById(course);
   clickedButton.style.backgroundColor = "#04aa6d";
 }
-
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-
 showSections('HTML');
