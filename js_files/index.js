@@ -11,7 +11,7 @@ function showSections(course) {
   var sidebar = document.getElementById('mySidebar');
   var content = document.getElementById('content');
 
-  sidebar.innerHTML = '<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()"> Close &times; </button>'; 
+  sidebar.innerHTML = ''; 
   content.innerHTML = '';
 
   var buttons = document.querySelectorAll('.w3-button');
