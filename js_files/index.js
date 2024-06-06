@@ -2,9 +2,9 @@ const Css=Object.keys(css);
 const Html=Object.keys(html)
 const Javascript=Object.keys(javascript)
 var sections = {
-  CSS: Object.keys(css),
+  CSS: Css,
   JavaScript: Javascript,
-  HTML: Object.keys(html)
+  HTML: Html
 };
 console.log(Object.keys(html));
 function showSections(course) {
@@ -32,6 +32,7 @@ function showSections(course) {
       link.classList.add('selected')
     };
     link.onclick = function() {
+      
       var clickedsection= sidebar.querySelector('.selected');
       if (clickedsection) {
         clickedsection.classList.remove('selected');
@@ -43,7 +44,9 @@ function showSections(course) {
     sidebar.appendChild(link);
   });
 
-  content.innerHTML = "<h2>Welcome, select a section from the sidebar to start learning</h2>";
+  content.innerHTML =html.Introduction.join("");
+    var introductionButton = sidebar.querySelector('button');
+  introductionButton.classList.add('selected');
 }
 
 showSections('HTML');
