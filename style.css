@@ -25,6 +25,9 @@
     overflow-y: scroll;
     background-color: #e7e9eb;
 }
+.selected{
+    background-color: #04aa6d;
+}
 
 .w3-button {
     padding: 15px 20px;

@@ -18,15 +18,26 @@ function showSections(course) {
   buttons.forEach(function(button) {
     button.style.backgroundColor = '';
   });
+  
   var clickedButton = document.getElementById(course);
   clickedButton.style.backgroundColor = '#04aa6d';
 
   sections[course].forEach(function(section) {
-    var link = document.createElement('a');
-    link.href = '#';
+    var link = document.createElement('button');
     link.classList.add('w3-bar-item', 'w3-button');
     link.textContent = section;
+    link.style.backgroundColor="";
     link.onclick = function() {
+      showContent(course, section);
+      link.classList.add('selected')
+    };
+    link.onclick = function() {
+      var clickedsection= sidebar.querySelector('.selected');
+      if (clickedsection) {
+        clickedsection.classList.remove('selected');
+      }
+      link.classList.add('selected');
+  
       showContent(course, section);
     };
     sidebar.appendChild(link);
@@ -51,7 +62,6 @@ function showContent(course, section) {
     Javascript.forEach((section) =>{
       javascriptContent[section]= javascript[section].join("");
   });
-
   switch (course) {
     case 'HTML':
       contentToDisplay = htmlContent[section];
@@ -67,6 +77,7 @@ function showContent(course, section) {
   }
   content.innerHTML = contentToDisplay;
   var clickedButton = document.getElementById(course);
-  clickedButton.style.backgroundColor = "#04aa6d";
+  clickedButton.style.backgroundColor= "#04aa6d";
+
 }
 showSections('HTML');

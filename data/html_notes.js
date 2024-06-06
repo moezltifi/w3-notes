@@ -12,7 +12,7 @@ const html = {
     "<ol>Front end development</ol> <ol>Back end development</ol> "
   ],
 
-  site_composition: ["<h2 style='text-align: center;'>HTML Tags</h2>",
+  "site composition": ["<h2 style='text-align: center;'>HTML Tags</h2>",
   "<h6><li>if you want to builde a website you have to understand what websites are made of usually websites made of group of files for example :</li>",
   "<ol>HTML files</ol> ",
   "<ol>cSS files</ol> ",
