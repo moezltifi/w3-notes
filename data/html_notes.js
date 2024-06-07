@@ -1,8 +1,8 @@
 const html = {
   Introduction: [
     "<h2 style='text-align: center;'>Introduction to HTML</h2>",
-    "<h4><li><span style='color:#ff34f0;'>H</span>yper<span style='color:#ff34f0;'>T</span>ext <span style='color:#ff34f0;'>M</span>arkup <span style='color:#ff34f0;'>L</span>anguage (HTML)</li></h4>",
-    "<h6><li>HTML is the standard markup language for creating web pages and web applications.</li>",
+    "<li>HTML stands for <span style='color:#04aa6d;'>H</span>yper<span style='color:#04aa6d;'>T</span>ext <span style='color:#04aa6d;'>M</span>arkup <span style='color:#04aa6d;'>L</span>anguage</li>",
+    "<li>HTML is the standard markup language for creating web pages and web applications.</li>",
     "<li>It was created by Tim Berners-Lee in late 1991 but was not officially published until 1993.</li>",
     "<li>HTML is used to describe the structure of web pages using markup. Elements are the building blocks of HTML pages.</li>",
     "<li>HTML elements are represented by tags such as &lt;head&gt;, &lt;title&gt;, &lt;body&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;, and many others.</li>",
