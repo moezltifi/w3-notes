@@ -1,6 +1,8 @@
 .content {
-    margin-top: 70px;
+    margin-top: 80px;
     height: 100vh;
+    margin-left: 350px;
+    margin-right: 50px;
 }
 
 .w3-bar {
@@ -35,13 +37,17 @@
 }
 
 .w3-sidebar {
+    padding: 2px;
     height: 100%;
+    top: 50px;
 }
 
 @media (max-width: 1000px) {
     .content {
-        margin-top: 70px;
+        margin-top: 80px;
         height: 100vh;
+        margin-left: 10px;
+        margin-right: 10px;
         }
 
     .open {
