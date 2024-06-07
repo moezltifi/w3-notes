@@ -8,8 +8,8 @@ const html = {
     "<ol>VS Code</ol><ol>Notepad</ol><ol>Atome</ol>",
     "<li>for example if you want to downlowd VS Code :</li>",
     "<ol>First go to the browser </ol> <ol>then you will write vscode</ol> <ol>then chose the first link</ol> <ol>then you will find a button to start downlowd</ol> <ol>Finely you can start coding</ol> ",
-    "<li> If we say sites we say web then We will create websites the web domain is divided into two specializations : </li></h6>",
-    "<ol>Front end development</ol> <ol>Back end development</ol> "
+    "<li> If we say sites we say web then We will create websites the web domain is divided into two specializations : </li>",
+    "<ol>Front end development</ol> <ol>Back end development</ol> </h6>"
   ],
 
   "site composition": ["<h2 style='text-align: center;'>HTML Tags</h2>",

@@ -1,86 +1,73 @@
-const Css=Object.keys(css);
-const Html=Object.keys(html)
-const Javascript=Object.keys(javascript)
-var sections = {
-  CSS: Css,
-  JavaScript: Javascript,
-  HTML: Html
-};
-console.log(Object.keys(html));
-function showSections(course) {
-  var sidebar = document.getElementById('mySidebar');
-  var content = document.getElementById('content');
+const Css = Object.keys(css);
+const Html = Object.keys(html);
+const Javascript = Object.keys(javascript);
 
+
+const sections = {
+  HTML: Html,
+  CSS: Css,
+  JavaScript: Javascript
+};
+function showSections(course) {
+  const sidebar = document.getElementById('mySidebar');
+  const content = document.getElementById('content');
   sidebar.innerHTML = ''; 
   content.innerHTML = '';
-
-  var buttons = document.querySelectorAll('.w3-button');
+  const buttons = document.querySelectorAll('.w3-button');
   buttons.forEach(function(button) {
     button.style.backgroundColor = '';
   });
-  
-  var clickedButton = document.getElementById(course);
+  const clickedButton = document.getElementById(course);
   clickedButton.style.backgroundColor = '#04aa6d';
-
-  sections[course].forEach(function(section) {
-    var link = document.createElement('button');
+  sections[course].forEach(function(Content) {
+    const link = document.createElement('button');
     link.classList.add('w3-bar-item', 'w3-button');
-    link.textContent = section;
-    link.style.backgroundColor="";
+    link.textContent = Content;
     link.onclick = function() {
-      showContent(course, section);
-      link.classList.add('selected')
-    };
-    link.onclick = function() {
-      
-      var clickedsection= sidebar.querySelector('.selected');
-      if (clickedsection) {
-        clickedsection.classList.remove('selected');
+      const clickedSection = sidebar.querySelector('.selected');
+      if (clickedSection) {
+        clickedSection.classList.remove('selected');
       }
       link.classList.add('selected');
-  
-      showContent(course, section);
+      showContent(course, Content);
     };
     sidebar.appendChild(link);
   });
-
-  content.innerHTML =html.Introduction.join("");
-    var introductionButton = sidebar.querySelector('button');
-  introductionButton.classList.add('selected');
+  const introductionButton = sidebar.querySelector('button');
+  if (introductionButton) {
+    introductionButton.classList.add('selected');
+    showContent(course, sections[course][0]);
+  }
 }
-
-showSections('HTML');
-
 function showContent(course, section) {
-  var htmlContent = {};
-  Html.forEach((section) =>{
-    htmlContent[section]= html[section].join("");
-});
-  var cssContent = {}
-    Css.forEach((section) =>{
-      cssContent[section]= css[section].join("");
-  });
-
-  var javascriptContent = {}
-    Javascript.forEach((section) =>{
-      javascriptContent[section]= javascript[section].join("");
-  });
+  let contentToDisplay = '';
   switch (course) {
     case 'HTML':
-      contentToDisplay = htmlContent[section];
+      if (section === Object.keys(css)[0] || section === "") {
+        contentToDisplay = html.Introduction.join("");
+      } else {
+        contentToDisplay = html[section].join("");
+      }
       break;
     case 'CSS':
-      contentToDisplay = cssContent[section];
+      if (section === Object.keys(css)[0] || section === '') {
+        contentToDisplay = css.Selectors.join("");
+      } else {
+        contentToDisplay = css[section].join("");
+      }
       break;
     case 'JavaScript':
-      contentToDisplay = javascriptContent[section];
+      if (section === Object.keys()[0] || section === "undefined") {
+        contentToDisplay = javascript.Variables.join("");
+      } else {
+        contentToDisplay = javascript[section].join("");
+      }
       break;
     default:
       contentToDisplay = "<h2>No content available</h2>";
+      break;
   }
+  const content = document.getElementById('content');
   content.innerHTML = contentToDisplay;
-  var clickedButton = document.getElementById(course);
-  clickedButton.style.backgroundColor= "#04aa6d";
-
 }
 showSections('HTML');
