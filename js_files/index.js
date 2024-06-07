@@ -1,8 +1,6 @@
 const Css = Object.keys(css);
 const Html = Object.keys(html);
 const Javascript = Object.keys(javascript);
-
-
 const sections = {
   HTML: Html,
   CSS: Css,
@@ -41,27 +39,18 @@ function showSections(course) {
 }
 function showContent(course, section) {
   let contentToDisplay = '';
+  if (section === Object.keys(course.toLowerCase())[0] || section === "") {
+    contentToDisplay = html.Introduction.join("");
+  }else{
   switch (course) {
     case 'HTML':
-      if (section === Object.keys(css)[0] || section === "") {
-        contentToDisplay = html.Introduction.join("");
-      } else {
         contentToDisplay = html[section].join("");
-      }
       break;
     case 'CSS':
-      if (section === Object.keys(css)[0] || section === '') {
-        contentToDisplay = css.Selectors.join("");
-      } else {
         contentToDisplay = css[section].join("");
-      }
       break;
     case 'JavaScript':
-      if (section === Object.keys()[0] || section === "undefined") {
-        contentToDisplay = javascript.Variables.join("");
-      } else {
         contentToDisplay = javascript[section].join("");
-      }
       break;
     default:
       contentToDisplay = "<h2>No content available</h2>";
@@ -69,5 +58,6 @@ function showContent(course, section) {
   }
   const content = document.getElementById('content');
   content.innerHTML = contentToDisplay;
+}
 }
 showSections('HTML');
