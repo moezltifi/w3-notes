@@ -1,5 +1,5 @@
 const html = {
-  Introduction: [
+  "Introduction": [
     "<h2 style='text-align: center;'>Introduction to HTML</h2>",
     "<h4><li><span style='color:#ff34f0;'>H</span>yper<span style='color:#ff34f0;'>T</span>ext <span style='color:#ff34f0;'>M</span>arkup <span style='color:#ff34f0;'>L</span>anguage (HTML):</li></h4>",
     "<h6><li>it is not a programming language it is a language Dedicated to building a site structure</li>",
@@ -20,6 +20,6 @@ const html = {
   "</h6>" 
 
   ],
-  Attributes: ["<h2 style='text-align: center;'>HTML Attributes</h2><p>This is the section about HTML attributes.</p>"],
-  Forms: ["<h2 style='text-align: center;'>HTML Forms</h2><p>This is the section about HTML forms.</p>"]
+  "Attributes": ["<h2 style='text-align: center;'>HTML Attributes</h2><p>This is the section about HTML attributes.</p>"],
+  "Forms": ["<h2 style='text-align: center;'>HTML Forms</h2><p>This is the section about HTML forms.</p>"]
 };
