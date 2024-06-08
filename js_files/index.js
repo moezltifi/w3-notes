@@ -23,11 +23,12 @@ function showSections(course) {
   });
   const clickedButton = document.getElementById(course);
   clickedButton.style.backgroundColor = '#04aa6d';
-  sections[course].forEach(function(Content) {
+  sections[course].forEach(function(Content,index) {
     const link = document.createElement('button');
     link.classList.add('w3-bar-item', 'w3-button');
     link.textContent = Content;
     link.onclick = function() {
+      currentSectionIndex = index ;
       const clickedSection = sidebar.querySelector('.selected');
       if (clickedSection) {
         clickedSection.classList.remove("selected");
