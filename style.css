@@ -32,7 +32,7 @@
 }
 
 .w3-button {
-    padding: 15px 20px;
+    padding: 8px 20px;
     font-size: 20px;
 }
 
@@ -43,10 +43,18 @@
 }
 .content-container {
     margin-bottom: 10px;
-  }
-  .w3-container {
+}
+.w3-container {
     overflow: auto;
-  }
+}
+.w3-right, .w3-left {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-color: #04AA6D;
+}
+.nextprev {
+    padding: 50px 0px;
+}
 
 @media (max-width: 1000px) {
     .content {
