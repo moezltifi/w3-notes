@@ -1,6 +1,8 @@
 .content {
-    margin-top: 70px;
     height: 100vh;
+    margin-top: 80px;
+    margin-left: 350px;
+    margin-right: 50px;
 }
 
 .w3-bar {
@@ -30,19 +32,31 @@
 }
 
 .w3-button {
-    padding: 15px 20px;
+    padding: 8px 20px;
     font-size: 20px;
 }
 
 .w3-sidebar {
+    padding: 2px;
     height: 100%;
+    top: 50px;
+}
+.w3-right, .w3-left {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-color: #04AA6D;
+}
+.nextprev {
+    padding: 50px 0px;
 }
 
 @media (max-width: 1000px) {
     .content {
-        margin-top: 70px;
         height: 100vh;
-        }
+        margin-top: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     .open {
         display: flex;
