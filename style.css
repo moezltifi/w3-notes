@@ -39,6 +39,7 @@
     padding: 2px;
     height: 100%;
     top: 50px;
+    padding-bottom: 60px ;
 }
 .w3-right, .w3-left {
     background-color: #04AA6D;
@@ -64,6 +65,7 @@
     .w3-sidebar {
         padding: 2px;
         width: 20%;
+        padding-bottom: 60px ;
     }
 }
 
