@@ -81,6 +81,9 @@ function navigateSections(direction) {
     sidebar.querySelectorAll(".w3-bar-item")[currentSectionIndex];
   newSelectedButton.classList.add("selected");
   showContent(currentCourse, section);
+  if (currentSectionIndex=0 ){
+    document.getElementById("prevBtn").style.display="none";
+  }
 }
 
 document.getElementById("prevBtn").onclick = function () {
