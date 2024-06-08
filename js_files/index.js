@@ -17,17 +17,17 @@ function showSections(course) {
   });
   const clickedButton = document.getElementById(course);
   clickedButton.style.backgroundColor = '#04aa6d';
-  sections[course].forEach(function(Content) {
+  sections[course].forEach(function(sectionName) {
     const link = document.createElement('button');
     link.classList.add('w3-bar-item', 'w3-button');
-    link.textContent = Content;
+    link.textContent = sectionName;
     link.onclick = function() {
       const clickedSection = sidebar.querySelector('.selected');
       if (clickedSection) {
         clickedSection.classList.remove('selected');
       }
       link.classList.add('selected');
-      showContent(course, Content);
+      showContent(course, sectionName);
     };
     sidebar.appendChild(link);
   });
@@ -50,7 +50,7 @@ function showContent(course, section) {
         contentToDisplay = css[section].join("");
       break;
     case 'JavaScript':
-        contentToDisplay = javascript[section].join("");
+      contentToDisplay = javascript[section].join("");
       break;
     default:
       contentToDisplay = "<h2>No content available</h2>";
