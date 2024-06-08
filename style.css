@@ -1,5 +1,4 @@
 .content {
-    height: 100vh;
     margin-top: 80px;
     margin-left: 350px;
     margin-right: 50px;
@@ -52,7 +51,6 @@
 
 @media (max-width: 1000px) {
     .content {
-        height: 100vh;
         margin-top: 80px;
         margin-left: 10px;
         margin-right: 10px;
