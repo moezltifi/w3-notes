@@ -67,7 +67,6 @@ function showContent(course, section) {
       break;
   }
   content.innerHTML = contentToDisplay;
-  console.log(maxIndex);
   updateNextPrevState(currentSectionIndex, maxIndex)
 }
 
@@ -87,7 +86,7 @@ function navigateSections(direction) {
   const newSelectedButton =
     sidebar.querySelectorAll(".w3-bar-item")[currentSectionIndex];
   newSelectedButton.classList.add("selected");
-
+  newSelectedButton.scrollIntoView({ behavior: "smooth", block: "center" });
   showContent(currentCourse, section);
 
   updateNextPrevState(currentSectionIndex, courseSections.length-1);
