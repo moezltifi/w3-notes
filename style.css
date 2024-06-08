@@ -41,12 +41,6 @@
     height: 100%;
     top: 50px;
 }
-.content-container {
-    margin-bottom: 10px;
-}
-.w3-container {
-    overflow: auto;
-}
 .w3-right, .w3-left {
     background-color: #04AA6D;
     color: #ffffff;
