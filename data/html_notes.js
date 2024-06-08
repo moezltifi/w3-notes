@@ -10,17 +10,144 @@ const html = {
     "<li>HTML5 also supports multimedia elements like &lt;audio&gt; and &lt;video&gt;, as well as new APIs to enhance web functionality.</li>",
     "<li>To write HTML, you can use code editors such as:</li>",
     "<ol><li>VS Code</li><li>Notepad</li><li>Atom</li></ol>",
-    "<li>To download VS Code:</li>",
-    "<ol><li>Open your browser.</li><li>Search for 'VS Code'.</li><li>Click on the first link.</li><li>Click the download button.</li><li>Install and start coding.</li></ol>",
     "<li>When we talk about websites, we often refer to two main specializations:</li>",
     "<ol><li>Front-end development</li><li>Back-end development</li></ol>",
     "<li>To build a website, it's important to understand the different types of files that compose it. Typically, a website consists of:</li>",
     "<ol><li>HTML files</li><li>CSS files</li><li>JavaScript files</li></ol></h6>"
   ],
-  "HTML Attributes": [
-    "<h2 style='text-align: center;'>HTML Attributes</h2><p>This is the section about HTML attributes.</p>",
+  "HTML Editors": [
+    "<h2 style='text-align: center;'>HTML Editors</h2>",
+    "<li>HTML editors are software programs used to create and edit HTML code.</li>",
+    "<li>Popular HTML editors include:</li>",
+    "<ol><li>Visual Studio Code (VS Code)</li><li>Notepad++</li><li>Sublime Text</li><li>Atom</li></ol>",
+    "<li>Features of good HTML editors:</li>",
+    "<ul><li>Syntax highlighting</li><li>Code completion</li><li>Error detection</li><li>Version control integration</li></ul>",
+    "<li>Using an HTML editor helps streamline the coding process and ensures more accurate and efficient code writing.</li>",
+    "<li>To download and install an HTML editor like VS Code:</li>",
+    "<ol><li>Visit the official website (e.g., code.visualstudio.com).</li><li>Download the installer for your operating system.</li><li>Run the installer and follow the on-screen instructions.</li><li>Open VS Code and start writing HTML code.</li></ol>"
   ],
-  "HTML Forms": [
-    "<h2 style='text-align: center;'>HTML Forms</h2><p>This is the section about HTML forms.</p>",
+  "HTML Basic": [
+    "<h2 style='text-align: center;'>HTML Basic</h2>",
+    "<li>The basic structure of an HTML document includes the following elements:</li>",
+    "<ul><li>&lt;!DOCTYPE html&gt;: Declares the document type and version of HTML.</li>",
+    "<li>&lt;html&gt;: The root element that contains all other elements.</li>",
+    "<li>&lt;head&gt;: Contains meta-information about the document, such as the title and links to stylesheets.</li>",
+    "<li>&lt;title&gt;: Sets the title of the document, which appears in the browser's title bar or tab.</li>",
+    "<li>&lt;body&gt;: Contains the content of the document, such as text, images, and other media.</li></ul>",
+    "<li>Example of a basic HTML document:</li>",
+    "<code>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;My First HTML Page&lt;/title&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>&lt;h1&gt;Hello, World!&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;</code>",
+    "<li>Each HTML element can have attributes that provide additional information about the element.</li>",
+    "<li>It's important to correctly nest HTML elements to ensure the document is well-formed and renders properly in browsers.</li>"
+  ],
+  "HTML Elements": [
+    "<h2 style='text-align: center;'>HTML Elements</h2><p>Placeholder text for HTML Elements.</p>"
+  ],
+  "HTML Attributes": [
+    "<h2 style='text-align: center;'>HTML Attributes</h2>",
+    "<li>HTML attributes provide additional information about HTML elements.</li>",
+    "<li>Attributes are always included in the opening tag and usually come in name/value pairs like name='value'.</li>",
+    "<li>Common attributes include:</li>",
+    "<ul><li>class: Specifies one or more class names for an element (used for CSS and JavaScript).</li>",
+    "<li>id: Specifies a unique id for an element (used for CSS and JavaScript).</li>",
+    "<li>style: Specifies an inline CSS style for an element.</li>",
+    "<li>title: Provides extra information about an element (displayed as a tooltip).</li></ul>",
+    "<li>Example of an attribute usage:</li>",
+    "<code>&lt;p class='intro'&gt;This is an introductory paragraph.&lt;/p&gt;</code>",
+    "<li>Attributes can also be used for accessibility purposes, such as:</li>",
+    "<ul><li>alt: Provides alternative text for images.</li>",
+    "<li>aria-label: Provides accessible labels for elements.</li></ul>"
+  ],
+  "HTML Headings": [
+    "<h2 style='text-align: center;'>HTML Headings</h2><p>Placeholder text for HTML Headings.</p>"
+  ],
+  "HTML Paragraphs": [
+    "<h2 style='text-align: center;'>HTML Paragraphs</h2><p>Placeholder text for HTML Paragraphs.</p>"
+  ],
+  "HTML Styles": [
+    "<h2 style='text-align: center;'>HTML Styles</h2><p>Placeholder text for HTML Styles.</p>"
+  ],
+  "HTML Formatting": [
+    "<h2 style='text-align: center;'>HTML Formatting</h2><p>Placeholder text for HTML Formatting.</p>"
+  ],
+  "HTML Quotations": [
+    "<h2 style='text-align: center;'>HTML Quotations</h2><p>Placeholder text for HTML Quotations.</p>"
+  ],
+  "HTML Comments": [
+    "<h2 style='text-align: center;'>HTML Comments</h2><p>Placeholder text for HTML Comments.</p>"
+  ],
+  "HTML Colors": [
+    "<h2 style='text-align: center;'>HTML Colors</h2><p>Placeholder text for HTML Colors.</p>"
+  ],
+  "HTML CSS": [
+    "<h2 style='text-align: center;'>HTML CSS</h2><p>Placeholder text for HTML CSS.</p>"
+  ],
+  "HTML Links": [
+    "<h2 style='text-align: center;'>HTML Links</h2><p>Placeholder text for HTML Links.</p>"
+  ],
+  "HTML Images": [
+    "<h2 style='text-align: center;'>HTML Images</h2><p>Placeholder text for HTML Images.</p>"
+  ],
+  "HTML Favicon": [
+    "<h2 style='text-align: center;'>HTML Favicon</h2><p>Placeholder text for HTML Favicon.</p>"
+  ],
+  "HTML Page Title": [
+    "<h2 style='text-align: center;'>HTML Page Title</h2><p>Placeholder text for HTML Page Title.</p>"
+  ],
+  "HTML Tables": [
+    "<h2 style='text-align: center;'>HTML Tables</h2><p>Placeholder text for HTML Tables.</p>"
+  ],
+  "HTML Lists": [
+    "<h2 style='text-align: center;'>HTML Lists</h2><p>Placeholder text for HTML Lists.</p>"
+  ],
+  "HTML Block & Inline": [
+    "<h2 style='text-align: center;'>HTML Block & Inline</h2><p>Placeholder text for HTML Block & Inline.</p>"
+  ],
+  "HTML Div": [
+    "<h2 style='text-align: center;'>HTML Div</h2><p>Placeholder text for HTML Div.</p>"
+  ],
+  "HTML Classes": [
+    "<h2 style='text-align: center;'>HTML Classes</h2><p>Placeholder text for HTML Classes.</p>"
+  ],
+  "HTML Id": [
+    "<h2 style='text-align: center;'>HTML Id</h2><p>Placeholder text for HTML Id.</p>"
+  ],
+  "HTML Iframes": [
+    "<h2 style='text-align: center;'>HTML Iframes</h2><p>Placeholder text for HTML Iframes.</p>"
+  ],
+  "HTML JavaScript": [
+    "<h2 style='text-align: center;'>HTML JavaScript</h2><p>Placeholder text for HTML JavaScript.</p>"
+  ],
+  "HTML File Paths": [
+    "<h2 style='text-align: center;'>HTML File Paths</h2><p>Placeholder text for HTML File Paths.</p>"
+  ],
+  "HTML Head": [
+    "<h2 style='text-align: center;'>HTML Head</h2><p>Placeholder text for HTML Head.</p>"
+  ],
+  "HTML Layout": [
+    "<h2 style='text-align: center;'>HTML Layout</h2><p>Placeholder text for HTML Layout.</p>"
+  ],
+  "HTML Responsive": [
+    "<h2 style='text-align: center;'>HTML Responsive</h2><p>Placeholder text for HTML Responsive.</p>"
+  ],
+  "HTML Computercode": [
+    "<h2 style='text-align: center;'>HTML Computercode</h2><p>Placeholder text for HTML Computercode.</p>"
+  ],
+  "HTML Semantics": [
+    "<h2 style='text-align: center;'>HTML Semantics</h2><p>Placeholder text for HTML Semantics.</p>"
+  ],
+  "HTML Style Guide": [
+    "<h2 style='text-align: center;'>HTML Style Guide</h2><p>Placeholder text for HTML Style Guide.</p>"
+  ],
+  "HTML Entities": [
+    "<h2 style='text-align: center;'>HTML Entities</h2><p>Placeholder text for HTML Entities.</p>"
+  ],
+  "HTML Symbols": [
+    "<h2 style='text-align: center;'>HTML Symbols</h2><p>Placeholder text for HTML Symbols.</p>"
+  ],
+  "HTML Emojis": [
+    "<h2 style='text-align: center;'>HTML Emojis</h2><p>Placeholder text for HTML Emojis.</p>"
+  ],
+  "HTML Charsets": [
+    "<h2 style='text-align: center;'>HTML Charsets</h2><p>Placeholder text for HTML Charsets.</p>"
   ],
 };
