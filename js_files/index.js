@@ -48,21 +48,27 @@ function showSections(course) {
 function showContent(course, section) {
   const content = document.getElementById("content");
   let contentToDisplay = "";
+  let maxIndex = -1;
   switch (course) {
     case "HTML":
       contentToDisplay = html[section].join("");
+      maxIndex = Html.length-1;
       break;
     case "CSS":
       contentToDisplay = css[section].join("");
+      maxIndex = Css.length-1;
       break;
     case 'JavaScript':
         contentToDisplay = javascript[section].join("");
+        maxIndex = Javascript.length-1;
       break;
     default:
       contentToDisplay = "<h2>No content available</h2>";
       break;
   }
   content.innerHTML = contentToDisplay;
+  console.log(maxIndex);
+  updateNextPrevState(currentSectionIndex, maxIndex)
 }
 
 function navigateSections(direction) {
@@ -81,20 +87,13 @@ function navigateSections(direction) {
   const newSelectedButton =
     sidebar.querySelectorAll(".w3-bar-item")[currentSectionIndex];
   newSelectedButton.classList.add("selected");
+
   showContent(currentCourse, section);
-  if (currentSectionIndex===0 ){
-    document.getElementById("prevBtn").style.display="none";
-  }else{
-    document.getElementById("prevBtn").style.display="block";
 
-  } 
-  if (currentSectionIndex===courseSections.length-1 ){
-    document.getElementById("nextBtn").style.display="none";
-  }else{
-    document.getElementById("nextBtn").style.display="block";
+  updateNextPrevState(currentSectionIndex, courseSections.length-1);
 
-  }
 }
+
 document.getElementById("prevBtn").onclick = function () {
   navigateSections("prev");
 };
@@ -102,4 +101,19 @@ document.getElementById("prevBtn").onclick = function () {
 document.getElementById("nextBtn").onclick = function () {
   navigateSections("next");
 };
+
 showSections("HTML");
+
+
+function updateNextPrevState(currentSectionIndex, maxIndex){
+  if (currentSectionIndex === 0 ){
+    document.getElementById("prevBtn").style.display="none";
+  }else{
+    document.getElementById("prevBtn").style.display="block";
+  } 
+  if (currentSectionIndex === maxIndex ){
+    document.getElementById("nextBtn").style.display="none";
+  }else{
+    document.getElementById("nextBtn").style.display="block";
+  }
+}
