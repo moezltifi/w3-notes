@@ -12,7 +12,6 @@ let currentSectionIndex = 0;
 
 function showSections(course) {
   currentCourse = course;
-  currentSectionIndex = 0;
   const sidebar = document.getElementById("mySidebar");
   const content = document.getElementById("content");
   sidebar.innerHTML = "";
@@ -63,7 +62,13 @@ function showContent(course, section) {
   }
   content.innerHTML = contentToDisplay;
 }
+document.getElementById("prevBtn").onclick = function () {
+  navigateSections("prev");
+};
 
+document.getElementById("nextBtn").onclick = function () {
+  navigateSections("next");
+};
 function navigateSections(direction) {
   const courseSections = sections[currentCourse];
   if (direction === "next" && currentSectionIndex < courseSections.length) {
@@ -71,6 +76,7 @@ function navigateSections(direction) {
   } else if (direction === "prev" && currentSectionIndex > 0) {
     currentSectionIndex = currentSectionIndex - 1;
   }
+  
   const section = courseSections[currentSectionIndex];
   const sidebar = document.getElementById("mySidebar");
   const selectedButton = sidebar.querySelector(".selected");
@@ -81,17 +87,17 @@ function navigateSections(direction) {
     sidebar.querySelectorAll(".w3-bar-item")[currentSectionIndex];
   newSelectedButton.classList.add("selected");
   showContent(currentCourse, section);
-  if (currentSectionIndex=0 ){
+  if (currentSectionIndex===0 ){
     document.getElementById("prevBtn").style.display="none";
+  }else{
+    document.getElementById("prevBtn").style.display="block";
+
+  } 
+  if (currentSectionIndex===courseSections.length-1 ){
+    document.getElementById("nextBtn").style.display="none";
+  }else{
+    document.getElementById("nextBtn").style.display="block";
+
   }
 }
-
-document.getElementById("prevBtn").onclick = function () {
-  navigateSections("prev");
-};
-
-document.getElementById("nextBtn").onclick = function () {
-  navigateSections("next");
-};
-
 showSections("HTML");
