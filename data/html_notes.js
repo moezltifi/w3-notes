@@ -41,15 +41,15 @@ const html = {
   ],
   "HTML Elements": [
     "<h2 style='text-align: center;'>HTML Elements</h2>",
-    "<li>HTML has a very easy syntax</li>",
-    "<li>an HTML document is composed of many elements</li>",
-    "<li>elements are opened and closed by tags</li>",
-    "<li>for example :<code>&lt;mytagname&gt blabla blabla &lt;/mytagname&gt</code></li>",
+    "<li>An HTML document is composed of many elements</li>",
+    "<li>Elements are opened and closed with tags</li>",
+    "<li>For example :<code>&lt;mytagname&gt element content &lt;/mytagname&gt</code></li> <br>",
+    "<li>The following example contains four HTML elements (&lt;html&gt;, &lt;body&gt;, &lt;h1&gt and &lt;p&gt;):</li>",
+    "<code> &lt;!DOCTYPE html&gt;<br> &lt;html&gt;<br> &lt;body&gt;<br> &lt;h1&gtMy First Heading &lt;/h1&gt;<br> &lt;p&gt;My first paragraph.&lt;/p&gt;<br> &lt;/body&gt;<br> &lt;/html&gt;</code>",
     "<li>Examples of some HTML elements:</li>",
-    "<ul><li><code>&lt;h1&gt; Heading &lt;/h1&gt;</code></li></ul>",
-    "<ul><li><code>&lt;p&gt; paragraph &lt;/p&gt;</code></li></ul>",
+    "<ul><li><code>&lt;button &gt; Click me &lt;/button &gt; </code></li></ul>",
     "<ul><li><code>&lt;img src='my-image.jpg'&gt; </code></li></ul>",
-    "<ul><li><code>&lt;br&gt; </code></li></ul>",
+    "<ul><li><code>&lt;br&gt; ==&gt; this is a tag used to break line </code></li></ul>",
     "<ul><li><code>&lt;head&gt; &lt;meta charset='Controls character encoding' &gt &lt;/head&gt;</code></li></ul>",
 
 
@@ -73,7 +73,16 @@ const html = {
     "<li>aria-label: Provides accessible labels for elements.</li></ul>"
   ],
   "HTML Headings": [
-    "<h2 style='text-align: center;'>HTML Headings</h2> <p>Placeholder text for HTML Headings</p>",
+    "<h2 style='text-align: center;'>HTML Headings</h2>",
+    "<li>HTML titles are designated using the &lt;h1&gt; to &lt;h6&gt; tags.</li><br>",
+    "<li> &lt;h1&gt; denotes the larger heading, while &lt;h6&gt; represents the smaller section.</li><br><br>",
+    "<code><li>&lt;h1&gt; Heading 1&lt;/h1&gt;</li>", "<h1> Heading 1</h1>",
+    "<li>&lt;h2&gt; Heading 2&lt;/h2&gt;</li>", "<h2> Heading 2</h2>",
+    "<li>&lt;h3&gt; Heading 3&lt;/h3&gt;</li>", "<h3> Heading 3</h3>",
+    "<li>&lt;h4&gt; Heading 4&lt;/h4&gt;</li>", "<h4> Heading 4</h4>",
+    "<li>&lt;h5&gt; Heading 5&lt;/h5&gt;</li>", "<h5> Heading 5</h5>",
+    "<li>&lt;h6&gt; Heading 6&lt;/h6&gt;</li></code>", "<h6> Heading 6</h6>",
+
   ],
   "HTML Paragraphs": [
     "<h2 style='text-align: center;'>HTML Paragraphs</h2><p>Placeholder text for HTML Paragraphs.</p>"
