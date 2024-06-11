@@ -40,7 +40,20 @@ const html = {
     "<li>It's important to correctly nest HTML elements to ensure the document is well-formed and renders properly in browsers.</li>"
   ],
   "HTML Elements": [
-    "<h2 style='text-align: center;'>HTML Elements</h2><p>Placeholder text for HTML Elements.</p>"
+    "<h2 style='text-align: center;'>HTML Elements</h2>",
+    "<li>HTML has a very easy syntax</li>",
+    "<li>an HTML document is composed of many elements</li>",
+    "<li>elements are opened and closed by tags</li>",
+    "<li>for example :<code>&lt;mytagname&gt blabla blabla &lt;/mytagname&gt</code></li>",
+    "<li>Examples of some HTML elements:</li>",
+    "<ul><li><code>&lt;h1&gt; Heading &lt;/h1&gt;</code></li></ul>",
+    "<ul><li><code>&lt;p&gt; paragraph &lt;/p&gt;</code></li></ul>",
+    "<ul><li><code>&lt;img src='my-image.jpg'&gt; </code></li></ul>",
+    "<ul><li><code>&lt;br&gt; </code></li></ul>",
+    "<ul><li><code>&lt;head&gt; &lt;meta charset='Controls character encoding' &gt &lt;/head&gt;</code></li></ul>",
+
+
+
   ],
   "HTML Attributes": [
     "<h2 style='text-align: center;'>HTML Attributes</h2>",
@@ -51,14 +64,16 @@ const html = {
     "<li>id: Specifies a unique id for an element (used for CSS and JavaScript).</li>",
     "<li>style: Specifies an inline CSS style for an element.</li>",
     "<li>title: Provides extra information about an element (displayed as a tooltip).</li></ul>",
-    "<li>Example of an attribute usage:</li>",
-    "<code>&lt;p class='intro'&gt;This is an introductory paragraph.&lt;/p&gt;</code>",
+    "<li>Examples of an attribute usage:</li>",
+    "<code>&lt;p class='intro'&gt;This is an introductory paragraph.&lt;/p&gt;</code><br>",
+    "<code>&lt;head&gt; <br>&lt;meta charset='' &gt </code><br>",
+    "<code> &lt;meta name='' content='' &gt <br>&lt;/head&gt;</code>",
     "<li>Attributes can also be used for accessibility purposes, such as:</li>",
     "<ul><li>alt: Provides alternative text for images.</li>",
     "<li>aria-label: Provides accessible labels for elements.</li></ul>"
   ],
   "HTML Headings": [
-    "<h2 style='text-align: center;'>HTML Headings</h2><p>Placeholder text for HTML Headings.</p>"
+    "<h2 style='text-align: center;'>HTML Headings</h2> <p>Placeholder text for HTML Headings</p>",
   ],
   "HTML Paragraphs": [
     "<h2 style='text-align: center;'>HTML Paragraphs</h2><p>Placeholder text for HTML Paragraphs.</p>"
