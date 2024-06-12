@@ -87,8 +87,9 @@ const html = {
   "HTML Paragraphs": [
     "<h2 style='text-align: center;'>HTML Paragraphs</h2>",
     "<p><li>A paragraph is defined by this HTML element &lt;p&gt; </li></p>",
-    "<p><li>With HTML, you cannot change the display by adding spaces or extra lines in your HTML code.</li></p>",
+    "<p><li>With HTML paragraph elememt &lt;p&gt;, you cannot change the display by adding spaces or extra lines in your HTML code.</li></p>",
     "<p><li>The browser will automatically remove all extra spaces and lines when the page is displayed:</li></p>",
+    "<p><li>But with &lt;pre&gt; HTML elememt, you can change the display by adding spaces or extra lines in your HTML code.</li></p>",
     "<p><li>Example of code:</li></p>",
     "<code>&lt;p&gt;<br>This paragraph<br> contains a lot of lines<br>in the source code,<br> but the browser<br> ignores it. &lt;/p&gt;</code>",
     "<p><li>The result of code:</li></p>",
