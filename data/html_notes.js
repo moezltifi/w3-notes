@@ -140,7 +140,14 @@ const html = {
     "<h2 style='text-align: center;'>HTML Links</h2><p>Placeholder text for HTML Links.</p>"
   ],
   "HTML Images": [
-    "<h2 style='text-align: center;'>HTML Images</h2><p>Placeholder text for HTML Images.</p>"
+    "<h2 style='text-align: center;'>HTML Images</h2>",
+    "<p><li>Images can improve the design and the appearance of a web page.</li></p>",
+    "<p><li>We can add an img to a website using the simple tag <code>&lt;img&gt;</code> .</li></p>",
+    "<p><li>We will put the img-url in the attribute  <code>'src'</code></li></p>",
+    "<p><li>For example:</li></p>",
+    "<p><code>&lt;img src='img.jpj'&gt;</code></p>",
+    "<p><code><img src='https://www.w3schools.com/html/workplace.jpg'></code></p>",
+    "<p><li>We can controle the size of the image using  <code>'width' </code>and <code>'height'</code> attributes</li></p>",
   ],
   "HTML Favicon": [
     "<h2 style='text-align: center;'>HTML Favicon</h2><p>Placeholder text for HTML Favicon.</p>"
