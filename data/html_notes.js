@@ -149,6 +149,19 @@ const html = {
     "<p><code><img src='https://www.w3schools.com/html/workplace.jpg'></code></p>",
     "<p><li>We can controle the size of the image using  <code>'width' </code>and <code>'height'</code> attributes</li></p>",
   ],
+  "HTML Audio": [
+    "<h2 style='text-align: center;'>HTML Audio</h2>",
+    "<p><li>The HTML <code>&lt;audio&gt;</code> element is used To play an audio file on a web page.</li></p>",
+    "<p><li>The HTML <code>&lt;source&gt;</code> element puted in the <code>&lt;audio&gt;</code> element .</li></p>",
+    "<p><li>Then we will put the audio-url in the attribute  <code>'src'</code> in the <code>&lt;source&gt;</code> element.</li></p>",
+    "<p><li>Example :</li></p>",
+    "<code>&lt;audio &gt;<br>",
+    "&lt;source src='music.ogg' type='audio/ogg'&gt;<br>",
+    "&lt;/audio&gt;<br><code>",
+    "<audio controls>",
+    "<source src='http://commondatastorage.googleapis.com/codeskulptor-demos/pyman_assets/intromusic.ogg' type='audio/ogg'>",
+    "</audio>"
+  ], 
   "HTML Favicon": [
     "<h2 style='text-align: center;'>HTML Favicon</h2><p>Placeholder text for HTML Favicon.</p>"
   ],
