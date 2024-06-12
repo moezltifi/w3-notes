@@ -98,7 +98,7 @@ const html = {
   "HTML Styles": [
     "<h2 style='text-align: center;'>HTML Styles</h2>",
     "<p>The HTML style attribute is used to add styles to an element, such as color, background color, font, size, and more. </p>",
-    "<code>&lt;p&gt;I am normal &lt;/p&gt;","<p>I am normal</p>",
+    "<code>&lt;p&gt;I am normal &lt;/p&gt;","<p>I am normal</p>    ",
     "&lt;p style='color:red;'&gt;I am red &lt;/p&gt;","<p style='color:red;'>I am red</p>",
     "&lt;p style='color:blue;'&gt;I am blue &lt;/p&gt;","<p style='color:blue;'>I am red</p>",
     "&lt;p style='font-size:30px;'&gt;I am big &lt;/p&gt;</code>","<p style='font-size:30px;'>I am big</p>",
