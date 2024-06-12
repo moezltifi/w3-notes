@@ -98,13 +98,24 @@ const html = {
   "HTML Styles": [
     "<h2 style='text-align: center;'>HTML Styles</h2>",
     "<p>The HTML style attribute is used to add styles to an element, such as color, background color, font, size, and more. </p>",
-    "<code>&lt;p&gt;I am normal &lt;/p&gt;","<p>I am normal</p>    ",
+    "<code>&lt;p&gt;I am normal &lt;/p&gt;","<p>I am normal</p>",
     "&lt;p style='color:red;'&gt;I am red &lt;/p&gt;","<p style='color:red;'>I am red</p>",
     "&lt;p style='color:blue;'&gt;I am blue &lt;/p&gt;","<p style='color:blue;'>I am red</p>",
     "&lt;p style='font-size:30px;'&gt;I am big &lt;/p&gt;</code>","<p style='font-size:30px;'>I am big</p>",
   ],
   "HTML Formatting": [
-    "<h2 style='text-align: center;'>HTML Formatting</h2><p>Placeholder text for HTML Formatting.</p>"
+    "<h2 style='text-align: center;'>HTML Formatting</h2>",
+    "<p>Formatting elements were designed to display special types of text:</p>",
+  "<li>&lt;b&gt;- Bold text<br>","<p>This text is normal.</p><p><b>This text is bold.</b></p>",
+  "<li>&lt;strong&gt; - Important text<br>","<p>This text is normal.</p><p><strong>This text is important!</strong></p>",
+  "<li>&lt;i&gt; - Italic text<br>","<p>This text is normal.</p><p><i>This text is italic.</i></p>",
+  "<li>&lt;em&gt; - Emphasized text<br>","<p>This text is normal.</p>  <p><em>This text is emphasized.</em></p>",
+  "<li>&lt;mark&gt; - Marked text<br>","<p>Do not forget to buy <mark>milk</mark> today.</p>",
+  "<li>&lt;small&gt; - Smaller text<br>","<p>This is some normal text.</p> <p><small>This is some smaller text.</small></p>",
+  "<li>&lt;del&gt; - Deleted text<br>","<p>My favorite color is <del>blue</del> red.</p>",
+  "<li>&lt;ins&gt; - Inserted text<br>","<p>My favorite color <ins>red</ins>.</p>",
+  "<li>&lt;sub&gt;- Subscript text<br>","<p>This is <sub>subscripted</sub> text.</p>",
+  "<li>&lt;sup&gt; - Superscript text<br>","<p>This is <sup>superscripted</sup> text.</p>",
   ],
   "HTML Quotations": [
     "<h2 style='text-align: center;'>HTML Quotations</h2><p>Placeholder text for HTML Quotations.</p>"
