@@ -122,7 +122,13 @@ const html = {
     "<h2 style='text-align: center;'>HTML Quotations</h2><p>Placeholder text for HTML Quotations.</p>"
   ],
   "HTML Comments": [
-    "<h2 style='text-align: center;'>HTML Comments</h2><p>Placeholder text for HTML Comments.</p>"
+    "<h2 style='text-align: center;'>HTML Comments</h2>",
+    "<li>To insert comments in your HTML source code, you can use this syntax</li>",
+    "<code >&lt;!-- your comments --&gt;</code>",
+    "<li>HTML comments are beneficial for describing or explaining specific sections of your code, providing insights for developers who may need to understand or modify it in the future.</li>",
+    "<li>Example</li>",
+    "&lt;!-- Paragraph element containing text about ... --&gt;</code>",
+    "<code>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>",  
   ],
   "HTML Colors": [
     "<h2 style='text-align: center;'>HTML Colors</h2><p>Placeholder text for HTML Colors.</p>"
