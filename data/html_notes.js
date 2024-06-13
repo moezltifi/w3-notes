@@ -266,7 +266,17 @@ const html = {
     "<h2 style='text-align: center;'>HTML Block & Inline</h2><p>Placeholder text for HTML Block & Inline.</p>"
   ],
   "HTML Div": [
-    "<h2 style='text-align: center;'>HTML Div</h2><p>Placeholder text for HTML Div.</p>"
+    "<h2 style='text-align: center;'>HTML Div</h2>",
+    "<p><li>the <code>&lt;div&gt;</code> element is used as a container for other HTML elements.</li></p>",
+    "<p><li>The <code>&lt;div&gt;</code> element it is a block-level meaning that it takes all available width, and comes with line breaks before and after. reforme.</li></p>",
+    "<p><li>We can use the <code>&lt;div&gt;</code> element to to the header, nav bar, sidebar, footer, etc... .</li></p>",
+    "<p><li>If we use it for all elements of the website the code will be unreadable .</li></p>",
+    "<p><li>That is why we can use:</li></p>",
+    "<p><ul><code>&lt;header&gt;</code> element to the header</ul></p>",
+    "<p><ul><code>&lt;nav&gt;</code> element to the nav bar</ul></p>",
+    "<p><ul><code>&lt;aside&gt;</code> element to the sidebar</ul></p>",
+    "<p><ul><code>&lt;footer&gt;</code> element to the footer<br> etc...</ul></p>",
+    
   ],
   "HTML Classes": [
     "<h2 style='text-align: center;'>HTML Classes</h2><p>Placeholder text for HTML Classes.</p>"
