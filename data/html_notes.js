@@ -146,7 +146,6 @@ const html = {
     "<p><li>We use the path of a file if it is a local file</li></p>",
     "<code>&lt;a href='index.html'&gt;link text&lt;/a&gt;</code><br>",
     "<a href='index.html'>HTML page</a>",
-
   ],
   "HTML Images": [
     "<h2 style='text-align: center;'>HTML Images</h2>",
@@ -188,6 +187,10 @@ const html = {
   ], 
   "HTML Favicon": [
     "<h2 style='text-align: center;'>HTML Favicon</h2><p>Placeholder text for HTML Favicon.</p>"
+  ], 
+  "HTML Input": [
+    "<h2 style='text-align: center;'>HTML Favicon</h2>",
+    "<p><li>the <code>&lt;input&gt;</code> tag is the most important element in the <code>&lt;form&gt;</code> element.</li></p>",
   ],
   "HTML Page Title": [
     "<h2 style='text-align: center;'>HTML Page Title</h2><p>Placeholder text for HTML Page Title.</p>"
