@@ -153,7 +153,7 @@ const html = {
     "<h2 style='text-align: center;'>HTML Images</h2>",
     "<p><li>&lt;video&gt; tag allows you to specify the video file URL and various attributes to control the playback</li></p>",
     "<p><li><code>'width'</code> and <code>'heigth'</code> specify the dimensions of the video player.</li></p>",
-    "<p><li>controls adds playback controls like play, pause, and volume.</li></p>",
+    "<p><li><code>'controls'</code> adds playback controls like play, pause, and volume.</li></p>",
     "<p><li>The <code> &lt;source&gt;</code>  tag specifies the video file and its format using c'type'</code> attribute.</li></p>",
     "<p><li>Example :</li></p>",
     "<code>&lt;video width='320' height='240' controls&gt;<br>",
