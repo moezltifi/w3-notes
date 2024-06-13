@@ -1,5 +1,5 @@
 .content {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 350px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -66,7 +66,6 @@
   }
 @media (max-width: 1000px) {
     .nextprev {
-        position: fixed;
         padding-left: 10px;
         padding-right: 10px;
       }
