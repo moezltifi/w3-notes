@@ -1,4 +1,4 @@
-# ![W3 Notes Logo](favicon.ico) W3 Notes
+# ![W3 Notes Logo](logo.png) W3 Notes
 
 W3 Notes is an educational web application inspired by W3Schools, designed to help users consolidate their knowledge of HTML, CSS, and JavaScript. This project was developed by following various tutorials and creating notes in parallel, providing a practical way to learn and reference web development concepts.
 
