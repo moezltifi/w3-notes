@@ -226,7 +226,41 @@ const html = {
 "</table>"
   ],
   "HTML Lists": [
-    "<h2 style='text-align: center;'>HTML Lists</h2><p>Placeholder text for HTML Lists.</p>"
+    "<h2 style='text-align: center;'>HTML Lists</h2>",
+    "<p><li>An Unordered HTML List.</li></p>",
+    "<code>&lt;ul&gt;<br>",
+    "&lt;li&gt;item&lt;/li&gt;<br>",
+    "&lt;li&gt;item&lt;/li&gt;<br>",
+    "&lt;li&gt;item&lt;/li&gt;<br>",
+    "&lt;li&gt;item&lt;/li&gt;<br>",
+    "&lt;/ul&gt;</code><br>",
+    
+    "<ul>",
+  "<li>item</li>",
+  "<li>item</li>",
+  "<li>item</li>",
+  "<li>item</li>",
+"</ul>",  
+"<p><li>An Ordered HTML List.</li></p>",
+"<code>&lt;ol&gt;<br>",
+"&lt;li&gt;item&lt;/li&gt;<br>",
+"&lt;li&gt;item&lt;/li&gt;<br>",
+"&lt;li&gt;item&lt;/li&gt;<br>",
+"&lt;li&gt;item&lt;/li&gt;<br>",
+"&lt;/ol&gt;</code><br>",
+
+"<ol>",
+"<li>First item</li>",
+"<li>Second item</li>",
+"<li>Third item</li>",
+"<li>Fourth item</li>",
+"</ol>",
+"<p><li>We can change the type of ordered list <code>&lt;ol&gt;</code> numbering in HTML by using the <code>'type'</code> attribute.</li></p>",
+"<p><li>For example</li></p>",
+"<code>type='a' </code>: Alphabetical (lowercase)<br>",
+"<code>type='A'</code>: Alphabetical (uppercase)<br>",
+"<code>type='i'</code>: Roman numerals (lowercase)<br>",
+"<code>type='I'</code>: Roman numerals (uppercase)<br>etc...",
   ],
   "HTML Block & Inline": [
     "<h2 style='text-align: center;'>HTML Block & Inline</h2><p>Placeholder text for HTML Block & Inline.</p>"
