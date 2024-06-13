@@ -27,7 +27,8 @@
     background-color: #e7e9eb;
 }
 .selected{
-    background-color: #04aa6d;
+    background-color: #04AA6D;
+    color: white;
 }
 
 .w3-button {
