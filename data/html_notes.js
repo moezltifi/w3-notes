@@ -137,7 +137,15 @@ const html = {
     "<h2 style='text-align: center;'>HTML CSS</h2><p>Placeholder text for HTML CSS.</p>"
   ],
   "HTML Links": [
-    "<h2 style='text-align: center;'>HTML Links</h2><p>Placeholder text for HTML Links.</p>"
+    "<h2 style='text-align: center;'>HTML Links</h2>",
+    "<p><li>The HTML &lt;a&gt; tag defines a hyperlink. It has the following syntax:</li></p>",
+    "<p><li>We use 'https:' for the external sites</li></p>",
+    "<code>&lt;a href='https://www.google.com/'&gt;link text&lt;/a&gt;</code><br>",
+    "<a href='https://www.google.com/'>Goooogle</a>",
+    "<p><li>We use the path of a file if it is a local file</li></p>",
+    "<code>&lt;a href='index.html'&gt;link text&lt;/a&gt;</code><br>",
+    "<a href='index.html'>HTML page</a>",
+
   ],
   "HTML Images": [
     "<h2 style='text-align: center;'>HTML Images</h2>",
