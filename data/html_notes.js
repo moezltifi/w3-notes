@@ -140,7 +140,7 @@ const html = {
     "<h2 style='text-align: center;'>HTML Links</h2>",
     "<p><li>The HTML &lt;a&gt; tag defines a hyperlink. It has the following syntax:</li></p>",
     "<p><li>We use 'https:' for the external sites</li></p>",
-    "<p><li>We can use the <code>'target' attribute to open the link in a new tab</code></li></p>",
+    "<p><li>We can use the <code>'target='_blank'' attribute to open the link in a new tab</code></li></p>",
     "<code>&lt;a href='https://www.google.com/'&gt;link text&lt;/a&gt;</code><br>",
     "<a href='https://www.google.com/'>Goooogle</a>",
     "<p><li>We use the path of a file if it is a local file</li></p>",
