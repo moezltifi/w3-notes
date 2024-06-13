@@ -51,6 +51,11 @@
     padding: 50px 0px;
 }
 
+  
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
 @media (max-width: 1000px) {
     .content {
         margin-top: 80px;
