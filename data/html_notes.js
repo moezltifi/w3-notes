@@ -227,6 +227,7 @@ const html = {
   ],
   "HTML Lists": [
     "<h2 style='text-align: center;'>HTML Lists</h2>",
+    "<p><li>There are Three types of list An Unordered HTML List &lt;ul&gt;, An Ordered HTML List &lt;ol&gt; and An Definition HTML List.&lt;dl&gt; </li></p>",
     "<p><li>An Unordered HTML List.</li></p>",
     "<code>&lt;ul&gt;<br>",
     "&lt;li&gt;item&lt;/li&gt;<br>",
@@ -261,6 +262,25 @@ const html = {
 "<code>type='A'</code>: Alphabetical (uppercase)<br>",
 "<code>type='i'</code>: Roman numerals (lowercase)<br>",
 "<code>type='I'</code>: Roman numerals (uppercase)<br>etc...",
+"<p><li>An Defination HTML List.</li></p>",
+"<code><&lt;dl&gt;<br>",
+  "&lt;dt&gt;HTMl&lt;/dt&gt;",
+  "<dd>HyperText Markup Language, used for structuring content on the web.</dd>",
+  "&lt;dt&gt;CSS&lt;/dt&gt;",
+  "<dd>Cascading Style Sheets, used for styling web documents.</dd>",
+  "&lt;dt&gt;JavScript&lt;/dt&gt;",
+  "<dd>A programming language used for adding interactivity to web pages.</dd>",
+"&lt;/dl&gt; </code>",
+"<dl>",
+`<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language, used for structuring content on the web.</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets, used for styling web documents.</dd>
+  <dt>JavaScript</dt>
+  <dd>A programming language used for adding interactivity to web pages.</dd>
+</dl>`,
+
   ],
   "HTML Block & Inline": [
     "<h2 style='text-align: center;'>HTML Block & Inline</h2><p>Placeholder text for HTML Block & Inline.</p>"
@@ -271,12 +291,12 @@ const html = {
     "<p><li>The <code>&lt;div&gt;</code> element it is a block-level meaning that it takes all available width, and comes with line breaks before and after. reforme.</li></p>",
     "<p><li>We can use the <code>&lt;div&gt;</code> element to to the header, nav bar, sidebar, footer, etc... .</li></p>",
     "<p><li>If we use it for all elements of the website the code will be unreadable .</li></p>",
-    "<p><li>That is why we can use:</li></p>",
+    "<p><li>That is why we can use these semantic elements:</li></p>",
     "<p><ul><code>&lt;header&gt;</code> element to the header</ul></p>",
     "<p><ul><code>&lt;nav&gt;</code> element to the nav bar</ul></p>",
     "<p><ul><code>&lt;aside&gt;</code> element to the sidebar</ul></p>",
     "<p><ul><code>&lt;footer&gt;</code> element to the footer<br> etc...</ul></p>",
-    
+
   ],
   "HTML Classes": [
     "<h2 style='text-align: center;'>HTML Classes</h2><p>Placeholder text for HTML Classes.</p>"
