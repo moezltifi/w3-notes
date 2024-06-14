@@ -188,9 +188,43 @@ const html = {
   "HTML Favicon": [
     "<h2 style='text-align: center;'>HTML Favicon</h2><p>Placeholder text for HTML Favicon.</p>"
   ], 
-  "HTML Input": [
+  "HTML Forms": [
     "<h2 style='text-align: center;'>HTML Favicon</h2>",
-    "<p><li>the <code>&lt;input&gt;</code> tag is the most important element in the <code>&lt;form&gt;</code> element.</li></p>",
+    "<p><li>The HTML <code>&lt;form&gt;</code> element is used to create an HTML form for user input:.</li></p>",
+    "<p><li>The <code>&lt;input&gt;</code> tag is the most important element in the <code>&lt;form&gt;</code> element.</li></p>",
+    "<p><li>the <code>&lt;input&gt;</code> tag in HTML is used to create interactive controls in web forms that allow users to input data. It can be used for a variety of input types such as :</li></p>",
+    "<p><ul><code>type='text'</code></ul></p>",
+    "<p><ul><code>type='number'</code></ul></p>",
+    "<p><ul><code>type='email'</code></ul></p>",
+    "<p><ul><code>type='password'</code></ul></p>",
+    "<p><ul><code>type='date'</code></ul></p>",
+    "<p><ul>etc...</ul></p>",
+    "<p><li>The <code>&lt;label&gt;</code> element is useful for screen reader users because the screen reader will read the label out loud when the user focuses on the input element</li></p>",
+    "<p><li>We can use The <code>placeholder=''</code> attribute to discrib the <code>&lt;input&gt;</code> element or give it a name using The <code>name=''</code> attribute </li></p>",
+    "<p><li>codes examples:</li></p>",
+    `<pre>    &lt;form&gt;
+      &lt;label >text&lt;/label&gt;
+      &lt;input type="text" placeholder='text' name="Example" &gt;
+    &lt;/form&gt;</pre>`,
+    `<form>
+    <label >HTML</label>
+    <input type="text" placeholder='text' name="Example" >
+    </form>`,   
+    `<pre>    &lt;form&gt;
+    &lt;label >HTML&lt;/label&gt;
+    &lt;input type="number" placeholder='number' name="Example" &gt;
+  &lt;/form&gt;</pre>`,
+  `<form>
+  <label >number</label>
+  <input type="number" placeholder='number' name="Example" > <br>
+  </form>`,  `<pre>    &lt;form&gt;
+  &lt;label >password&lt;/label&gt;
+  &lt;input type="password" placeholder='password' name="Example" &gt;
+&lt;/form&gt;</pre>`,
+`<form>
+<label >password</label>
+<input type="password" placeholder='password' name="Example" > <br>
+</form>`,
   ],
   "HTML Page Title": [
     "<h2 style='text-align: center;'>HTML Page Title</h2><p>Placeholder text for HTML Page Title.</p>"
