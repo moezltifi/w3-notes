@@ -30,10 +30,7 @@ function showSections(course) {
 
   // Populate sidebar with sections
   sections[course].forEach((section, index) => {
-    const link = document.createElement('button');
-    link.classList.add('w3-bar-item', 'w3-button');
-    link.textContent = section;
-    link.onclick = () => handleSectionClick(index, link);
+    const link = createSectionButton(section, index);
     sidebar.appendChild(link);
   });
 
@@ -45,16 +42,21 @@ function showSections(course) {
   }
 }
 
+// Create a section button
+function createSectionButton(section, index) {
+  const button = document.createElement('button');
+  button.classList.add('w3-bar-item', 'w3-button');
+  button.textContent = section;
+  button.onclick = () => handleSectionClick(index, button);
+  return button;
+}
+
 // Handle section click
 function handleSectionClick(index, link) {
   currentSectionIndex = index;
 
   // Remove selected class from previous section
-  const sidebar = document.getElementById("mySidebar");
-  const previousSelected = sidebar.querySelector('.selected');
-  if (previousSelected) {
-    previousSelected.classList.remove("selected");
-  }
+  document.querySelector('#mySidebar .selected')?.classList.remove("selected");
 
   // Highlight the clicked section and show content
   link.classList.add('selected');
@@ -64,47 +66,24 @@ function handleSectionClick(index, link) {
 // Show content of a specific section
 function showContent(course, section) {
   const content = document.getElementById("content");
-  let contentToDisplay = "";
-  let maxIndex = sections[course].length - 1;
+  const courseContent = { HTML: html, CSS: css, JavaScript: javascript };
 
-  switch (course) {
-    case "HTML":
-      contentToDisplay = html[section].join("");
-      break;
-    case "CSS":
-      contentToDisplay = css[section].join("");
-      break;
-    case "JavaScript":
-      contentToDisplay = javascript[section].join("");
-      break;
-    default:
-      contentToDisplay = "<h2>No content available</h2>";
-      break;
-  }
-
+  const contentToDisplay = (courseContent[course]?.[section] || ["<h2>No content available</h2>"]).join("");
   content.innerHTML = contentToDisplay;
-  updateNavigationButtons(currentSectionIndex, maxIndex);
+
+  updateNavigationButtons(currentSectionIndex, sections[course].length - 1);
 }
 
 // Navigate through sections
 function navigateSections(direction) {
-  const courseSections = sections[currentCourse];
-  const maxIndex = courseSections.length - 1;
+  const maxIndex = sections[currentCourse].length - 1;
+  currentSectionIndex = Math.max(0, Math.min(maxIndex, currentSectionIndex + (direction === "next" ? 1 : -1)));
 
-  if (direction === "next" && currentSectionIndex < maxIndex) {
-    currentSectionIndex++;
-  } else if (direction === "prev" && currentSectionIndex > 0) {
-    currentSectionIndex--;
-  }
-
-  const section = courseSections[currentSectionIndex];
+  const section = sections[currentCourse][currentSectionIndex];
 
   // Update selected button
   const sidebar = document.getElementById("mySidebar");
-  const previousSelected = sidebar.querySelector(".selected");
-  if (previousSelected) {
-    previousSelected.classList.remove("selected");
-  }
+  sidebar.querySelector(".selected")?.classList.remove("selected");
 
   const newSelectedButton = sidebar.querySelectorAll(".w3-bar-item")[currentSectionIndex];
   newSelectedButton.classList.add("selected");
@@ -124,4 +103,4 @@ document.getElementById("prevBtn").onclick = () => navigateSections("prev");
 document.getElementById("nextBtn").onclick = () => navigateSections("next");
 
 // Initial call to show sections
-showSections("HTML");
+showSections(currentCourse);
