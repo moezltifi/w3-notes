@@ -51,9 +51,6 @@ const html = {
     "<ul><li><code>&lt;img src='my-image.jpg'&gt; </code></li></ul>",
     "<ul><li><code>&lt;br&gt; ==&gt; this is a tag used to break line </code></li></ul>",
     "<ul><li><code>&lt;head&gt; &lt;meta charset='Controls character encoding' &gt &lt;/head&gt;</code></li></ul>",
-
-
-
   ],
   "HTML Attributes": [
     "<h2 style='text-align: center;'>HTML Attributes</h2>",
@@ -131,10 +128,41 @@ const html = {
     "<code>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>",  
   ],
   "HTML Colors": [
-    "<h2 style='text-align: center;'>HTML Colors</h2><p>Placeholder text for HTML Colors.</p>"
+    "<h2 style='text-align: center;'>HTML Colors</h2>",
+    "<p><li>In HTML, a color can be specified by using a color name:</li></p>",
+    `<pre><code>     &lt;h1 style="background-color:Tomato;"&gt;Tomato&lt;/h1&gt;
+    &lt;h1 style="background-color:Orange;"&gt;Orange<&lt;h1&gt;
+    &lt;h1 style="background-color:DodgerBlue;"&gt;DodgerBlue&lt;/h1&gt;
+    &lt;h1 style="background-color:MediumSeaGreen;"&gt;MediumSeaGreen&lt;/h1&gt;
+    &lt;h1 style="background-color:Gray;"&gt;Gray&lt;/h1&gt;
+    &lt;h1 style="background-color:SlateBlue;"&gt;SlateBlue&lt;/h1&gt;
+    &lt;h1 style="background-color:Violet;"&gt;Violet&lt;/h1&gt;
+    &lt;h1 style="background-color:LightGray;"&gt;LightGray&lt;/h1&gt;</code></pre>`,
+
+    ` <h1 style="background-color:Tomato;">Tomato</h1>
+    <h1 style="background-color:Orange;">Orange</h1>
+    <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+    <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+    <h1 style="background-color:Gray;">Gray</h1>
+    <h1 style="background-color:SlateBlue;">SlateBlue</h1>
+    <h1 style="background-color:Violet;">Violet</h1>
+    <h1 style="background-color:LightGray;">LightGray</h1>`
   ],
   "HTML CSS": [
-    "<h2 style='text-align: center;'>HTML CSS</h2><p>Placeholder text for HTML CSS.</p>"
+    "<h2 style='text-align: center;'>HTML CSS</h2>",
+    "<p><li>CSS stands for Cascading Style Sheets.</li></p>",
+    "<p><li>CSS saves a lot of work. It can control the layout of multiple web pages all at once.</li></p>",
+    "<p><li>CSS can be added to HTML documents in 3 ways:</li></p>",
+    "<ol><p><li>Inline CSS is used for quick, one-off style changes directly within an HTML element.</li></p>",
+    "<code><ul><p><li>&lt;p style=color:red;'&gt;A red paragraph.&lt;/p&gt;</li></p></ul></code>",
+    "<p><li>Internal CSS is useful for styling a single document with multiple styles defined in one place.</li></p>",
+    `<ul><pre><li>    &lt;style&gt;
+    body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: red;}
+    &lt;/style &gt;</li></pre></ul>`,
+    "<p><li>External CSS is ideal for applying a consistent style across multiple HTML documents by linking to a separate CSS file.</li></p>",
+    "<code><ul><p><li>&lt;link rel='stylesheet' href=styles.css'&gt;</li></p></ul></code></ol>",
   ],
   "HTML Links": [
     "<h2 style='text-align: center;'>HTML Links</h2>",
@@ -189,7 +217,7 @@ const html = {
     "<h2 style='text-align: center;'>HTML Favicon</h2><p>Placeholder text for HTML Favicon.</p>"
   ], 
   "HTML Forms": [
-    "<h2 style='text-align: center;'>HTML Favicon</h2>",
+    "<h2 style='text-align: center;'>HTML Forms</h2>",
     "<p><li>The HTML <code>&lt;form&gt;</code> element is used to create an HTML form for user input:.</li></p>",
     "<p><li>The <code>&lt;input&gt;</code> tag is the most important element in the <code>&lt;form&gt;</code> element.</li></p>",
     "<p><li>the <code>&lt;input&gt;</code> tag in HTML is used to create interactive controls in web forms that allow users to input data. It can be used for a variety of input types such as :</li></p>",
@@ -198,32 +226,112 @@ const html = {
     "<p><ul><code>type='email'</code></ul></p>",
     "<p><ul><code>type='password'</code></ul></p>",
     "<p><ul><code>type='date'</code></ul></p>",
+    "<p><ul><code>type='submit'</code></ul></p>",
     "<p><ul>etc...</ul></p>",
     "<p><li>The <code>&lt;label&gt;</code> element is useful for screen reader users because the screen reader will read the label out loud when the user focuses on the input element</li></p>",
+    "<p><li>The <code>&lt;label&gt;</code> element is useful for screen reader users because the screen reader will read the label out loud when the user focuses on the input element</li></p>",
     "<p><li>We can use The <code>placeholder=''</code> attribute to discrib the <code>&lt;input&gt;</code> element or give it a name using The <code>name=''</code> attribute </li></p>",
-    "<p><li>codes examples:</li></p>",
+    "<p><li>code example:</li></p>",
     `<pre>    &lt;form&gt;
       &lt;label >text&lt;/label&gt;
       &lt;input type="text" placeholder='text' name="Example" &gt;
     &lt;/form&gt;</pre>`,
-    `<form>
-    <label >HTML</label>
-    <input type="text" placeholder='text' name="Example" >
-    </form>`,   
     `<pre>    &lt;form&gt;
-    &lt;label >HTML&lt;/label&gt;
-    &lt;input type="number" placeholder='number' name="Example" &gt;
+    &lt;label >password&lt;/label&gt;
+    &lt;input type="password" placeholder='password' name="Example" &gt;
   &lt;/form&gt;</pre>`,
-  `<form>
-  <label >number</label>
-  <input type="number" placeholder='number' name="Example" > <br>
-  </form>`,  `<pre>    &lt;form&gt;
-  &lt;label >password&lt;/label&gt;
-  &lt;input type="password" placeholder='password' name="Example" &gt;
+  `<pre>    &lt;form&gt;
+  &lt;label >HTML&lt;/label&gt;
+  &lt;input type="number" placeholder='number' name="Example" &gt;
 &lt;/form&gt;</pre>`,
-`<form>
-<label >password</label>
+    `<form>
+    <label >text</label>
+    <input type="text" placeholder='text' name="Example" > <br>`,
+   
+  `<label >number</label>
+  <input type="number" placeholder='number' name="Example" > <br>
+  `,  
+`<label >password</label>
 <input type="password" placeholder='password' name="Example" > <br>
+<input type="submit" value="Submit"></input>
+</form>`,
+"<p><li>The <code>&lt;select&gt;</code> tag in HTML is used to create a drop-down list, allowing users to choose one or more options from a list. This tag is typically used within a form to collect user input. Each option within the drop-down list is defined using the <code>&lt;option&gt;</code> tag.</li></p>",
+"<p><li>code example:</li></p>",
+`<pre><code>&lt;form action="/action_logic.js"&gt;
+&lt;label &gt;Choose a car:&lt;/label&gt;
+&lt;select id="cars" name="cars"&gt;
+&lt;option value="volvo">Volvo&lt;/option&gt;
+&lt;option value="saab">Saab&lt;/option&gt;
+&lt;option value="fiat">Fiat&lt;/option&gt;
+&lt;/select&gt;
+&lt;input type="submit"&gt;
+&lt;/form&gt;</code></pre>`,
+`<form action="/action_page.php">
+<label >Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+</select>
+<input type="submit">
+</form>`,
+"<p><li>The <code>&lt;optgroup&gt;</code> tag to regroupe options in the <code>&lt;select&gt;</code> tag</li></p>",
+"<p><li>code example:</li></p>",
+`<pre><code>&lt;form action="/action_logic.js"&gt;
+&lt;label >Choose a car:&lt;/label&gt;
+&lt;select id="cars" name="cars"&gt;
+&lt;optgroup label='Section 1'&gt;
+&lt;option value="volvo">Volvo&lt;/option&gt;
+&lt;option value="saab">Saab&lt;/option&gt;
+&lt;option value="fiat">Fiat&lt;/option&gt;
+&lt;/optgroup&gt;
+&lt;optgroup label='Section 2'&gt;
+&lt;option value="volvo">Volvo&lt;/option&gt;
+&lt;option value="saab">Saab&lt;/option&gt;
+&lt;option value="fiat">Fiat&lt;/option&gt;
+&lt;/optgroup&gt;
+&lt;/select&gt;
+&lt;input type="submit"&gt;
+&lt;/form&gt;</code></pre>`,
+`<form action="/action_page.php">
+<label >Choose a car:</label>
+<select id="cars" name="cars">
+<optgroup label='Section 1'>
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+</optgroup> 
+<optgroup label='Section 2'>
+<option value="volvo">Toyota</option>
+<option value="saab">Range</option>
+<option value="fiat">Kiat</option>
+</optgroup>
+</select>
+<input type="submit">
+</form>`,
+"<p><li>The <code>&lt;datalist&gt;</code> element specifies a list of pre-defined options for an <code>&lt;input&gt;</code> element Users will see a drop-down list of the pre-defined options as they input data.</li></p>",
+"<p><li>The <code>list</code> attribute of the  <code>&lt;input&gt;</code> element, must refer to the <code>id</code> attribute of the <code>&lt;datalist&gt;</code> element.</li></p>",
+`<pre><code>&lt;form action="/action_logic.js"&gt;
+&lt;input list="browsers"&gt;
+&lt;datalist id="browsers"&gt;
+&lt;option  value="Edge">Edge&lt;/option&gt;
+&lt;option  value="FireFox">FireFox&lt;/option&gt;
+&lt;option  value="Chrome">Chrome&lt;/option&gt;
+&lt;option  value="Safari">Safari&lt;/option&gt;
+&lt;option  value="Opera">Opera&lt;/option&gt;
+&lt;/datalist&gt;
+&lt;input type="submit"&gt;
+&lt;/form&gt;</code></pre>`,
+`<form action="/action_page.php">
+<input list="browsers">
+<datalist id="browsers">
+<option value="Edge">
+<option value="Firefox">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>
+<input type="submit">
 </form>`,
   ],
   "HTML Page Title": [
