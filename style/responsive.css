@@ -1,0 +1,21 @@
+@media (max-width: 1000px) {
+  .nextprev {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .content {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .open {
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  .w3-sidebar {
+      padding: 2px;
+      width: 20%;
+      padding-bottom: 60px;
+  }
+}

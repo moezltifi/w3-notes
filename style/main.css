@@ -1,0 +1,38 @@
+/* General Layout */
+.content {
+  margin-top: 50px;
+  margin-left: 350px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.nextprev {
+  position: fixed;
+  bottom: 10px; 
+  width: 100%;
+  padding-left: 350px;
+  padding-right: 50px;
+  z-index: 1; 
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+/* Buttons */
+.selected {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.w3-button {
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.w3-right, .w3-left {
+  background-color: #04AA6D;
+  color: #ffffff;
+  border-color: #04AA6D;
+}

@@ -6,7 +6,9 @@
     <meta name="keywords" content="html, css, JavaScript" />
     <title>W3 Notes Tutorial</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/navbar_sidebar.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
 
@@ -15,7 +17,7 @@
       <div class="w3-bar">
         <button
           class="w3-button w3-xlarge w3-hide-large open"
-          onclick="w3_open()"
+          onclick="toggleSidebar()"
         >
           &#9776;
         </button>
@@ -33,11 +35,11 @@
         class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left"
         style="width: 300px"
         id="mySidebar"
-        onclick="w3_close()"
+        onclick="closeSidebar()"
       ></div>
 
       <div class="content w3-container content-container">
-        <div id="content" onclick="w3_close() "></div>
+        <div id="content" onclick="closeSidebar()"></div>
       </div>
     
       <div class="nextprev">
@@ -48,7 +50,10 @@
     <script src="data/html_notes.js"></script>
     <script src="data/css_notes.js"></script>
     <script src="data/js_notes.js"></script>
-    <script src="js_files/dropdown.js"></script>
-    <script src="js_files/logic.js"></script>
+    <script src="services/dropdown.js"></script>
+    <script src="services/index.js"></script>
+    <script src="services/sections.js"></script>
+    <script src="services/navigation.js"></script>
+    <script src="services/domUtils.js"></script>
   </body>
 </html>
