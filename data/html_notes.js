@@ -149,33 +149,33 @@ const html = {
     "<p><li><strong>Color Names</strong>: You can use color names directly in your HTML or CSS code.</li></p>",
     "<p><li><code>&lt;p style='color:red;'&gt;This is a red paragraph.&lt;/p&gt;</code></li></p>",
     "<p><li>Some common color names include <code>red</code>, <code>blue</code>, <code>green</code>, <code>black</code>, <code>white</code>, etc.</li></p>",
-    
+
     "<p><li><strong>Hexadecimal Colors</strong>: Hex values are six-digit codes representing the amount of red, green, and blue.</li></p>",
     "<p><li><code>&lt;p style='color:#ff0000;'&gt;This is a red paragraph.&lt;/p&gt;</code></li></p>",
     "<p><li>Each pair of digits represents the intensity of the color component (red, green, blue).</li></p>",
-    
+
     "<p><li><strong>RGB Colors</strong>: RGB values define colors using the Red, Green, Blue color model.</li></p>",
     "<p><li><code>&lt;p style='color:rgb(255, 0, 0);'&gt;This is a red paragraph.&lt;/p&gt;</code></li></p>",
     "<p><li>Each parameter defines the intensity of the color on a scale of 0 to 255.</li></p>",
-    
+
     "<p><li><strong>RGBA Colors</strong>: RGBA is an extension of RGB with an alpha channel (opacity).</li></p>",
     "<p><li><code>&lt;p style='color:rgba(255, 0, 0, 0.5);'&gt;This is a semi-transparent red paragraph.&lt;/p&gt;</code></li></p>",
     "<p><li>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).</li></p>",
-    
+
     "<p><li><strong>HSL Colors</strong>: HSL stands for Hue, Saturation, and Lightness.</li></p>",
     "<p><li><code>&lt;p style='color:hsl(0, 100%, 50%);'&gt;This is a red paragraph.&lt;/p&gt;</code></li></p>",
-    "<p><li><ul><strong>Hue</strong> is a degree on the color wheel (from 0 to 360).</ul></li></p>",
-    "<p><li><ul><strong>Saturation</strong> is a percentage value (0% means a shade of gray, 100% means full color).</ul></li></p>",
-    "<p><li><ul><strong>Lightness</strong> is also a percentage (0% is black, 100% is white).</ul></li></p>",
-    
+    "<p><ul><strong>Hue</strong> is a degree on the color wheel (from 0 to 360).</ul></li></p>",
+    "<p><ul><strong>Saturation</strong> is a percentage value (0% means a shade of gray, 100% means full color).</ul></li></p>",
+    "<p><ul><strong>Lightness</strong> is also a percentage (0% is black, 100% is white).</ul></li></p>",
+
     "<p><li><strong>HSLA Colors</strong>: HSLA is an extension of HSL with an alpha channel.</li></p>",
     "<p><li><code>&lt;p style='color:hsla(0, 100%, 50%, 0.5);'&gt;This is a semi-transparent red paragraph.&lt;/p&gt;</code></li></p>",
-    
+
     "<p><li><strong>Changing Background Color</strong>: You can change the background color of an element.</li></p>",
     "<p><li><code>&lt;div style='background-color:lightblue;'&gt;This is a light blue div.&lt;/div&gt;</code></li></p>",
-    
+
     "<p><li><strong>Combining Colors</strong>: You can combine different color methods in CSS.</li></p>",
-    "<p><li><code>&lt;style&gt; p { color: #ff6347; /* Tomato */ background-color: rgb(240, 248, 255); /* AliceBlue */ } &lt;/style&gt;</code></li></p>"
+    "<p><li><code>&lt;style&gt; p { color: #ff6347; /* Tomato */ background-color: rgb(240, 248, 255); /* AliceBlue */ } &lt;/style&gt;</code></li></p>",
   ],
   "HTML CSS": [
     "<h2 style='text-align: center;'>HTML CSS</h2>",
@@ -185,10 +185,10 @@ const html = {
     "<ol><p><li>Inline CSS is used for quick, one-off style changes directly within an HTML element.</li></p>",
     "<code><ul><p><li>&lt;p style=color:red;'&gt;A red paragraph.&lt;/p&gt;</li></p></ul></code>",
     "<p><li>Internal CSS is useful for styling a single document with multiple styles defined in one place.</li></p>",
-    `<ul><pre><li>    &lt;style&gt;
-    body {background-color: powderblue;}
-    h1   {color: blue;}
-    p    {color: red;}
+    `<ul><pre><li>&lt;style&gt;
+body{background-color:powderblue;}
+h1   {color: blue;}
+p    {color: red;}
     &lt;/style &gt;</li></pre></ul>`,
     "<p><li>External CSS is ideal for applying a consistent style across multiple HTML documents by linking to a separate CSS file.</li></p>",
     "<code><ul><p><li>&lt;link rel='stylesheet' href=styles.css'&gt;</li></p></ul></code></ol>",
@@ -243,7 +243,12 @@ const html = {
     "</audio>",
   ],
   "HTML Favicon": [
-    "<h2 style='text-align: center;'>HTML Favicon</h2><p>Placeholder text for HTML Favicon.</p>",
+    "<h2 style='text-align: center;'>HTML Favicon</h2>",
+    "<p><li>   A favicon is a small image displayed next to the page title in the browser tab.</li></p>",
+    "<p><li>To add a favicon to our website,we save our favicon image to the root directory of our web server or create a folder in the root directory called images and we save our favicon image to that folder. A common name for a favicon image is 'favicon.ico'.</li></p>",
+    "<p><li> Next, add a &lt;link&gt; element to your 'index.html' file, after the &lt;title&gt; element   </li></p>",
+    "<p><li> Now, save the 'index.html' file and reload it in your browser. Your browser tab should now display your favicon image to the left of the page title.</li></p>",
+
   ],
   "HTML Forms": [
     "<h2 style='text-align: center;'>HTML Forms</h2>",
@@ -263,15 +268,21 @@ const html = {
     "<p><li>code example:</li></p>",
     `<pre>    &lt;form&gt;
       &lt;label >text&lt;/label&gt;
-      &lt;input type="text" placeholder='text' name="Example" &gt;
-    &lt;/form&gt;</pre>`,
-    `<pre>    &lt;form&gt;
-    &lt;label >password&lt;/label&gt;
-    &lt;input type="password" placeholder='password' name="Example" &gt;
-  &lt;/form&gt;</pre>`,
+      &lt;input type="text" 
+            placeholder='text' 
+            name="Example" &gt;
+    &lt;/form&gt;<br>`,
+    `&lt;form&gt;
+    &lt;label >password&lt;/label&gt;<br>
+    &lt;input type="password" 
+          placeholder='password' 
+          name="Example" &gt;<br>
+  &lt;/form&gt;<br> </pre>`,
     `<pre>    &lt;form&gt;
   &lt;label >HTML&lt;/label&gt;
-  &lt;input type="number" placeholder='number' name="Example" &gt;
+  &lt;input type="number" 
+        placeholder='number' 
+         name="Example" &gt;
 &lt;/form&gt;</pre>`,
     `<form>
     <label >text</label>
@@ -284,7 +295,7 @@ const html = {
 <input type="password" placeholder='password' name="Example" > <br>
 <input type="submit" value="Submit"></input>
 </form>`,
-    "<p><li>The <code>&lt;select&gt;</code> tag in HTML is used to create a drop-down list, allowing users to choose one or more options from a list. This tag is typically used within a form to collect user input. Each option within the drop-down list is defined using the <code>&lt;option&gt;</code> tag.</li></p>",
+    "The <code>&lt;select&gt;</code> tag in HTML is used to create a drop-down list, allowing users to choose one or more options from a list This tag is typically used within a form to collect user input Each option within the drop-down list is defined using the <code>&lt;option&gt;</code> tag.",
     "<p><li>code example:</li></p>",
     `<pre><code>&lt;form action="/action_logic.js"&gt;
 &lt;label &gt;Choose a car:&lt;/label&gt;
