@@ -375,7 +375,11 @@ p    {color: red;}
 </form>`,
   ],
   "HTML Page Title": [
-    "<h2 style='text-align: center;'>HTML Page Title</h2><p>Placeholder text for HTML Page Title.</p>",
+    "<h2 style='text-align: center;'>HTML Page Title</h2>",
+    "<p><li>Every web page should have a page title to describe the meaning of the page.</li></p>",
+    "<p><li>The &lt;title&gt; element adds a title to your page</li></p>",
+    "<p><li>The title should describe the content and the meaning of the page.</li></p>",
+    "<p><li>So, try to make the title as precise and logical as possible.</li></p>",
   ],
   "HTML Tables": [
     "<h2 style='text-align: center;'>HTML Tables</h2>",
