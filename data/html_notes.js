@@ -476,7 +476,13 @@ p    {color: red;}
 </dl>`,
   ],
   "HTML Block & Inline": [
-    "<h2 style='text-align: center;'>HTML Block & Inline</h2><p>Placeholder text for HTML Block & Inline.</p>",
+    "<h2 style='text-align: center;'>HTML Block & Inline</h2>",
+    "<p><li>Every HTML element has a default display value, depending on what type of element it is.    </li></p>",
+    "<p><li>The two most common display values are block and inline.</li></p>",
+    "<p><li>A block element always takes up the full width available, the next element always starts on a new line</li></p>",
+    "<p><li> here are two examples of block elements used: &lt;p&gt; and &lt;div&gt;.</li></p>",
+    "<p><li>An inline element does not start on a new line and it only takes up as much width as necessary </li></p>",
+    "<p><li>The   &lt;span>&gt; element is an inline container .</li></p>",
   ],
   "HTML Div": [
     "<h2 style='text-align: center;'>HTML Div</h2>",
