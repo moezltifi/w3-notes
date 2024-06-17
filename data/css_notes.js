@@ -34,9 +34,9 @@ const css = {
     "<li>Id Selector: <code>#uniqueId {}</code></li>",
     "<li>Class Selector: <code>.className {}</code></li>",
     "<li>Universal Selector: <code>* {}</code></li>",
-    "<li>Attribute Selector: <code>[type='text'] {}</code></li></ul>",
+    "<li>Attribute Selector: <code>[type='text'] {}</code></li>",
     `
-    <ol><li>Group = apply to both selectors</li>
+    <li>Group = apply to both selectors</li>
     <code>selector,selector{
       color : red;
     }</code>
@@ -62,7 +62,7 @@ const css = {
     <code>   
     selector selectorselector{
       font-size : 2em;
-    }</code></ol>`
+    }</code></ul>`
   ],
   "CSS Comments": [
     "<h2 style='text-align: center;'>CSS Comments</h2>",
