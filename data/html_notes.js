@@ -542,7 +542,7 @@ p    {color: red;}
     "<ul>JavaScripts</ul>",
     "<p><li>Example:</li></p>",
     "<p><ul><code>&lt;img src='picture.jpg'&gt;</code>	The 'picture.jpg' file is located in the same folder as the current page</ul></p>",
-    "<p><li>An absolute file path is the full URL to a file:<br><code>&lt;img src='https://www.w3schools.com/images/picture.jpg' alt='Mountain'&gt;</code></li></p>",
+    "<p><li>An absolute file path is the full URL to a file:<br><code>&lt;img src='https://www.w3schools.com/ images/picture.jpg' alt='Mountain'&gt;</code></li></p>",
   ],
   "HTML Head": [
     "<h2 style='text-align: center;'>HTML Head</h2>",
