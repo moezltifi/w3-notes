@@ -182,11 +182,11 @@ const html = {
     "<ol><p><li>Inline CSS is used for quick, one-off style changes directly within an HTML element.</li></p>",
     "<code><ul><p><li>&lt;p style=color:red;'&gt;A red paragraph.&lt;/p&gt;</li></p></ul></code>",
     "<p><li>Internal CSS is useful for styling a single document with multiple styles defined in one place.</li></p>",
-    `<ul><pre><li>&lt;style&gt;
-body{background-color:powderblue;}
-h1   {color: blue;}
-p    {color: red;}
-    &lt;/style &gt;</li></pre></ul>`,
+    `<ul><p><li>&lt;style&gt;</p>
+    <p>body{background-color:powderblue;}</p>
+    <p>h1   {color: blue;}</p>
+    <p>p    {color: red;}</p>
+    <p>&lt;/style &gt;</li></p></ul>`,
     "<p><li>External CSS is ideal for applying a consistent style across multiple HTML documents by linking to a separate CSS file.</li></p>",
     "<code><ul><p><li>&lt;link rel='stylesheet' href=styles.css'&gt;</li></p></ul></code></ol>",
   ],
@@ -207,8 +207,8 @@ p    {color: red;}
     "<p><li>We can add an img to a website using the simple tag <code>&lt;img&gt;</code> .</li></p>",
     "<p><li>We will put the img-url in the attribute  <code>'src'</code></li></p>",
     "<p><li>For example:</li></p>",
-    "<p><code>&lt;img src='img.jpj'&gt; width='320' height='240'</code></p>",
-    "<p><code><img src='https://www.w3schools.com/html/workplace.jpg' width='320' height='240'></code></p>",
+    "<p><code>&lt;img src='img.jpj'&gt; width='290' height='200'</code></p>",
+    "<p><code><img src='https://www.w3schools.com/html/workplace.jpg' width='290' height='200'></code></p>",
     "<p><li>We can controle the size of the image using  <code>'width' </code>and <code>'height'</code> attributes</li></p>",
   ],
   "HTML Videos": [
@@ -348,17 +348,17 @@ p    {color: red;}
 </form>`,
     "<p><li>The <code>&lt;datalist&gt;</code> element specifies a list of pre-defined options for an <code>&lt;input&gt;</code> element Users will see a drop-down list of the pre-defined options as they input data.</li></p>",
     "<p><li>The <code>list</code> attribute of the  <code>&lt;input&gt;</code> element, must refer to the <code>id</code> attribute of the <code>&lt;datalist&gt;</code> element.</li></p>",
-    `<pre><code>&lt;form action="/action_logic.js"&gt;
-&lt;input list="browsers"&gt;
-&lt;datalist id="browsers"&gt;
-&lt;option  value="Edge">Edge&lt;/option&gt;
-&lt;option  value="FireFox">FireFox&lt;/option&gt;
-&lt;option  value="Chrome">Chrome&lt;/option&gt;
-&lt;option  value="Safari">Safari&lt;/option&gt;
-&lt;option  value="Opera">Opera&lt;/option&gt;
-&lt;/datalist&gt;
-&lt;input type="submit"&gt;
-&lt;/form&gt;</code></pre>`,
+    `<p><code>&lt;form action="/action_logic.js"&gt;
+    <p>&lt;input list="browsers"&gt;</p>
+    <p>&lt;datalist id="browsers"&gt;</p>
+    <p>&lt;option value="Edge">Edge&lt;/option&gt;</p>
+    <p>&lt;option value="FireFox">FireFox&lt;/option&gt;</p>
+    <p>&lt;option value="Chrome">Chrome&lt;/option&gt;</p>
+    <p>&lt;option value="Safari">Safari&lt;/option&gt;</p>
+    <p>&lt;option value="Opera">Opera&lt;/option&gt;</p>
+    <p>&lt;/datalist&gt;</p>
+    <p>&lt;input type="submit"&gt;</p>
+    <p>&lt;/form&gt;</code></p>`,
     `<form action="/action_page.php">
 <input list="browsers">
 <datalist id="browsers">
