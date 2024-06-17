@@ -34,10 +34,41 @@ const css = {
     "<li>Id Selector: <code>#uniqueId {}</code></li>",
     "<li>Class Selector: <code>.className {}</code></li>",
     "<li>Universal Selector: <code>* {}</code></li>",
-    "<li>Attribute Selector: <code>[type='text'] {}</code></li></ul>"
+    "<li>Attribute Selector: <code>[type='text'] {}</code></li></ul>",
+    `
+    <ol><li>Group = apply to both selectors</li>
+    <code>selector,selector{
+      color : red;
+    }</code>
+    <li>Child = apply to direct child of left side</li>
+    selector > selector{
+      color : red;
+    }
+    <code>   
+    selector > selector{
+    color : red;
+    }</code>
+    <li>Descendent =apply to a descendent of left side</li>
+    <code>   
+    selector  selector{
+      color : red;
+    }</code>
+    <li>Chaining =apply where All selectors are true</li>
+    <code>   
+    selectorselector{
+      color : red;;
+    }</code>
+    <li>combining combiners</li>
+    <code>   
+    selector selectorselector{
+      font-size : 2em;
+    }</code></ol>`
   ],
   "CSS Comments": [
-    "<h2 style='text-align: center;'>CSS Comments</h2><p>Placeholder text for CSS Comments.</p>"
+    "<h2 style='text-align: center;'>CSS Comments</h2>",
+    "<li>Comments are used to explain the code, and may help when you edit the source code at a later date.</li>",
+    "<li>CSS comments are not displayed in the browser, but they can help document your source code.</li>",
+    "<li>A CSS comment is placed inside the &lt;style&gt; element, and starts with /* and ends with */:</li>",
   ],
   "CSS Colors": [
     "<h2 style='text-align: center;'>CSS Colors</h2><p>Placeholder text for CSS Colors.</p>"
