@@ -132,9 +132,6 @@ const html = {
     "<li>&lt;sup&gt; - Superscript text<br>",
     "<p>This is <sup>superscripted</sup> text.</p>",
   ],
-  "HTML Quotations": [
-    "<h2 style='text-align: center;'>HTML Quotations</h2><p>Placeholder text for HTML Quotations.</p>",
-  ],
   "HTML Comments": [
     "<h2 style='text-align: center;'>HTML Comments</h2>",
     "<li>To insert comments in your HTML source code, you can use this syntax</li>",
@@ -548,33 +545,27 @@ p    {color: red;}
     "<p><li>An absolute file path is the full URL to a file:<br><code>&lt;img src='https://www.w3schools.com/images/picture.jpg' alt='Mountain'&gt;</code></li></p>",
   ],
   "HTML Head": [
-    "<h2 style='text-align: center;'>HTML Head</h2><p>Placeholder text for HTML Head.</p>",
+    "<h2 style='text-align: center;'>HTML Head</h2>",
+    "<p><li>The HTML &lt;head&gt; element is a container for the following elements: &lt;title&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;, and &lt;base&gt;.</li></p>",
+    "<p><li>The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.</li></p>",
+    "<p><li>The &lt;title&gt; element defines the title of the document. The title must be text-only. </li></p>",
+    "<p><li>The &lt;style&gt; element is used to define style information for a single HTML page</li></p>",
+    "<p><li>The &lt;link&gt; tag is most often used to link to external style sheets:</li></p>",
   ],
   "HTML Layout": [
-    "<h2 style='text-align: center;'>HTML Layout</h2><p>Placeholder text for HTML Layout.</p>",
+    "<h2 style='text-align: center;'>HTML Layout</h2>",
+    `<p><li>There are four different techniques to create multicolumn layouts:</li></p>`,
+    "<ol><li>CSS framework ( exp: Bootstrap / W3.css )</li><li>CSS float property</li><li>CSS flexbox</li><li>CSS grid</li></ol>",
   ],
   "HTML Responsive": [
-    "<h2 style='text-align: center;'>HTML Responsive</h2><p>Placeholder text for HTML Responsive.</p>",
-  ],
-  "HTML Computercode": [
-    "<h2 style='text-align: center;'>HTML Computercode</h2><p>Placeholder text for HTML Computercode.</p>",
-  ],
-  "HTML Semantics": [
-    "<h2 style='text-align: center;'>HTML Semantics</h2><p>Placeholder text for HTML Semantics.</p>",
-  ],
-  "HTML Style Guide": [
-    "<h2 style='text-align: center;'>HTML Style Guide</h2><p>Placeholder text for HTML Style Guide.</p>",
-  ],
-  "HTML Entities": [
-    "<h2 style='text-align: center;'>HTML Entities</h2><p>Placeholder text for HTML Entities.</p>",
-  ],
-  "HTML Symbols": [
-    "<h2 style='text-align: center;'>HTML Symbols</h2><p>Placeholder text for HTML Symbols.</p>",
-  ],
-  "HTML Emojis": [
-    "<h2 style='text-align: center;'>HTML Emojis</h2><p>Placeholder text for HTML Emojis.</p>",
-  ],
-  "HTML Charsets": [
-    "<h2 style='text-align: center;'>HTML Charsets</h2><p>Placeholder text for HTML Charsets.</p>",
+    "<h2 style='text-align: center;'>HTML Responsive</h2>",
+    `<p><li>Responsive web design is about creating web pages that look good on all devices!</li></p>`,
+    `<p><li>A responsive web design will automatically adjust for different screen sizes and viewports.</li></p>`,
+    `<p><li>In addition to resize text and images, it is also common to use media queries in responsive web pages.</li></p>`,
+    `<p><li>With media queries you can define completely different styles for different browser sizes.</li></p>`,
+    `<p><li>All popular CSS Frameworks offer responsive design They are free, and easy to use for exemple :</li></p>`,
+    `<ol><li>W3.CSS is a modern CSS framework with support for desktop, tablet, and mobile design by default.</li>`,
+    `<li>Bootstrap is a popular front-end framework that provides a collection of CSS and JavaScript components to create responsive and mobile-first websites</li></ol>`,
+
   ],
 };
