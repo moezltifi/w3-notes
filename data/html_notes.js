@@ -520,7 +520,13 @@ p    {color: red;}
 
   ],
   "HTML Iframes": [
-    "<h2 style='text-align: center;'>HTML Iframes</h2><p>Placeholder text for HTML Iframes.</p>",
+    "<h2 style='text-align: center;'>HTML Iframes</h2>",
+    "<p><li>The HTML &lt;iframe&gt; tag specifies an inline frame.</li></p>",
+    "<p><li>It is used to embed another document within the current HTML document.</li></p>",
+    "<p><li>The src attribute defines the URL of the page to embed</li></p>",
+    "<p><li>The 'title' attribute provides a textual description of the iframe's content. This is particularly important for accessibility purposes, as screen readers use this attribute to describe the iframe to visually impaired users.</li></p>",
+    "<p><li>'height' and 'width' Attributes: These attributes define the size of the iframe.</li></p>",
+    "<p><li>'border:' none;: This CSS style is used to remove the border around the iframe. You can add this style directly within the iframe tag using the 'style' attribute or by applying it through an external or internal stylesheet.</li></p>",
   ],
   "HTML JavaScript": [
     "<h2 style='text-align: center;'>HTML JavaScript</h2><p>Placeholder text for HTML JavaScript.</p>",
