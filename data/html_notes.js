@@ -536,7 +536,16 @@ p    {color: red;}
     "<p><li>To select an HTML element, JavaScript most often uses the <code>document.getElementById()</code> method.</li></p>",
   ],
   "HTML File Paths": [
-    "<h2 style='text-align: center;'>HTML File Paths</h2><p>Placeholder text for HTML File Paths.</p>",
+    "<h2 style='text-align: center;'>HTML File Paths</h2>",
+    "<p><li>A file path describes the location of a file in a web site's folder structure.</li></p>",
+    "<p><li>File paths are used when linking to external files, like:.</li></p>",
+    "<ul>Web pages</ul>",
+    "<ul>Images</ul>",
+    "<ul>Style sheets</ul>",
+    "<ul>JavaScripts</ul>",
+    "<p><li>Example:</li></p>",
+    "<p><ul><code>&lt;img src='picture.jpg'&gt;</code>	The 'picture.jpg' file is located in the same folder as the current page</ul></p>",
+    "<p><li>An absolute file path is the full URL to a file:<br><code>&lt;img src='https://www.w3schools.com/images/picture.jpg' alt='Mountain'&gt;</code></li></p>",
   ],
   "HTML Head": [
     "<h2 style='text-align: center;'>HTML Head</h2><p>Placeholder text for HTML Head.</p>",
