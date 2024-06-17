@@ -501,7 +501,13 @@ p    {color: red;}
     "<p><ul><code>&lt;footer&gt;</code> element to the footer<br> etc...</ul></p>",
   ],
   "HTML Classes": [
-    "<h2 style='text-align: center;'>HTML Classes</h2><p>Placeholder text for HTML Classes.</p>",
+    "<h2 style='text-align: center;'>HTML Classes</h2>",
+    "<p><li>The HTML class attribute is used to specify a class for an HTML element.</li></p>",
+    "<p><li>The class attribute can be used on any HTML element</li></p>",
+    "<p><li>Multiple HTML elements can have the same class.</li></p>",
+    "<p><li>The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</li></p>",
+    "<p><li>The class name is case sensitive </li></p>",
+
   ],
   "HTML Id": [
     "<h2 style='text-align: center;'>HTML Id</h2><p>Placeholder text for HTML Id.</p>",
