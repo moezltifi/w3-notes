@@ -510,7 +510,14 @@ p    {color: red;}
 
   ],
   "HTML Id": [
-    "<h2 style='text-align: center;'>HTML Id</h2><p>Placeholder text for HTML Id.</p>",
+    "<h2 style='text-align: center;'>HTML Id</h2>",
+    "<p><li>The id attribute is used to specify a unique id for an HTML element.</li></p>",
+    "<p><li>The value of the id attribute must be unique within the HTML document</li></p>",
+    "<p><li>The id attribute is used by CSS and JavaScript to style/select a specific element   </li></p>",
+    "<p><li>The value of the id attribute is case sensitive</li></p>",
+    "<p><li>The id attribute is also used to create HTML bookmarks</li></p>",
+    "<p><li>HTML bookmarks are used to allow readers to jump to specific parts of a webpage.</li></p>",
+
   ],
   "HTML Iframes": [
     "<h2 style='text-align: center;'>HTML Iframes</h2><p>Placeholder text for HTML Iframes.</p>",
