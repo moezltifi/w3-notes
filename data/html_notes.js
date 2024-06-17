@@ -529,7 +529,11 @@ p    {color: red;}
     "<p><li>'border:' none;: This CSS style is used to remove the border around the iframe. You can add this style directly within the iframe tag using the 'style' attribute or by applying it through an external or internal stylesheet.</li></p>",
   ],
   "HTML JavaScript": [
-    "<h2 style='text-align: center;'>HTML JavaScript</h2><p>Placeholder text for HTML JavaScript.</p>",
+    "<h2 style='text-align: center;'>HTML JavaScript</h2>",
+    "<p><li>JavaScript makes HTML pages more dynamic and interactive.</li></p>",
+    "<p><li>The HTML &lt;script&gt; tag is used to define a client-side script (JavaScript).</li></p>",
+    "<p><li>The &lt;script&gt; element either contains script statements, or refers to an external script file through the src attribute.</li></p>",
+    "<p><li>To select an HTML element, JavaScript most often uses the <code>document.getElementById()</code> method.</li></p>",
   ],
   "HTML File Paths": [
     "<h2 style='text-align: center;'>HTML File Paths</h2><p>Placeholder text for HTML File Paths.</p>",
