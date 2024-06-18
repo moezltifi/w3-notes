@@ -127,7 +127,9 @@ const css = {
     "<li><code>'length'</code>:Sets the height/width to a specific length in pixels, ems, rems, centimeters, etc.</li>",
     "<li><code>'%'</code>:Sets the height/width as a percentage of the height/width of the containing block</li>",
     "<li><code>'initial'</code>: Sets the height/width to its default value as defined by the browser.</li>",
-    "<li><code>'inherit'</code>: Inherits the height/width from its parent element</li></ol>",
+    "<li><code>'inherit'</code>: Inherits the height/width from its parent element</li>",
+    "<li><code>'fit-content'</code>: is a powerful CSS feature for designing flexible and responsive layouts, offering precise control over element widths based on their content's natural size while still providing an upper limit with the maximum-size parameter.</li>",
+    "<li><code>'min-content'</code>:  is used with the width and height properties to size an element based on the minimum size required to fit its content.  </li></ol>",
 
   ],
   "CSS Box Model": [
