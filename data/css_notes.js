@@ -171,6 +171,18 @@ const css = {
     "<li><strong>Description</strong>: Sets the minimum width that an element can have.</li>",
     "<li><strong>Usage</strong>:This is useful when you want to ensure that elements have a minimum width to accommodate content or maintain layout consistency.</li></ol>",
 
+  ],  
+  "CSS Max-Min-height": [
+    "<h2 style='text-align: center;'>CSS Max-Min-height</h2>",
+    "<li>Let's delve into the max-height and min-height properties in CSS, which are used to control the maximum and minimum heights of elements.</li>",
+    "<li>Max height:</li>",
+    "<ol><li><strong>Syntax</strong>: <code>max-height: value;</code></li>",
+    "<li><strong>Description</strong>: Sets the maximum height that an element can have.</li>",
+    "<li><strong>Usage</strong>:It is commonly used in responsive design to ensure that elements do not exceed a certain height, especially when dealing with dynamic content or different viewport sizes.</li></ol>",
+    "<li>Min height:</li>",
+    "<ol><li><strong>Syntax</strong>: <code>min-height: value;</code></li>",
+    "<li><strong>Description</strong>: Sets the minimum height that an element can have.</li>",
+    "<li><strong>Usage</strong>:It is frequently used to prevent elements from becoming too small, especially when there's a need to maintain a minimum height for consistent layout.</li></ol>",
   ],
   "CSS Position": [
     "<h2 style='text-align: center;'>CSS Position</h2><p>Placeholder text for CSS Position.</p>"
