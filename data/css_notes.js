@@ -94,7 +94,17 @@ const css = {
     "<h2 style='text-align: center;'>CSS Margins</h2><p>Placeholder text for CSS Margins.</p>"
   ],
   "CSS Padding": [
-    "<h2 style='text-align: center;'>CSS Padding</h2><p>Placeholder text for CSS Padding.</p>"
+    "<h2 style='text-align: center;'>CSS Padding</h2>",
+    "<li>The CSS padding properties create space around an element's content, inside any defined borders. Here’s a breakdown of how each of these properties can be used:</li>",
+    "<ol><li>Padding (<code>'padding'</code>): Sets padding for all four sides of an element.</li>",
+    "<li>Padding Top (<code>'padding'</code>):Sets padding for the top side of an element.</li>",
+    "<li>Padding Right (<code>'padding-right'</code>): Sets padding for the right side of an element.</li>",
+    "<li>Padding Bottom (<code>'padding-bottom'</code>):Sets padding for the bottom side of an element.</li>",
+    "<li>Padding Left (<code>'padding-left'</code>): Sets padding for the left side of an element.</li></ol>",
+    "<li>we can also specify padding for individual sides using the padding shorthand property with multiple values:</li>",
+    "<ol><li><code>padding: 10px 20px 30px 40px;  ==> 10px top, 20px right, 30px bottom, 40px left</code></li>",
+    "<li><code>padding: 10px 20px 30px;  ==> 10px top, 20px left and right, 30px bottom </code></li>",
+    "<li><code>padding: 10px 20px;  ==> 10px top and bottom, 20px left and right </code></li></ol>",
   ],
   "CSS Height/Width": [
     "<h2 style='text-align: center;'>CSS Height/Width</h2><p>Placeholder text for CSS Height/Width.</p>"
