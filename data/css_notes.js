@@ -77,7 +77,18 @@ const css = {
     "<h2 style='text-align: center;'>CSS Backgrounds</h2><p>Placeholder text for CSS Backgrounds.</p>"
   ],
   "CSS Borders": [
-    "<h2 style='text-align: center;'>CSS Borders</h2><p>Placeholder text for CSS Borders.</p>"
+    "<h2 style='text-align: center;'>CSS Borders</h2>",
+    "<li>CSS border properties allow you to style the borders of HTML elements by setting the style, width and color. Here's an overview of how each of these properties can be used:</li>",
+    "<ol><li>Border Style (<code>'border-style'</code>): This property specifies the line style of the border</li>",
+    "<li>Border Width (<code>'border-width'</code>): This property sets the width of the border.</li>",
+    "<li>Border Color (<code>'border-color'</code>): This property sets the color of the border.</li></ol>",
+    "<li>there are also properties for specifying each of the borders individually (top, right, bottom, and left) for example:</li>",
+    "<ol><li>Width (<code>'border-top-style'</code>)</li>",
+    "<li>Style (<code>'border-top-style'</code>)</li>",
+    "<li>Color (<code>'border-top-color'</code>)</li></ol>",
+    "<li>To shorten the code, it is also possible to specify all the individual border properties in one property.</li>",
+    "<li>The <code>'border'</code> property is a shorthand property for the following individual border properties</li>",
+
   ],
   "CSS Margins": [
     "<h2 style='text-align: center;'>CSS Margins</h2><p>Placeholder text for CSS Margins.</p>"
