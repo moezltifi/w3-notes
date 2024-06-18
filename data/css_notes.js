@@ -88,6 +88,7 @@ const css = {
     "<li>Color (<code>'border-top-color'</code>)</li></ol>",
     "<li>To shorten the code, it is also possible to specify all the individual border properties in one property.</li>",
     "<li>The <code>'border'</code> property is a shorthand property for the following individual border properties</li>",
+    "<li>The <code>'border-radius'</code> property is used to add rounded borders to an element</li>",
 
   ],
   "CSS Margins": [
