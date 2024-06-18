@@ -119,7 +119,16 @@ const css = {
     "<li><code>padding: 10px 20px;  ==> 10px top and bottom, 20px left and right </code></li></ol>",
   ],
   "CSS Height/Width": [
-    "<h2 style='text-align: center;'>CSS Height/Width</h2><p>Placeholder text for CSS Height/Width.</p>"
+    "<h2 style='text-align: center;'>CSS Height/Width</h2>",
+    "<li>Description; the <code>'height'</code> propertie Sets the height of an element's content area. This does not include padding, borders, or margins.</li>",
+    "<li>Description; the <code>'width'</code> propertie Sets the width of an element's content area. This does not include padding, borders, or margins.</li>",
+    "<li>Possible Values:</li>",
+    "<ol><li><code>'auto'</code>:Default behavior: The browser calculates the height/width based on the element's content, or as dictated by other CSS properties.</li>",
+    "<li><code>'length'</code>:Sets the height/width to a specific length in pixels, ems, rems, centimeters, etc.</li>",
+    "<li><code>'%'</code>:Sets the height/width as a percentage of the height/width of the containing block</li>",
+    "<li><code>'initial'</code>: Sets the height/width to its default value as defined by the browser.</li>",
+    "<li><code>'inherit'</code>: Inherits the height/width from its parent element</li></ol>",
+
   ],
   "CSS Box Model": [
     "<h2 style='text-align: center;'>CSS Box Model</h2><p>Placeholder text for CSS Box Model.</p>"
