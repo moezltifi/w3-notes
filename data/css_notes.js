@@ -91,7 +91,17 @@ const css = {
 
   ],
   "CSS Margins": [
-    "<h2 style='text-align: center;'>CSS Margins</h2><p>Placeholder text for CSS Margins.</p>"
+    "<h2 style='text-align: center;'>CSS Margins</h2>",
+    "<li>The CSS margin properties create space around elements, outside of any defined borders. Here’s a breakdown of how each of these properties can be used:</li>",
+    "<ol><li>Margin (<code>'margin'</code>): Sets margin for all four sides of an element.</li>",
+    "<li>Margin Top (<code>'margin-top'</code>):Sets margin for the top side of an element.</li>",
+    "<li>Margin Right (<code>'margin-right'</code>): Sets margin for the right side of an element.</li>",
+    "<li>Margin Bottom (<code>'margin-bottom'</code>):Sets margin for the bottom side of an element.</li>",
+    "<li>Margin Left (<code>'margin-left'</code>): Sets margin for the left side of an element.</li></ol>",
+    "<li>we can also specify margin for individual sides using the margin shorthand property with multiple values:</li>",
+    "<ol><li><code>margin: 10px 20px 30px 40px;  ==> 10px top, 20px right, 30px bottom, 40px left</code></li>",
+    "<li><code>margin: 10px 20px 30px;  ==> 10px top, 20px left and right, 30px bottom </code></li>",
+    "<li><code>margin: 10px 20px;  ==> 10px top and bottom, 20px left and right </code></li></ol>",
   ],
   "CSS Padding": [
     "<h2 style='text-align: center;'>CSS Padding</h2>",
