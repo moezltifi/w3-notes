@@ -102,6 +102,8 @@ const css = {
     "<ol><li><code>margin: 10px 20px 30px 40px;  ==> 10px top, 20px right, 30px bottom, 40px left</code></li>",
     "<li><code>margin: 10px 20px 30px;  ==> 10px top, 20px left and right, 30px bottom </code></li>",
     "<li><code>margin: 10px 20px;  ==> 10px top and bottom, 20px left and right </code></li></ol>",
+    "<li>Syntax: <code>margin: auto;</code></li>",
+    "<li>Description: The auto value is typically used in block-level elements to horizontally center them within their containing element. When applied to the left and right margins, it takes up the remaining space equally, effectively centering the element.</li>",
   ],
   "CSS Padding": [
     "<h2 style='text-align: center;'>CSS Padding</h2>",
