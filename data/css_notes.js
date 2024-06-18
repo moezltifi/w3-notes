@@ -159,8 +159,18 @@ const css = {
   "CSS Display": [
     "<h2 style='text-align: center;'>CSS Display</h2><p>Placeholder text for CSS Display.</p>"
   ],
-  "CSS Max-width": [
-    "<h2 style='text-align: center;'>CSS Max-width</h2><p>Placeholder text for CSS Max-width.</p>"
+  "CSS Max-Min-width": [
+    "<h2 style='text-align: center;'>CSS Max-Min-width</h2>",
+    "<li>Let's delve into the max-width and min-width properties in CSS, which are used to control the maximum and minimum widths of elements.</li>",
+    "<li>Max width:</li>",
+    "<ol><li><strong>Syntax</strong>: <code>max-width: value;</code></li>",
+    "<li><strong>Description</strong>: Sets the maximum width that an element can have.</li>",
+    "<li><strong>Usage</strong>: This property is particularly useful in responsive web design to prevent elements from becoming wider than a specified size, ensuring that layouts remain readable and maintainable across different screen sizes.</li></ol>",
+    "<li>Min width:</li>",
+    "<ol><li><strong>Syntax</strong>: <code>min-width: value;</code></li>",
+    "<li><strong>Description</strong>: Sets the minimum width that an element can have.</li>",
+    "<li><strong>Usage</strong>:This is useful when you want to ensure that elements have a minimum width to accommodate content or maintain layout consistency.</li></ol>",
+
   ],
   "CSS Position": [
     "<h2 style='text-align: center;'>CSS Position</h2><p>Placeholder text for CSS Position.</p>"
