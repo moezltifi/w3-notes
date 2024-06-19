@@ -146,6 +146,10 @@ const css = {
     "<li>The direction property in CSS specifies the text direction within a block-level element. It can  be set to various values, such as:</li>",
     "<ol><li><code>'ltr'</code>: Text direction goes from left-to-right. This is default</li>",
     "<li><code>'rtl'</code>: Text direction goes from right-to-left</li></ol>",
+    "<li>The <code>text-transform</code> property is used to control the capitalization of text. It can make text appear in uppercase, lowercase, capitalize the first letter of each word, and more. Here are some possible values for the text-transform property:</li>",
+    "<ol><li><code>'capitalize'</code>: Transforms the first character of each word to uppercase.</li>",
+    "<li><code>'uppercase'</code>uppercase: Transforms all characters to uppercase.</li>",
+    "<li><code>'lowercase'</code>: Transforms all characters to lowercase.</li></ol>",
   ],
   "CSS Fonts": [
     "<h2 style='text-align: center;'>CSS Fonts</h2><p>Placeholder text for CSS Fonts.</p>"
