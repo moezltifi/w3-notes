@@ -148,7 +148,7 @@ const css = {
     "<li><code>'rtl'</code>: Text direction goes from right-to-left</li></ol>",
     "<li>The <code>text-transform</code> property is used to control the capitalization of text. It can make text appear in uppercase, lowercase, capitalize the first letter of each word, and more. Here are some possible values for the text-transform property:</li>",
     "<ol><li><code>'capitalize'</code>: Transforms the first character of each word to uppercase.</li>",
-    "<li><code>'uppercase'</code>uppercase: Transforms all characters to uppercase.</li>",
+    "<li><code>'uppercase'</code> Transforms all characters to uppercase.</li>",
     "<li><code>'lowercase'</code>: Transforms all characters to lowercase.</li></ol>",
     "<li>There are several properties related to spacing that control how text is displayed. These include properties for managing the space between letters, words, and lines. Here are the properties:</li>",
     "<ol><li><code>'letter-spacing'</code>: Controls the space between characters in a text.</li>",
