@@ -154,6 +154,11 @@ const css = {
     "<ol><li><code>'letter-spacing'</code>: Controls the space between characters in a text.</li>",
     "<li><code>'word-spacing'</code>: Controls the space between words in a text.</li>",
     "<li><code>'line-height'</code>: Controls the space between lines of text</li></ol>",
+    "<li>The 'text-decoration' property is used to add decorative elements to text, It can be used to set multiple decorations at once and control their styles such as:</li>",
+    "<ol><li><code>'text-decoration-line'</code>:Specifies what kind of line decoration should be applied to the text (example: underline, overline, line-through).</li>",
+    "<li><code>'text-decoration-style'</code>: Specifies the style of the line (example: solid, double, dotted, dashed, wavy).</li>",
+    "<li><code>'text-decoration-color'</code>: Specifies the color of the line decoration.</li>",
+    "<li><code>'text-decoration'</code>: A shorthand property that can combine the above properties.</li></ol>",
   ],
   "CSS Fonts": [
     "<h2 style='text-align: center;'>CSS Fonts</h2><p>Placeholder text for CSS Fonts.</p>"
