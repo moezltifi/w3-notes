@@ -74,7 +74,20 @@ const css = {
     "<h2 style='text-align: center;'>CSS Colors</h2><p>Placeholder text for CSS Colors.</p>"
   ],
   "CSS Backgrounds": [
-    "<h2 style='text-align: center;'>CSS Backgrounds</h2><p>Placeholder text for CSS Backgrounds.</p>"
+    "<h2 style='text-align: center;'>CSS Backgrounds</h2>",
+    "<li>The CSS background properties are used to add background effects for elements such as:</li>",
+    "<ol><li>The <code>'background-color</code>: property specifies the background color of an element.</li>",
+    "<li>The <code>'background-image'</code>: property specifies an image to use as the background of an element.</li>",
+    "<li>By default, the<code>'background-image'</code>:  property repeats an image both horizontally and vertically that is why we can use:</li>",
+          "<ol type='a'><li>The <code>'background-repeat: no-repeat'</code>: To show the background image only once.</li>",
+          "<li>The <code>'background-repeat: repeat-x'</code>: To repeat an image horizontally.</li>",
+          "<li>The <code>'background-repeat: repeat-y'</code>: To repeat an image vertically.</li></ol>",
+    "<li>The <code>'background-size'</code>: property specifies the size of the background images(example: cover, contain , ect...)</li>",
+    "<li>The <code>'background-origin'</code>: specifies the origin position of an element's background image (example: border-box, padding-box, ect...).</li>",
+    "<li>The <code>'background-position'</code>: property is used to specify the position of the background image (example: left, top , ect...)</li>",
+    "<li><code>'background'</code>: A shorthand property that can combine the above properties.</li></ol>",
+    "<li>CSS gradients let you display smooth transitions between two or more specified colors.</li>",
+    "<li><code>background-image: linear-gradient(direction, color1, color2, ...);</code></li>",
   ],
   "CSS Borders": [
     "<h2 style='text-align: center;'>CSS Borders</h2>",
