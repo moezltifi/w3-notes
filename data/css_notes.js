@@ -150,6 +150,10 @@ const css = {
     "<ol><li><code>'capitalize'</code>: Transforms the first character of each word to uppercase.</li>",
     "<li><code>'uppercase'</code>uppercase: Transforms all characters to uppercase.</li>",
     "<li><code>'lowercase'</code>: Transforms all characters to lowercase.</li></ol>",
+    "<li>There are several properties related to spacing that control how text is displayed. These include properties for managing the space between letters, words, and lines. Here are the properties:</li>",
+    "<ol><li><code>'letter-spacing'</code>: Controls the space between characters in a text.</li>",
+    "<li><code>'word-spacing'</code>: Controls the space between words in a text.</li>",
+    "<li><code>'line-height'</code>: Controls the space between lines of text</li></ol>",
   ],
   "CSS Fonts": [
     "<h2 style='text-align: center;'>CSS Fonts</h2><p>Placeholder text for CSS Fonts.</p>"
