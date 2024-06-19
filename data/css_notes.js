@@ -159,6 +159,8 @@ const css = {
     "<li><code>'text-decoration-style'</code>: Specifies the style of the line (example: solid, double, dotted, dashed, wavy).</li>",
     "<li><code>'text-decoration-color'</code>: Specifies the color of the line decoration.</li>",
     "<li><code>'text-decoration'</code>: A shorthand property that can combine the above properties.</li></ol>",
+    "<li>The <code>'text-shadow'</code>:  property adds shadow to text.</li>",
+    "<li>In simplest usage, you can just specify a horizontal shadow (2px), a vertical shadow (2px) and a color to the shadow:</li>",
   ],
   "CSS Fonts": [
     "<h2 style='text-align: center;'>CSS Fonts</h2><p>Placeholder text for CSS Fonts.</p>"
