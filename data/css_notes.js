@@ -140,7 +140,12 @@ const css = {
     "<h2 style='text-align: center;'>CSS Outline</h2><p>Placeholder text for CSS Outline.</p>"
   ],
   "CSS Text": [
-    "<h2 style='text-align: center;'>CSS Text</h2><p>Placeholder text for CSS Text.</p>"
+    "<h2 style='text-align: center;'>CSS Text</h2>",
+    "<li>The 'text-align' property is used to define the horizontal alignment of text. It only works with block elements.</li>",
+    "<li>A text can be left or right aligned or centered</li>",
+    "<li>The direction property in CSS specifies the text direction within a block-level element. It can  be set to various values, such as:</li>",
+    "<ol><li><code>'ltr'</code>: Text direction goes from left-to-right. This is default</li>",
+    "<li><code>'rtl'</code>: Text direction goes from right-to-left</li></ol>",
   ],
   "CSS Fonts": [
     "<h2 style='text-align: center;'>CSS Fonts</h2><p>Placeholder text for CSS Fonts.</p>"
