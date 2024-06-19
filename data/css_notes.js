@@ -163,7 +163,14 @@ const css = {
     "<li>In simplest usage, you can just specify a horizontal shadow (2px), a vertical shadow (2px) and a color to the shadow:</li>",
   ],
   "CSS Fonts": [
-    "<h2 style='text-align: center;'>CSS Fonts</h2><p>Placeholder text for CSS Fonts.</p>"
+    "<h2 style='text-align: center;'>CSS Fonts</h2>",
+    "<li>Here are some ways you can use CSS to apply fonts to your web pages:</li>",
+    "<ol><li>The <code>'font-size'</code>: property sets the size of the font we can use units like em, rem, %, vw, and vh.</li>",
+    "<li>The <code>'font-weigth'</code>: property sets the weight (or boldness) of the font we can use numeric values ranging from 100 to 900.</li>",
+    "<li>The <code>'font-variant'</code>: property is used to display text in a small-caps font</li>",
+    "<li>The <code>'font-family'</code>: property is used to specify the font for text content.</li>",
+    "<li>The <code>'font-style'</code>: property specifies whether the font should be italic, oblique, or normal.</li>",
+    "<li><code>'font'</code>: A shorthand property that can combine the above properties.</li></ol>",
   ],
   "CSS Icons": [
     "<h2 style='text-align: center;'>CSS Icons</h2><p>Placeholder text for CSS Icons.</p>"
