@@ -195,7 +195,11 @@ const css = {
     "<h2 style='text-align: center;'>CSS Links</h2><p>Placeholder text for CSS Links.</p>"
   ],
   "CSS Lists": [
-    "<h2 style='text-align: center;'>CSS Lists</h2><p>Placeholder text for CSS Lists.</p>"
+    "<h2 style='text-align: center;'>CSS Lists</h2>",
+    "<li> the list-style property is used to specify the style, type, position, and image for list items in ordered and unordered lists. Here are the sub-properties of list-style:</li>",
+    "<ol><li> <code>'list-style-type'</code>:Specifies the type of list item marker (example: disc, circle, square, decimal, lower-roman, none).</li>",
+    "<li> <code>'list-style-position'</code>: Specifies the position of the list item markers (example: inside or outside).</li>",
+    "<li> <code>'list-style-image'</code>: Specifies an image as the list item marker.</li></ol>",
   ],
   "CSS Tables": [
     "<h2 style='text-align: center;'>CSS Tables</h2><p>Placeholder text for CSS Tables.</p>"
@@ -249,7 +253,7 @@ const css = {
     "<ol><li> <code>'visible'</code>: Default. The overflow is not clipped. The content renders outside the element's box.</li>",
     "<li> <code>'hidden'</code>: The overflow is clipped, and the rest of the content will be invisible.</li>",
     "<li> <code>'scroll'</code>: The overflow is clipped, and a scrollbar is added to see the rest of the content.</li>",
-    "<li> <code>'auto'</code>: Similar to scroll, but it adds scrollbars only when necessary§.</li></ol>",
+    "<li> <code>'auto'</code>: Similar to scroll, but it adds scrollbars only when necessary.</li></ol>",
   ],
   "CSS Float": [
     "<h2 style='text-align: center;'>CSS Float</h2>",
