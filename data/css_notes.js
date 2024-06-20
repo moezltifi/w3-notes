@@ -300,7 +300,15 @@ const css = {
     "<li> <code>':focus'</code>: Selects the &lt;input&gt; element that has focus</li></ol>",
   ],
   "CSS Pseudo-element": [
-    "<h2 style='text-align: center;'>CSS Pseudo-element</h2><p>Placeholder text for CSS Pseudo-element.</p>"
+    "<h2 style='text-align: center;'>CSS Pseudo-element</h2>",
+    "<li>A CSS pseudo-element is used to style specified parts of an element.</li>",
+    "<li>For example, it can be used to:</li>",
+    "<ol><li> <code>'::first-line'</code>:	Selects the first line of each &lt;p&gt; element.</li>",
+    "<li> <code>'::first-letter'</code>: Selects the first letter of each &lt;p&gt; element.</li>",
+    "<li> <code>'::selection'</code>:	Selects the portion of an element that is selected by a user.</li>",
+    "<li> <code>'::before'</code>: Insert something before the content of each &lt;p&gt; element.</li>",
+    "<li> <code>'::after'</code>:	Insert something after the content of each &lt;p&gt; element.</li></ol>",
+ 
   ],
   "CSS Opacity": [
     "<h2 style='text-align: center;'>CSS Opacity</h2><p>Placeholder text for CSS Opacity.</p>"
