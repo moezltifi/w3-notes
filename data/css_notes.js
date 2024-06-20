@@ -238,7 +238,10 @@ const css = {
     "<li> <code>'sticky'</code>: Sticky positioning is a hybrid of relative and fixed positioning. A sticky element switches between relative and fixed positioning depending on the user's scroll position.</li></ol>",
   ],
   "CSS Z-index": [
-    "<h2 style='text-align: center;'>CSS Z-index</h2><p>Placeholder text for CSS Z-index.</p>"
+    "<h2 style='text-align: center;'>CSS Z-index</h2>",
+    "<li>The z-index property specifies the stack order of an element, it can have a positive or negative stack order:</li>",
+    "<li>If two positioned elements overlap each other without a z-index specified, the element defined last in the HTML code will be shown on top.</li>",
+    "<li>z-index only works on positioned elements and flex items</li>",
   ],
   "CSS Overflow": [
     "<h2 style='text-align: center;'>CSS Overflow</h2>",
