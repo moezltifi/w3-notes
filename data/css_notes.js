@@ -284,7 +284,20 @@ const css = {
     "<h2 style='text-align: center;'>CSS Combinators</h2><p>Placeholder text for CSS Combinators.</p>"
   ],
   "CSS Pseudo-class": [
-    "<h2 style='text-align: center;'>CSS Pseudo-class</h2><p>Placeholder text for CSS Pseudo-class.</p>"
+    "<h2 style='text-align: center;'>CSS Pseudo-class</h2>",
+    "<li>A pseudo-class is used to define a special state of an element.</li>",
+    "<li>For example, it can be used to:</li>",
+    "<ol><li> <code>':active'</code>:	Selects the active link.</li>",
+    "<li> <code>':hover'</code>: Selects links on mouse over</li>",
+    "<li> <code>':visited'</code>: Selects all visited links.</li>",
+    "<li> <code>':link'</code>: Selects all unvisited links.</li>",
+    "<li> <code>':disabled'</code>: Selects every disabled &lt;input&gt; element.</li>",
+    "<li> <code>':enabled'</code>: Selects every enabled &lt;input&gt; element.</li>",
+    "<li> <code>':empty'</code>:	Selects every &lt;p&gt; element that has no children.</li>",
+    "<li> <code>':required'</code>:	Selects &lt;input&gt; elements with a 'required' attribute specified.</li>",
+    "<li> <code>':invalid'</code>:	Selects all &lt;input&gt; elements with an invalid value.</li>",
+    "<li> <code>'::checked'</code>:	Selects every checked &lt;input&gt; element.</li>",
+    "<li> <code>':focus'</code>: Selects the &lt;input&gt; element that has focus</li></ol>",
   ],
   "CSS Pseudo-element": [
     "<h2 style='text-align: center;'>CSS Pseudo-element</h2><p>Placeholder text for CSS Pseudo-element.</p>"
