@@ -229,18 +229,24 @@ const css = {
     "<li><strong>Usage</strong>:It is frequently used to prevent elements from becoming too small, especially when there's a need to maintain a minimum height for consistent layout.</li></ol>",
   ],
   "CSS Position": [
-    "<h2 style='text-align: center;'>CSS Position</h2><p>Placeholder text for CSS Position.</p>"
+    "<h2 style='text-align: center;'>CSS Position</h2>",
+    "<li>The position property specifies the type of positioning method used for an element there are five different position values:</li>",
+    "<ol><li> <code>'static'</code>: This is the default positioning for all elements. Elements are positioned according to the normal flow of the document. top, right, bottom, and left properties have no effect.</li>",
+    "<li> <code>'relative'</code>: is positioned relative to its normal position. Setting top, right, bottom, and left will move the element away from its original position.</li>",
+    "<li> <code>'fixed'</code>: is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.</li>",
+    "<li> <code>'absolute'</code>: is positioned element is removed from the normal document flow and positioned relative to its nearest positioned ancestor.</li>",
+    "<li> <code>'sticky'</code>: Sticky positioning is a hybrid of relative and fixed positioning. A sticky element switches between relative and fixed positioning depending on the user's scroll position.</li></ol>",
   ],
   "CSS Z-index": [
     "<h2 style='text-align: center;'>CSS Z-index</h2><p>Placeholder text for CSS Z-index.</p>"
   ],
   "CSS Overflow": [
     "<h2 style='text-align: center;'>CSS Overflow</h2>",
-    "<li>The CSS overflow property controls what happens to content that is too big to fit into an area it has the following values </li>",
+    "<li>The CSS overflow property controls what happens to content that is too big to fit into an area it has the following values:</li>",
     "<ol><li> <code>'visible'</code>: Default. The overflow is not clipped. The content renders outside the element's box.</li>",
     "<li> <code>'hidden'</code>: The overflow is clipped, and the rest of the content will be invisible.</li>",
     "<li> <code>'scroll'</code>: The overflow is clipped, and a scrollbar is added to see the rest of the content.</li>",
-    "<li> <code>'auto'</code>: Similar to scroll, but it adds scrollbars only when necessary.</li></ol>",
+    "<li> <code>'auto'</code>: Similar to scroll, but it adds scrollbars only when necessary§.</li></ol>",
   ],
   "CSS Float": [
     "<h2 style='text-align: center;'>CSS Float</h2>",
