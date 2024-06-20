@@ -235,7 +235,12 @@ const css = {
     "<h2 style='text-align: center;'>CSS Z-index</h2><p>Placeholder text for CSS Z-index.</p>"
   ],
   "CSS Overflow": [
-    "<h2 style='text-align: center;'>CSS Overflow</h2><p>Placeholder text for CSS Overflow.</p>"
+    "<h2 style='text-align: center;'>CSS Overflow</h2>",
+    "<li>The CSS overflow property controls what happens to content that is too big to fit into an area it has the following values </li>",
+    "<ol><li> <code>'visible'</code>: Default. The overflow is not clipped. The content renders outside the element's box.</li>",
+    "<li> <code>'hidden'</code>: The overflow is clipped, and the rest of the content will be invisible.</li>",
+    "<li> <code>'scroll'</code>: The overflow is clipped, and a scrollbar is added to see the rest of the content.</li>",
+    "<li> <code>'auto'</code>: Similar to scroll, but it adds scrollbars only when necessary.</li></ol>",
   ],
   "CSS Float": [
     "<h2 style='text-align: center;'>CSS Float</h2>",
