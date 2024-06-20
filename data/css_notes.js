@@ -87,7 +87,10 @@ const css = {
     "<li>The <code>'background-position'</code>: property is used to specify the position of the background image (example: left, top , ect...)</li>",
     "<li><code>'background'</code>: A shorthand property that can combine the above properties.</li></ol>",
     "<li>CSS gradients let you display smooth transitions between two or more specified colors.</li>",
+    "<li>To create a linear gradient you must define at least two color.</li>",
     "<li><code>background-image: linear-gradient(direction, color1, color2, ...);</code></li>",
+    "<li>A radial gradient is defined by its center..</li>",
+    "<li><code>background-image: radial-gradient(shape size at position, start-color, ..., last-color);</code>: By default, shape is ellipse, size is farthest-corner, and position is center</li>",
   ],
   "CSS Borders": [
     "<h2 style='text-align: center;'>CSS Borders</h2>",
