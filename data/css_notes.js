@@ -238,7 +238,18 @@ const css = {
     "<h2 style='text-align: center;'>CSS Overflow</h2><p>Placeholder text for CSS Overflow.</p>"
   ],
   "CSS Float": [
-    "<h2 style='text-align: center;'>CSS Float</h2><p>Placeholder text for CSS Float.</p>"
+    "<h2 style='text-align: center;'>CSS Float</h2>",
+    "<li>The float property in CSS is used to position an element to the left or right within its container, allowing other content to wrap around it. This is commonly used to create layouts where text wraps around images it can has the following values: </li>",
+    "<ol><li> <code>'left'</code>: The element floats to the left of its container</li>",
+    "<li> <code>'right'</code>: The element floats to the right of its container</li>",
+    "<li> <code>'none'</code>: Default value. The element does not float.</li>",
+    "<li> <code>'inherit'</code>: The element inherits the float value of its parent.</li></ol>",
+    "<li>The clear property in CSS is used to control the behavior of an element with respect to floating elements that precede it in the document it can has the following values:</li>",
+    "<ol><li> <code>'left'</code>: The element must be moved down until it is below any preceding left-floated elements.</li>",
+    "<li> <code>'right'</code>: The element must be moved down until it is below any preceding right-floated elements.</li>",
+    "<li> <code>'none'</code>: Default value. The element is not moved down to clear past floats.</li>",
+    "<li> <code>'both'</code>: The element must be moved down until it is below any preceding left-floated and right-floated elements.</li></ol>",
+
   ],
   "CSS Inline-block": [
     "<h2 style='text-align: center;'>CSS Inline-block</h2><p>Placeholder text for CSS Inline-block.</p>"
