@@ -202,7 +202,12 @@ const css = {
     "<li> <code>'list-style-image'</code>: Specifies an image as the list item marker.</li></ol>",
   ],
   "CSS Tables": [
-    "<h2 style='text-align: center;'>CSS Tables</h2><p>Placeholder text for CSS Tables.</p>"
+    "<h2 style='text-align: center;'>CSS Tables</h2>",
+    "<li>To specify table borders in CSS, use the border property.</li>",
+    "<li>The width and height of a table are defined by the width and height properties.</li>",
+    "<li>The text-align property sets the horizontal alignment (like left, right, or center) of the content in &lt;th&gt; or &lt;td&gt;.  </li>",
+    "<li>To control the space between the border and the content in a table, use the padding property on &lt;td&gt; and &lt;th&gt; elements:</li>",
+    "<li>Add a container element (like &lt;div&gt;) with overflow-x:auto around the &lt;table&gt; element to make it responsive:</li>",
   ],
   "CSS Display": [
     "<h2 style='text-align: center;'>CSS Display</h2><p>Placeholder text for CSS Display.</p>"
