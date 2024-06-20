@@ -317,7 +317,16 @@ const css = {
     "<h2 style='text-align: center;'>CSS Website Layout</h2><p>Placeholder text for CSS Website Layout.</p>"
   ],
   "CSS Units": [
-    "<h2 style='text-align: center;'>CSS Units</h2><p>Placeholder text for CSS Units.</p>"
+    "<h2 style='text-align: center;'>CSS Units</h2>",
+    "<li>CSS has several different units for expressing a length.</li>",
+    "<li>Many CSS properties take 'length' values, such as width, margin, padding, font-size, etc.</li>",
+    "<li>Length is a number followed by a length unit, such as:</li>",
+    "<ol><li> <code>'px'</code>: pixel.</li>",
+    "<li> <code>'cm'</code>:Centimeters .</li>",
+    "<li> <code>'mm'</code>:Millimeters.</li>",
+    "<li> <code>'in'</code>:inch.</li>",
+    "<li> <code>'%'</code>:	Relative to the parent element .</li>",
+    "<li> <code>'em'</code>: Relative to the font-size of the element .</li></ol>",
   ],
   "CSS Specificity": [
     "<h2 style='text-align: center;'>CSS Specificity</h2><p>Placeholder text for CSS Specificity.</p>"
