@@ -8,7 +8,7 @@ const css = {
     "<ul><li>Inline - by using the style attribute inside HTML elements.</li>",
     "<li>Internal - by using a &lt;style&gt; element in the &lt;head&gt; section.</li>",
     "<li>External - by using an external CSS file.</li></ul>",
-    "<li>The purpose of CSS is to separate the content of a web page from its style and layout, making the content more accessible and the layout more flexible.</li>"
+    "<li>The purpose of CSS is to separate the content of a web page from its style and layout, making the content more accessible and the layout more flexible.</li>",
   ],
   "CSS Syntax": [
     "<h2 style='text-align: center;'>CSS Syntax</h2>",
@@ -18,7 +18,7 @@ const css = {
     "<li>Each declaration includes a CSS property name and a value, separated by a colon.</li>",
     "<li>Example of a CSS rule:</li>",
     "<code>p { color: red; font-size: 20px; }</code>",
-    "<li>In this example, <code>p</code> is the selector, <code>color: red</code> and <code>font-size: 20px</code> are declarations.</li>"
+    "<li>In this example, <code>p</code> is the selector, <code>color: red</code> and <code>font-size: 20px</code> are declarations.</li>",
   ],
   "CSS Selectors": [
     "<h2 style='text-align: center;'>CSS Selectors</h2>",
@@ -62,7 +62,23 @@ const css = {
     <code>   
     selector selectorselector{
       font-size : 2em;
-    }</code></ul>`
+    }</code></ul>`,
+    "<li>The sibling selector is a CSS selector used to select elements that share the same parent and come after a specified element. There are two types of sibling selectors in CSS:</li>",
+    "<ol><li>Adjacent Sibling Selector (+): Selects the element that is immediately next to a specified element.</li>",
+    "<li>General Sibling Selector (~): Selects all elements that are siblings of a specified element and come after it.</li></ol>",
+    "<li>The sibling selector is a CSS selector used to select elements that share the same parent and come after a specified element. There are two types of sibling selectors in CSS:</li>",
+    "<ol><li>Adjacent Sibling Selector (+): Selects the element that is immediately next to a specified element.</li>",
+    "<li>General Sibling Selector (~): Selects all elements that are siblings of a specified element and come after it.</li></ol>",
+    "<li>Attribute selectors in CSS allow you to select elements based on the presence or value of their attributes</li>",
+    "<ol><li><code>[attr]{}</code>:Selects elements with a specific attribute.</li>",
+    "<li><code>[attr^='value'] {}</code>:Selects elements with an attribute that starts with a specified value.</li>",
+    "<li><code>[attr$='value'] {}</code>:Selects elements with an attribute that ends with a specified value.</li>",
+    "<li><code>[attr*='value'] {}</code>:Selects elements with an attribute that containing a specified value.</li>",
+    "<li><code>[attr~='value'] {}</code>:Selects elements with an attribute that containing a specified word.</li>",
+    "<li><code>[attr='value'] {}</code>:Selects elements with an attribute with a specified value.</li>",
+    "<li><code>element[attr='value' i]{}</code>:Selects elements with a specific attribute that contain a specified value while removing case sensitive.</li>",
+    "<li><code>element[attr]{}</code>:Selects elements with a specific attribute.</li>",
+    "<li><code>element[attr='value']{}</code>:Selects elements with a specific attribute that contain a specified value.</li></ol>",
   ],
   "CSS Comments": [
     "<h2 style='text-align: center;'>CSS Comments</h2>",
@@ -71,7 +87,7 @@ const css = {
     "<li>A CSS comment is placed inside the &lt;style&gt; element, and starts with /* and ends with */:</li>",
   ],
   "CSS Colors": [
-    "<h2 style='text-align: center;'>CSS Colors</h2><p>Placeholder text for CSS Colors.</p>"
+    "<h2 style='text-align: center;'>CSS Colors</h2><p>Placeholder text for CSS Colors.</p>",
   ],
   "CSS Backgrounds": [
     "<h2 style='text-align: center;'>CSS Backgrounds</h2>",
@@ -79,9 +95,9 @@ const css = {
     "<ol><li>The <code>'background-color</code>: property specifies the background color of an element.</li>",
     "<li>The <code>'background-image'</code>: property specifies an image to use as the background of an element.</li>",
     "<li>By default, the<code>'background-image'</code>:  property repeats an image both horizontally and vertically that is why we can use:</li>",
-          "<ol type='a'><li>The <code>'background-repeat: no-repeat'</code>: To show the background image only once.</li>",
-          "<li>The <code>'background-repeat: repeat-x'</code>: To repeat an image horizontally.</li>",
-          "<li>The <code>'background-repeat: repeat-y'</code>: To repeat an image vertically.</li></ol>",
+    "<ol type='a'><li>The <code>'background-repeat: no-repeat'</code>: To show the background image only once.</li>",
+    "<li>The <code>'background-repeat: repeat-x'</code>: To repeat an image horizontally.</li>",
+    "<li>The <code>'background-repeat: repeat-y'</code>: To repeat an image vertically.</li></ol>",
     "<li>The <code>'background-size'</code>: property specifies the size of the background images(example: cover, contain , ect...)</li>",
     "<li>The <code>'background-origin'</code>: specifies the origin position of an element's background image (example: border-box, padding-box, ect...).</li>",
     "<li>The <code>'background-position'</code>: property is used to specify the position of the background image (example: left, top , ect...)</li>",
@@ -105,7 +121,6 @@ const css = {
     "<li>To shorten the code, it is also possible to specify all the individual border properties in one property.</li>",
     "<li>The <code>'border'</code> property is a shorthand property for the following individual border properties</li>",
     "<li>The <code>'border-radius'</code> property is used to add rounded borders to an element</li>",
-
   ],
   "CSS Margins": [
     "<h2 style='text-align: center;'>CSS Margins</h2>",
@@ -147,13 +162,12 @@ const css = {
     "<li><code>'inherit'</code>: Inherits the height/width from its parent element</li>",
     "<li><code>'fit-content'</code>: is a powerful CSS feature for designing flexible and responsive layouts, offering precise control over element widths based on their content's natural size while still providing an upper limit with the maximum-size parameter.</li>",
     "<li><code>'min-content'</code>:  is used with the width and height properties to size an element based on the minimum size required to fit its content.  </li></ol>",
-
   ],
   "CSS Box Model": [
-    "<h2 style='text-align: center;'>CSS Box Model</h2><p>Placeholder text for CSS Box Model.</p>"
+    "<h2 style='text-align: center;'>CSS Box Model</h2><p>Placeholder text for CSS Box Model.</p>",
   ],
   "CSS Outline": [
-    "<h2 style='text-align: center;'>CSS Outline</h2><p>Placeholder text for CSS Outline.</p>"
+    "<h2 style='text-align: center;'>CSS Outline</h2><p>Placeholder text for CSS Outline.</p>",
   ],
   "CSS Text": [
     "<h2 style='text-align: center;'>CSS Text</h2>",
@@ -189,10 +203,10 @@ const css = {
     "<li><code>'font'</code>: A shorthand property that can combine the above properties.</li></ol>",
   ],
   "CSS Icons": [
-    "<h2 style='text-align: center;'>CSS Icons</h2><p>Placeholder text for CSS Icons.</p>"
+    "<h2 style='text-align: center;'>CSS Icons</h2><p>Placeholder text for CSS Icons.</p>",
   ],
   "CSS Links": [
-    "<h2 style='text-align: center;'>CSS Links</h2><p>Placeholder text for CSS Links.</p>"
+    "<h2 style='text-align: center;'>CSS Links</h2><p>Placeholder text for CSS Links.</p>",
   ],
   "CSS Lists": [
     "<h2 style='text-align: center;'>CSS Lists</h2>",
@@ -210,7 +224,7 @@ const css = {
     "<li>Add a container element (like &lt;div&gt;) with overflow-x:auto around the &lt;table&gt; element to make it responsive:</li>",
   ],
   "CSS Display": [
-    "<h2 style='text-align: center;'>CSS Display</h2><p>Placeholder text for CSS Display.</p>"
+    "<h2 style='text-align: center;'>CSS Display</h2><p>Placeholder text for CSS Display.</p>",
   ],
   "CSS Max-Min-width": [
     "<h2 style='text-align: center;'>CSS Max-Min-width</h2>",
@@ -223,8 +237,7 @@ const css = {
     "<ol><li><strong>Syntax</strong>: <code>min-width: value;</code></li>",
     "<li><strong>Description</strong>: Sets the minimum width that an element can have.</li>",
     "<li><strong>Usage</strong>:This is useful when you want to ensure that elements have a minimum width to accommodate content or maintain layout consistency.</li></ol>",
-
-  ],  
+  ],
   "CSS Max-Min-height": [
     "<h2 style='text-align: center;'>CSS Max-Min-height</h2>",
     "<li>Let's delve into the max-height and min-height properties in CSS, which are used to control the maximum and minimum heights of elements.</li>",
@@ -272,16 +285,15 @@ const css = {
     "<li> <code>'right'</code>: The element must be moved down until it is below any preceding right-floated elements.</li>",
     "<li> <code>'none'</code>: Default value. The element is not moved down to clear past floats.</li>",
     "<li> <code>'both'</code>: The element must be moved down until it is below any preceding left-floated and right-floated elements.</li></ol>",
-
   ],
   "CSS Inline-block": [
-    "<h2 style='text-align: center;'>CSS Inline-block</h2><p>Placeholder text for CSS Inline-block.</p>"
+    "<h2 style='text-align: center;'>CSS Inline-block</h2><p>Placeholder text for CSS Inline-block.</p>",
   ],
   "CSS Align": [
-    "<h2 style='text-align: center;'>CSS Align</h2><p>Placeholder text for CSS Align.</p>"
+    "<h2 style='text-align: center;'>CSS Align</h2><p>Placeholder text for CSS Align.</p>",
   ],
   "CSS Combinators": [
-    "<h2 style='text-align: center;'>CSS Combinators</h2><p>Placeholder text for CSS Combinators.</p>"
+    "<h2 style='text-align: center;'>CSS Combinators</h2><p>Placeholder text for CSS Combinators.</p>",
   ],
   "CSS Pseudo-class": [
     "<h2 style='text-align: center;'>CSS Pseudo-class</h2>",
@@ -308,34 +320,33 @@ const css = {
     "<li> <code>'::selection'</code>:	Selects the portion of an element that is selected by a user.</li>",
     "<li> <code>'::before'</code>: Insert something before the content of each &lt;p&gt; element.</li>",
     "<li> <code>'::after'</code>:	Insert something after the content of each &lt;p&gt; element.</li></ol>",
- 
   ],
   "CSS Opacity": [
-    "<h2 style='text-align: center;'>CSS Opacity</h2><p>Placeholder text for CSS Opacity.</p>"
+    "<h2 style='text-align: center;'>CSS Opacity</h2><p>Placeholder text for CSS Opacity.</p>",
   ],
   "CSS Navigation Bar": [
-    "<h2 style='text-align: center;'>CSS Navigation Bar</h2><p>Placeholder text for CSS Navigation Bar.</p>"
+    "<h2 style='text-align: center;'>CSS Navigation Bar</h2><p>Placeholder text for CSS Navigation Bar.</p>",
   ],
   "CSS Dropdowns": [
-    "<h2 style='text-align: center;'>CSS Dropdowns</h2><p>Placeholder text for CSS Dropdowns.</p>"
+    "<h2 style='text-align: center;'>CSS Dropdowns</h2><p>Placeholder text for CSS Dropdowns.</p>",
   ],
   "CSS Image Gallery": [
-    "<h2 style='text-align: center;'>CSS Image Gallery</h2><p>Placeholder text for CSS Image Gallery.</p>"
+    "<h2 style='text-align: center;'>CSS Image Gallery</h2><p>Placeholder text for CSS Image Gallery.</p>",
   ],
   "CSS Image Sprites": [
-    "<h2 style='text-align: center;'>CSS Image Sprites</h2><p>Placeholder text for CSS Image Sprites.</p>"
+    "<h2 style='text-align: center;'>CSS Image Sprites</h2><p>Placeholder text for CSS Image Sprites.</p>",
   ],
   "CSS Attr Selectors": [
-    "<h2 style='text-align: center;'>CSS Attr Selectors</h2><p>Placeholder text for CSS Attr Selectors.</p>"
+    "<h2 style='text-align: center;'>CSS Attr Selectors</h2><p>Placeholder text for CSS Attr Selectors.</p>",
   ],
   "CSS Forms": [
-    "<h2 style='text-align: center;'>CSS Forms</h2><p>Placeholder text for CSS Forms.</p>"
+    "<h2 style='text-align: center;'>CSS Forms</h2><p>Placeholder text for CSS Forms.</p>",
   ],
   "CSS Counters": [
-    "<h2 style='text-align: center;'>CSS Counters</h2><p>Placeholder text for CSS Counters.</p>"
+    "<h2 style='text-align: center;'>CSS Counters</h2><p>Placeholder text for CSS Counters.</p>",
   ],
   "CSS Website Layout": [
-    "<h2 style='text-align: center;'>CSS Website Layout</h2><p>Placeholder text for CSS Website Layout.</p>"
+    "<h2 style='text-align: center;'>CSS Website Layout</h2><p>Placeholder text for CSS Website Layout.</p>",
   ],
   "CSS Units": [
     "<h2 style='text-align: center;'>CSS Units</h2>",
@@ -350,12 +361,12 @@ const css = {
     "<li> <code>'em'</code>: Relative to the font-size of the element .</li></ol>",
   ],
   "CSS Specificity": [
-    "<h2 style='text-align: center;'>CSS Specificity</h2><p>Placeholder text for CSS Specificity.</p>"
+    "<h2 style='text-align: center;'>CSS Specificity</h2><p>Placeholder text for CSS Specificity.</p>",
   ],
   "CSS !important": [
-    "<h2 style='text-align: center;'>CSS !important</h2><p>Placeholder text for CSS !important.</p>"
+    "<h2 style='text-align: center;'>CSS !important</h2><p>Placeholder text for CSS !important.</p>",
   ],
   "CSS Math Functions": [
-    "<h2 style='text-align: center;'>CSS Math Functions</h2><p>Placeholder text for CSS Math Functions.</p>"
+    "<h2 style='text-align: center;'>CSS Math Functions</h2><p>Placeholder text for CSS Math Functions.</p>",
   ],
 };
