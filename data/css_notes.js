@@ -86,6 +86,17 @@ const css = {
     "<li>CSS comments are not displayed in the browser, but they can help document your source code.</li>",
     "<li>A CSS comment is placed inside the &lt;style&gt; element, and starts with /* and ends with */:</li>",
   ],
+  "CSS transforms": [
+    "<h2 style='text-align: center;'>CSS transforms</h2>",
+    "<li>CSS transforms allow you to move, rotate, scale, and skew elements.</li>",
+    "<li>With the CSS transform property we can use the following transformation methods:</li>",
+    "<ol><li>The <code>'translate()'</code>: method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).</li>",
+    "<li>The <code>'rotate()'</code>: method rotates an element clockwise or counter-clockwise according to a given degree.</li>",
+    "<li>The <code>'scale()'</code>:method increases or decreases the size of an element (according to the parameters given for the width and height).</li>",
+    "<li>The <code>'skew()'</code>:method skews an element along the X and Y-axis by the given angles.</li>",
+    "<li>The <code>'matrix()'</code>:method take six parameters, containing mathematic functions, which allows you to scale, move (translate), and skew elements.</li>",
+    "<ul><li>The parameters are as follow: <code>matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())</code>.</li></ul></ol>",
+  ], 
   "CSS Colors": [
     "<h2 style='text-align: center;'>CSS Colors</h2><p>Placeholder text for CSS Colors.</p>",
   ],
