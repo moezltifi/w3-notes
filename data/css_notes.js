@@ -321,7 +321,7 @@ const css = {
     "<li> <code>'::before'</code>: Insert something before the content of each &lt;p&gt; element.</li>",
     "<li> <code>'::after'</code>:	Insert something after the content of each &lt;p&gt; element.</li></ol>",
   ],
-  "CSS transition": [
+  "CSS Transition": [
     "<h2 style='text-align: center;'>CSS transition</h2>",
     "<li>CSS transitions allows you to change property values smoothly, over a given duration.</li>",
     "<li>Using the transition property in CSS we can use the following transition methods:</li>",
@@ -331,10 +331,21 @@ const css = {
     "<li>The <code>The transition-timing-function</code> property specifies the speed curve of the transition effect.</li>",
     "<li>Or by using the shorthand property <code>transition</code></li></ol>",
   ], 
-  "CSS transforms": [
+  "CSS Transforms": [
     "<h2 style='text-align: center;'>CSS transforms</h2>",
     "<li>CSS transforms allow you to move, rotate, scale, and skew elements.</li>",
     "<li>With the CSS transform property we can use the following transformation methods:</li>",
+    "<ol><li>The <code>'translate()'</code>: method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).</li>",
+    "<li>The <code>'rotate()'</code>: method rotates an element clockwise or counter-clockwise according to a given degree.</li>",
+    "<li>The <code>'scale()'</code>:method increases or decreases the size of an element (according to the parameters given for the width and height).</li>",
+    "<li>The <code>'skew()'</code>:method skews an element along the X and Y-axis by the given angles.</li>",
+    "<li>The <code>'matrix()'</code>:method take six parameters, containing mathematic functions, which allows you to scale, move (translate), and skew elements.</li>",
+    "<ul><li>The parameters are as follow: <code>matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())</code>.</li></ul></ol>",
+  ], 
+   "CSS Animation": [
+    "<h2 style='text-align: center;'>CSS transforms</h2>",
+    "<li>CSS animation allow us to animate our website.</li>",
+    "<li>With the CSS animation property we can use the following transformation methods:</li>",
     "<ol><li>The <code>'translate()'</code>: method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).</li>",
     "<li>The <code>'rotate()'</code>: method rotates an element clockwise or counter-clockwise according to a given degree.</li>",
     "<li>The <code>'scale()'</code>:method increases or decreases the size of an element (according to the parameters given for the width and height).</li>",
