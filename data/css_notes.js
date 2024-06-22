@@ -224,7 +224,11 @@ const css = {
     "<li>Add a container element (like &lt;div&gt;) with overflow-x:auto around the &lt;table&gt; element to make it responsive:</li>",
   ],
   "CSS Display": [
-    "<h2 style='text-align: center;'>CSS Display</h2><p>Placeholder text for CSS Display.</p>",
+    "<h2 style='text-align: center;'>CSS Display</h2>",
+    "<li>The display property is the most important CSS property for controlling layout.</li>",
+    "<li>The display property is used to specify how an element is shown on a web page.</li>",
+    "<li>Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline.</li>",
+
   ],
   "CSS Max-Min-width": [
     "<h2 style='text-align: center;'>CSS Max-Min-width</h2>",
