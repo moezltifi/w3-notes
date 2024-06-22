@@ -360,7 +360,12 @@ const css = {
     "<li><code>animation-timing-function</code> property specifies the speed curve of the animation.</li></ol>",
   ], 
   "CSS Opacity": [
-    "<h2 style='text-align: center;'>CSS Opacity</h2><p>Placeholder text for CSS Opacity.</p>",
+    "<h2 style='text-align: center;'>CSS Opacity</h2>",
+    "<li>we can change the visibility of an element using:</li>",
+    "<ol><li><code>visibility:hidden;</code>: The element will be hidden.</li>",
+    "<li>The <code>'display:none;'</code>: The element will be hidden, and the page will be displayed as if the element is not there.</li>",
+    "<li>The <code>'opoacity'</code> property can take a value from 0.0 - 1.0. The lower the value, the more transparent.</li>",
+    "<li>When using the <code>'opoacity'</code> property to add transparency to the background of an element, all of its child elements inherit the same transparency.</li></ol>",
   ],
   "CSS Navigation Bar": [
     "<h2 style='text-align: center;'>CSS Navigation Bar</h2><p>Placeholder text for CSS Navigation Bar.</p>",
