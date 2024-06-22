@@ -287,7 +287,13 @@ const css = {
     "<li> <code>'both'</code>: The element must be moved down until it is below any preceding left-floated and right-floated elements.</li></ol>",
   ],
   "CSS Inline-block": [
-    "<h2 style='text-align: center;'>CSS Inline-block</h2><p>Placeholder text for CSS Inline-block.</p>",
+    "<h2 style='text-align: center;'>CSS Inline-block</h2>",
+    "<li>Every HTML element has a default display value, depending on what type of element it is.</li>",
+    "<li>We can change this default display value using: </li>",
+    "<ol><li> <code>'display: inline'</code>: These elements change the default display value to inline </li>",
+    "<li> <code>'display: block'</code>: These elements change the default display value to block </li>",
+    "<li> <code>'display: inline-block'</code>: These elements behave like inline elements in that they do not start on a new line, but they also behave like block elements in terms of being able to set width, height, margins, and paddings.</li></ol>",
+
   ],
   "CSS Align": [
     "<h2 style='text-align: center;'>CSS Align</h2><p>Placeholder text for CSS Align.</p>",
