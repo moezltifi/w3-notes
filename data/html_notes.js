@@ -109,7 +109,7 @@ const html = {
     "<code>&lt;p&gt;I am normal &lt;/p&gt;",
     "<p>I am normal</p>",
     "&lt;p style='color:blue;'&gt;I am blue &lt;/p&gt;",
-    "<p style='color:blue;'>I am red</p>",
+    "<p style='color:blue;'>I am blue</p>",
     "&lt;p style='font-size:30px;'&gt;I am big &lt;/p&gt;</code>",
     "<p style='font-size:30px;'>I am big</p>",
   ],
