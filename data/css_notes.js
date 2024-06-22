@@ -393,7 +393,13 @@ const css = {
     "<li>justify-content: 'flex-start', 'center', 'flex-end', 'space-between', 'space-around'.</li>",
     "<li>align-items: 'flex-start', 'center', 'flex-end','baseline'.</li>",
     "<li>align-content: 'flex-start', 'center', 'flex-end', 'space-between', 'space-around'.</li>",
-
+    "<li>The flex item properties are:</li>",
+    "<ol><li>The <code>'align-self'</code> property specifies the alignment for the selected item inside the flexible container.</li>",
+    "<li>The <code>'flex-grow'</code> property specifies how much a flex item will grow relative to the rest of the flex items. The value must be a number, default value is 0.</li>",
+    "<li>The <code>'flex-shrink'</code> property specifies how much a flex item will shrink relative to the rest of the flex items. The value must be a number, default value is 1.</li>",
+    "<li>The <code>'flex-basis'</code> property specifies the initial length of a flex item. The value must be a length.</li>",
+    "<li>The <code>'flex'</code> property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.</li>",
+    "<li>The <code>'order'</code> property specifies the order of the flex items.</li></ol>",
   ],  
   "CSS Navigation Bar": [
     "<h2 style='text-align: center;'>CSS Navigation Bar</h2><p>Placeholder text for CSS Navigation Bar.</p>",
