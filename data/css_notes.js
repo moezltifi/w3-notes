@@ -351,7 +351,7 @@ const css = {
     "<li>The <code>'animation-delay'</code>:property specifies a delay for the start of an animation.</li>",
     "<li>The <code>'animation-iteration-count'</code>:property specifies the number of times an animation should run.</li>",
     "<li>The <code>'animation-direction'</code>: property specifies whether an animation should be played forwards, backwards or in alternate cycles.</li>",
-    "<ul><li><code>animation-timing-function</code> property specifies the speed curve of the animation.</li></ul></ol>",
+    "<li><code>animation-timing-function</code> property specifies the speed curve of the animation.</li></ol>",
   ], 
   "CSS Opacity": [
     "<h2 style='text-align: center;'>CSS Opacity</h2><p>Placeholder text for CSS Opacity.</p>",
