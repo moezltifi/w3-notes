@@ -319,10 +319,12 @@ const css = {
 
   ],
   "CSS Align": [
-    "<h2 style='text-align: center;'>CSS Align</h2><p>Placeholder text for CSS Align.</p>",
-  ],
-  "CSS Combinators": [
-    "<h2 style='text-align: center;'>CSS Combinators</h2><p>Placeholder text for CSS Combinators.</p>",
+    "<h2 style='text-align: center;'>CSS Align</h2>",
+    "<li>To horizontally center a block element like &lt;div&gt;, use margin: auto;.</li>",
+    "<li>To just center the text inside an element, use text-align: center;.</li>",
+    "<li>One method for aligning elements is to use position: absolute;.</li>",
+    "<li>Another method for aligning elements is to use the float property.</li>",
+    "<li>To center both vertically and horizontally, use padding and text-align: center.</li>",
   ],
   "CSS Pseudo-class": [
     "<h2 style='text-align: center;'>CSS Pseudo-class</h2>",
