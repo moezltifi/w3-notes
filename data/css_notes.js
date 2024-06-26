@@ -495,7 +495,13 @@ const css = {
     "<li> <code>'counter()'</code>: function adds the value of a counter to an element .</li></ol>",
   ],
   "CSS Website Layout": [
-    "<h2 style='text-align: center;'>CSS Website Layout</h2><p>Placeholder text for CSS Website Layout.</p>",
+    "<h2 style='text-align: center;'>CSS Website Layout</h2>",
+    "<li>A website is often divided into headers, menus, content and a footer.</li>",
+    "<li>A header is usually located at the top of the website. It often contains a logo or the website name:.</li>",
+    "<li>A navigation bar contains a list of links to help visitors navigating through your website.</li>",
+    "<li>Content contains the content of the website. It is usually located in the center of the website</li>",
+    "<li>The footer is placed at the bottom of your page. It often contains information like copyright and contact info.</li>",
+
   ],
   "CSS Units": [
     "<h2 style='text-align: center;'>CSS Units</h2>",
