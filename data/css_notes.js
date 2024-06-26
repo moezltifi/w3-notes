@@ -454,7 +454,14 @@ const css = {
     "<li> <code>@media (min-width: 1200px) {...}</code> Extra large devices</li></ol>",
   ],  
   "CSS Navigation Bar": [
-    "<h2 style='text-align: center;'>CSS Navigation Bar</h2><p>Placeholder text for CSS Navigation Bar.</p>",
+    "<h2 style='text-align: center;'>CSS Navigation Bar</h2>",
+    "<li>With CSS you can transform boring HTML menus into good-looking navigation bars.</li>",
+    "<li>A navigation bar needs standard HTML as a base.</li>",
+    "<li>A navigation bar is basically a list of links, so using the &lt;ul&gt; and &lt;li&gt; elements makes perfect sense</li>",
+    "<li>The primary purpose of a navigation bar is to provide users with a clear and easy way to navigate through the different sections of a website.</li>",
+    "<li> Navigation bars serve as a roadmap for users to navigate through the site.</li>",
+    "<li>They contain a list of links that lead to different pages or sections of the website.</li>",
+    "<li>The links can be arranged horizontally top of the page or vertically side of the page.</li>",
   ],
   "CSS Dropdowns": [
     "<h2 style='text-align: center;'>CSS Dropdowns</h2><p>Placeholder text for CSS Dropdowns.</p>",
