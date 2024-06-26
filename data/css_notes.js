@@ -216,7 +216,10 @@ const css = {
     "<li><code>'font'</code>: A shorthand property that can combine the above properties.</li></ol>",
   ],
   "CSS Icons": [
-    "<h2 style='text-align: center;'>CSS Icons</h2><p>Placeholder text for CSS Icons.</p>",
+    "<h2 style='text-align: center;'>CSS Icons</h2>",
+    "<li>The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome.</li>",
+    "<li>Add the name of the specified icon class to any inline HTML element like &lt;i&gt;</li>",
+    "<li>To use the Font Awesome icons, go to fontawesome.com, sign in, and get a code to add in the &lt;head&gt; section of your HTML page.</li>",
   ],
   "CSS Links": [
     "<h2 style='text-align: center;'>CSS Links</h2><p>Placeholder text for CSS Links.</p>",
