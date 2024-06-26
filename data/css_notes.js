@@ -173,7 +173,14 @@ const css = {
     "<li>Margin - Clears an area outside the border. The margin is transparent</li></ol>",
   ],
   "CSS Outline": [
-    "<h2 style='text-align: center;'>CSS Outline</h2><p>Placeholder text for CSS Outline.</p>",
+    "<h2 style='text-align: center;'>CSS Outline</h2>",
+    "<li>An outline is a line drawn around elements, outside the border, to make the element 'stand out'.</li>",
+    "<li>CSS has the following outline properties:</li>",
+    "<ol><li>The <code>'outline-style'</code>:property specifies the style of the outline.</li>",
+    "<li>The <code>'outline-color'</code>: Specifies the style of the line (example: solid, double, dotted, dashed, wavy).</li>",
+    "<li>The <code>'outline-width'</code>: property specifies the width of the outline.</li>",
+    "<li>The <code>'outline-offset'</code>: property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.</li>",
+    "<li>The <code>'outline'</code>: property is a shorthand property for setting outline-width, outline-style, and outline-color in one declaration</li></ol>",
   ],
   "CSS Text": [
     "<h2 style='text-align: center;'>CSS Text</h2>",
