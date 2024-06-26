@@ -39,8 +39,12 @@ const javascript = {
   "JS Comments": [
     "<h2 style='text-align: center;'>JavaScript Comments</h2><p>Placeholder text for JavaScript Comments.</p>",
   ],
-  "JS Variables": [
-    "<h2 style='text-align: center;'>JavaScript Variables</h2><p>Placeholder text for JavaScript Variables.</p>",
+  "JS Var": [
+    "<h2 style='text-align: center;'>JavaScript Var</h2>",
+    "<li>The var statement declares a variable.</li>",
+    "<li>Variables are containers for storing information.</li>",
+    "<li>Creating a variable in JavaScript is called declaring a variable.</li>",
+    "<li>After the declaration, the variable is empty.</li>",
   ],
   "JS Let": [
     "<h2 style='text-align: center;'>JavaScript Let</h2><p>Placeholder text for JavaScript Let.</p>",
@@ -58,7 +62,15 @@ const javascript = {
     "<h2 style='text-align: center;'>JavaScript Assignment</h2><p>Placeholder text for JavaScript Assignment.</p>",
   ],
   "JS Data Types": [
-    "<h2 style='text-align: center;'>JavaScript Data Types</h2><p>Placeholder text for JavaScript Data Types.</p>",
+    "<h2 style='text-align: center;'>JavaScript Data Types</h2>",
+    "<li>Here are some JavaScript data types:</li>",
+    `<ol><li>String:A string (or a text string) is a series of characters like "John Doe".Strings are written with quotes. You can use single or double quotes.</li>
+    <li>NumberAll JavaScript numbers are stored as decimal numbers. Numbers can be written with, or without decimals.</li>
+    <li>Bigint: JavaScript BigInt is a new datatype that can be used to store integer values that are too big to be represented by a normal JavaScript Number.</li>
+    <li>Boolean: Booleans can only have two values: true or false.</li>
+    <li>Undefined: In JavaScript, a variable without a value, has the value undefined. The type is also undefined.</li>
+    <li>Object types can be: objects, arrays, dates, maps and more</li></ol>`,
+
   ],
   "JS Functions": [
     "<h2 style='text-align: center;'>JavaScript Functions</h2><p>Placeholder text for JavaScript Functions.</p>",
