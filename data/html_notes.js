@@ -1,7 +1,6 @@
 const html = {
   "HTML Introduction": [
     "<h2 style='text-align: center;'>Introduction to HTML</h2>",
-    "<ul>",
     "<li>HTML stands for <span style='color:#04aa6d;'>H</span>yper<span style='color:#04aa6d;'>T</span>ext <span style='color:#04aa6d;'>M</span>arkup <span style='color:#04aa6d;'>L</span>anguage</li>",
     "<li>HTML is the standard markup language for creating web pages and web applications.</li>",
     "<li>It was created by Tim Berners-Lee in late 1991 but was not officially published until 1993.</li>",
@@ -15,11 +14,9 @@ const html = {
     "<ol><li>Front-end development</li><li>Back-end development</li></ol>",
     "<li>To build a website, it's important to understand the different types of files that compose it. Typically, a website consists of:</li>",
     "<ol><li>HTML files</li><li>CSS files</li><li>JavaScript files</li></ol>",
-    "</ul>"
   ],
   "HTML Editors": [
     "<h2 style='text-align: center;'>HTML Editors</h2>",
-    "<ul>",
     "<li>HTML editors are software programs used to create and edit HTML code.</li>",
     "<li>Popular HTML editors include:</li>",
     "<ol><li>Visual Studio Code (VS Code)</li><li>Notepad++</li><li>Sublime Text</li><li>Atom</li></ol>",
@@ -28,11 +25,9 @@ const html = {
     "<li>Using an HTML editor helps streamline the coding process and ensures more accurate and efficient code writing.</li>",
     "<li>To download and install an HTML editor like VS Code:</li>",
     "<ol><li>Visit the official website (e.g., code.visualstudio.com).</li><li>Download the installer for your operating system.</li><li>Run the installer and follow the on-screen instructions.</li><li>Open VS Code and start writing HTML code.</li></ol>",
-    "</ul>"
   ],
   "HTML Basic": [
     "<h2 style='text-align: center;'>HTML Basic</h2>",
-    "<ul>",
     "<li>The basic structure of an HTML document includes the following elements:</li>",
     "<ul><li>&lt;!DOCTYPE html&gt;: Declares the document type and version of HTML.</li>",
     "<li>&lt;html&gt;: The root element that contains all other elements.</li>",
@@ -43,11 +38,9 @@ const html = {
     "<code>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;My First HTML Page&lt;/title&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>&lt;h1&gt;Hello, World!&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;</code>",
     "<li>Each HTML element can have attributes that provide additional information about the element.</li>",
     "<li>It's important to correctly nest HTML elements to ensure the document is well-formed and renders properly in browsers.</li>",
-    "</ul>"
   ],
   "HTML Elements": [
     "<h2 style='text-align: center;'>HTML Elements</h2>",
-    "<ul>",
     "<li>An HTML document is composed of many elements</li>",
     "<li>Elements are opened and closed with tags</li>",
     "<li>For example :<code>&lt;mytagname&gt;element content&lt;/mytagname&gt;</code></li>",
@@ -58,11 +51,9 @@ const html = {
     "<li><code>&lt;img src='my-image.jpg'&gt;</code></li>",
     "<li><code>&lt;br&gt;: this is a tag used to break line</code></li>",
     "<li><code>&lt;head&gt;&lt;meta charset='utf-8'&gt;&lt;/head&gt;</code></li></ul>",
-    "</ul>"
   ],
   "HTML Attributes": [
     "<h2 style='text-align: center;'>HTML Attributes</h2>",
-    "<ul>",
     "<li>HTML attributes provide additional information about HTML elements.</li>",
     "<li>Attributes are always included in the opening tag and usually come in name/value pairs like name='value'.</li>",
     "<li>Common attributes include:</li>",
@@ -77,11 +68,9 @@ const html = {
     "<li>Attributes can also be used for accessibility purposes, such as:</li>",
     "<ul><li>alt: Provides alternative text for images.</li>",
     "<li>aria-label: Provides accessible labels for elements.</li></ul>",
-    "</ul>"
   ],
   "HTML Headings": [
     "<h2 style='text-align: center;'>HTML Headings</h2>",
-    "<ul>",
     "<li>HTML headings are designated using the &lt;h1&gt; to &lt;h6&gt; tags.</li>",
     "<li>&lt;h1&gt; denotes the largest heading, while &lt;h6&gt; represents the smallest heading.</li>",
     "<li>Example:</li>",
@@ -89,7 +78,6 @@ const html = {
     "<h1>Heading 1</h1>",
     "<code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code>",
     "<h6>Heading 6</h6>",
-    "</ul>"
   ],
   "HTML Paragraphs": [
     "<h2 style='text-align: center;'>HTML Paragraphs</h2>",
