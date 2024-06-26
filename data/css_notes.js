@@ -464,7 +464,11 @@ const css = {
     "<li>The links can be arranged horizontally top of the page or vertically side of the page.</li>",
   ],
   "CSS Dropdowns": [
-    "<h2 style='text-align: center;'>CSS Dropdowns</h2><p>Placeholder text for CSS Dropdowns.</p>",
+    "<h2 style='text-align: center;'>CSS Dropdowns</h2>",
+    "<li>Create a dropdown menu that allows the user to choose an option from a list</li>",
+    "<li>Create a dropdown box that appears when the user moves the mouse over an element for example:</li>",
+    "<li>First make the list that will appear in the drop down list as display:none;</li>",
+    "<li>Second, create the list as shown in the drop-down list as display:block; when we hover</li>",
   ],
   "CSS Image Gallery": [
     "<h2 style='text-align: center;'>CSS Image Gallery</h2><p>Placeholder text for CSS Image Gallery.</p>",
