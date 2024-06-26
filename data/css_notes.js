@@ -484,7 +484,15 @@ const css = {
     "<li>Use the :focus selector to do something with the input field when it gets focus.</li>",
   ],
   "CSS Counters": [
-    "<h2 style='text-align: center;'>CSS Counters</h2><p>Placeholder text for CSS Counters.</p>",
+    "<h2 style='text-align: center;'>CSS Counters</h2>",
+    "<li>CSS counters are similar to 'variables'. Variable values ​​can be incremented by CSS rules.</li>",
+    "<li>To work with CSS counters we will use the following properties:</li>",
+    "<ol><li> <code>'px'</code>: pixel.</li>",
+    "<li> <code>'counter-reset'</code> Creates or resets a counter.</li>",
+    "<li> <code>'counter-increment'</code> Increments a counter value</li>",
+    "<li> <code>'content'</code> Inserts generated conten.</li>",
+    "<li> <code>'counter-reset'</code>:	Relative to the parent element .</li>",
+    "<li> <code>'counter()'</code>: function adds the value of a counter to an element .</li></ol>",
   ],
   "CSS Website Layout": [
     "<h2 style='text-align: center;'>CSS Website Layout</h2><p>Placeholder text for CSS Website Layout.</p>",
