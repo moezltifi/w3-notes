@@ -530,6 +530,10 @@ const css = {
     "<li>For example to force all buttons to have the same look, no matter what, we can add the !important rule to the properties of the button.</li>",
   ],
   "CSS Math Functions": [
-    "<h2 style='text-align: center;'>CSS Math Functions</h2><p>Placeholder text for CSS Math Functions.</p>",
+    "<h2 style='text-align: center;'>CSS Math Functions</h2>",
+    "<li>The CSS math functions allow mathematical expressions to be used as property values. Here, we will explain the calc(), max() and min() functions.</li>",
+    "<li>The calc() function performs a calculation to be used as the property value.</li>",
+    "<li>The max() function uses the largest value, from a comma-separated list of values, as the property value.</li>",
+    "<li>The min() function uses the smallest value, from a comma-separated list of values, as the property value.</li>",
   ],
 };
