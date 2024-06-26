@@ -222,7 +222,13 @@ const css = {
     "<li>To use the Font Awesome icons, go to fontawesome.com, sign in, and get a code to add in the &lt;head&gt; section of your HTML page.</li>",
   ],
   "CSS Links": [
-    "<h2 style='text-align: center;'>CSS Links</h2><p>Placeholder text for CSS Links.</p>",
+    "<h2 style='text-align: center;'>CSS Links</h2>",
+    "<li>With CSS, links can be styled in many different ways.</li>",
+    "<li>Links can be styled with any CSS property (examples: color, font-family, background, etc.)</li>",
+    "<li>The <code>'a:link'</code>:a normal, unvisited link </li>",
+    "<li>The <code>'a:visited'</code>: a link the user has visited </li>",
+    "<li>The <code>'a:hover'</code>: a link when the user mouses over it</li>",
+    "<li>The <code>'a:active'</code>: a link the moment it is clicked</li>",
   ],
   "CSS Lists": [
     "<h2 style='text-align: center;'>CSS Lists</h2>",
