@@ -524,7 +524,10 @@ const css = {
     "<li>Elements and pseudo-elements - Example: h1, ::before.</li></ol>",
   ],
   "CSS !important": [
-    "<h2 style='text-align: center;'>CSS !important</h2><p>Placeholder text for CSS !important.</p>",
+    "<h2 style='text-align: center;'>CSS !important</h2>",
+    "<li>The !important rule in CSS is used to add more importance to a property/value than normal.</li>",
+    "<li>In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!</li>",
+    "<li>For example to force all buttons to have the same look, no matter what, we can add the !important rule to the properties of the button.</li>",
   ],
   "CSS Math Functions": [
     "<h2 style='text-align: center;'>CSS Math Functions</h2><p>Placeholder text for CSS Math Functions.</p>",
