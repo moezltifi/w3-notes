@@ -501,7 +501,6 @@ const css = {
     "<li>A navigation bar contains a list of links to help visitors navigating through your website.</li>",
     "<li>Content contains the content of the website. It is usually located in the center of the website</li>",
     "<li>The footer is placed at the bottom of your page. It often contains information like copyright and contact info.</li>",
-
   ],
   "CSS Units": [
     "<h2 style='text-align: center;'>CSS Units</h2>",
@@ -516,7 +515,13 @@ const css = {
     "<li> <code>'em'</code>: Relative to the font-size of the element .</li></ol>",
   ],
   "CSS Specificity": [
-    "<h2 style='text-align: center;'>CSS Specificity</h2><p>Placeholder text for CSS Specificity.</p>",
+    "<h2 style='text-align: center;'>CSS Specificity</h2>",
+    "<li>Every CSS selector has its place in the specificity hierarchy. </li>",
+    "<li>There are four categories which define the specificity level of a selector:</li>",
+    "<ol><li>Inline styles - Example: &lt;h1 style='color: red;''&gt;.</li>",
+    "<li>IDs - Example: #navbar.</li>",
+    "<li>Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href].</li>",
+    "<li>Elements and pseudo-elements - Example: h1, ::before.</li></ol>",
   ],
   "CSS !important": [
     "<h2 style='text-align: center;'>CSS !important</h2><p>Placeholder text for CSS !important.</p>",
