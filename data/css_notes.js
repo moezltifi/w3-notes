@@ -474,7 +474,14 @@ const css = {
     "<li><code>tag[attr ='value']{ }</code>:Selects element with a specific tag that contain a specific attribute that contain a specified value.</li></ol>",
   ],
   "CSS Forms": [
-    "<h2 style='text-align: center;'>CSS Forms</h2><p>Placeholder text for CSS Forms.</p>",
+    "<h2 style='text-align: center;'>CSS Forms</h2>",
+    "<li>The appearance of an HTML form can be greatly improved using CSS</li>",
+    "<li><code>input[type=type]</code>will only select type fields</li>",
+    "<li>Use the padding property to add space inside the text field.</li>",
+    "<li>Use the border property to change the border size and color, and use the border-radius property to add rounded corners.</li>",
+    "<li>If you only want a bottom border, use the border-bottom property.</li>",
+    "<li>Use the background-color property to add a background color to the input, and the color property to change the text color.</li>",
+    "<li>Use the :focus selector to do something with the input field when it gets focus.</li>",
   ],
   "CSS Counters": [
     "<h2 style='text-align: center;'>CSS Counters</h2><p>Placeholder text for CSS Counters.</p>",
