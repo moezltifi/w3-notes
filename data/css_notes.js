@@ -164,7 +164,13 @@ const css = {
     "<li><code>'min-content'</code>:  is used with the width and height properties to size an element based on the minimum size required to fit its content.  </li></ol>",
   ],
   "CSS Box Model": [
-    "<h2 style='text-align: center;'>CSS Box Model</h2><p>Placeholder text for CSS Box Model.</p>",
+    "<h2 style='text-align: center;'>CSS Box Model</h2>",
+    "<li>In CSS, the term 'box model' is used when talking about design and layout.</li>",
+    "<li>The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins.</li>",
+    "<ol><li>Content - The content of the box, where text and images appear</li>",
+    "<li>Padding - Clears an area around the content. The padding is transparent</li>",
+    "<li>Border - A border that goes around the padding and content</li>",
+    "<li>Margin - Clears an area outside the border. The margin is transparent</li></ol>",
   ],
   "CSS Outline": [
     "<h2 style='text-align: center;'>CSS Outline</h2><p>Placeholder text for CSS Outline.</p>",
