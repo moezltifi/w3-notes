@@ -132,8 +132,12 @@ const javascript = {
     "<li>The charAt() method returns the character at a specified index (position) in a string.</li>",
     "<li>The property access [] like in arrays, returns the character at a specified index (position) in a string</li>",
     "<li>If no character is found, [] returns undefined, while charAt() returns an empty string.</li>",
-    "<li>slice() extracts a part of a string and returns the extracted part in a new string. The method takes 2 parameters: start position, and end position.</li>",
     "<li>If no character is found, [ ] returns undefined, while charAt() returns an empty string.</li>",
+    "<li>slice() extracts a part of a string and returns the extracted part in a new string. The method takes 2 parameters: start position, and end position.</li>",
+    "<li>substring() is similar to slice().</li>",
+    "<li>The difference is that start and end values less than 0 are treated as 0 in substring(). But If a parameter is negative in slice(), the position is counted from the end of the string</li>",
+    "<li>substr() is similar to slice().</li>",
+    "<li>The difference is that the second parameter specifies the length of the extracted part.</li>",
   ],
   "JS String Search": [
     "<h2 style='text-align: center;'>JavaScript String Search</h2>",
