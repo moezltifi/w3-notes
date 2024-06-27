@@ -126,7 +126,14 @@ const javascript = {
     "<li>To find the length of a string, use the built-in length property.</li>",
   ],
   "JS String Methods": [
-    "<h2 style='text-align: center;'>JavaScript String Methods</h2><p>Placeholder text for JavaScript String Methods.</p>",
+    "<h2 style='text-align: center;'>JavaScript String Methods</h2>",
+    "<li>Javascript strings are primitive and immutable: All string methods produce a new string without altering the original string.</li>",
+    "<li>The length property returns the length of a string.</li>",
+    "<li>The charAt() method returns the character at a specified index (position) in a string.</li>",
+    "<li>The property access [] like in arrays, returns the character at a specified index (position) in a string</li>",
+    "<li>If no character is found, [] returns undefined, while charAt() returns an empty string.</li>",
+    "<li>slice() extracts a part of a string and returns the extracted part in a new string. The method takes 2 parameters: start position, and end position.</li>",
+    "<li>If no character is found, [ ] returns undefined, while charAt() returns an empty string.</li>",
   ],
   "JS String Search": [
     "<h2 style='text-align: center;'>JavaScript String Search</h2><p>Placeholder text for JavaScript String Search.</p>",
