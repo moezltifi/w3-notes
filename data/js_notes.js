@@ -119,7 +119,11 @@ const javascript = {
     "<h2 style='text-align: center;'>JavaScript Events</h2><p>Placeholder text for JavaScript Events.</p>",
   ],
   "JS Strings": [
-    "<h2 style='text-align: center;'>JavaScript Strings</h2><p>Placeholder text for JavaScript Strings.</p>",
+    "<h2 style='text-align: center;'>JavaScript Strings</h2>",
+    "<li>A JavaScript string is zero or more characters written inside quotes.</li>",
+    "<li>We can use single or double quotes. There is no difference between the two.</li>",
+    "<li>You can use quotes inside a string, as long as they don't match the quotes surrounding the string.</li>",
+    "<li>To find the length of a string, use the built-in length property.</li>",
   ],
   "JS String Methods": [
     "<h2 style='text-align: center;'>JavaScript String Methods</h2><p>Placeholder text for JavaScript String Methods.</p>",
