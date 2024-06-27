@@ -56,7 +56,16 @@ const javascript = {
     "<h2 style='text-align: center;'>JavaScript Operators</h2><p>Placeholder text for JavaScript Operators.</p>",
   ],
   "JS Arithmetic": [
-    "<h2 style='text-align: center;'>JavaScript Arithmetic</h2><p>Placeholder text for JavaScript Arithmetic.</p>",
+    "<h2 style='text-align: center;'>JavaScript Arithmetic</h2>",
+    "<li>Arithmetic operators perform arithmetic on numbers.</li>",
+    "<li>+ 	Addition.</li>",
+    "<li>- 	Subtraction.</li>",
+    "<li>* 	Multiplication.</li>",
+    "<li>** 	Exponentiation.</li>",
+    "<li>/	Division.</li>",
+    "<li>%	Modulus it returns the division remainder.</li>",
+    "<li>++	Increment.</li>",
+    "<li>--	Decrement.</li>",
   ],
   "JS Assignment": [
     "<h2 style='text-align: center;'>JavaScript Assignment</h2><p>Placeholder text for JavaScript Assignment.</p>",
