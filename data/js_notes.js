@@ -39,6 +39,16 @@ const javascript = {
   "JS Comments": [
     "<h2 style='text-align: center;'>JavaScript Comments</h2><p>Placeholder text for JavaScript Comments.</p>",
   ],
+  "JS Type Conversion": [
+    "<h2 style='text-align: center;'>JavaScript Type Conversion</h2>",
+    "<li>JavaScript Type Conversion.</li>",
+    "<li>JavaScript variables can be converted to a new variable and another data type:</li>",
+    "<li>Converting Strings to Numbers:</li>",
+    "<li>The global method Number() converts a variable (or a value) into a number.</li>",
+    "<li>An empty string (like '') converts to 0.</li>",
+    "<li>A non numeric string (like 'John') converts to NaN (Not a Number).</li>",
+    "<li>The unary + operator can be used to convert a variable to a number.</li>",
+  ],
   "JS Var": [
     "<h2 style='text-align: center;'>JavaScript Var</h2>",
     "<li>The var statement declares a variable.</li>",
