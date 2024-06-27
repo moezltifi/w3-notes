@@ -174,7 +174,20 @@ const javascript = {
     "<h2 style='text-align: center;'>JavaScript Date Set Methods</h2><p>Placeholder text for JavaScript Date Set Methods.</p>",
   ],
   "JS Math": [
-    "<h2 style='text-align: center;'>JavaScript Math</h2><p>Placeholder text for JavaScript Math.</p>",
+    "<h2 style='text-align: center;'>JavaScript Math</h2>",
+    "<li>The JavaScript Math object allows you to perform mathematical tasks on numbers.</li>",
+    "<li>Unlike other objects, a Math object does not have a constructor.</li>",
+    "<p style='font-size:18px;' >Math Properties:</p>",
+    "<li>The syntax for any Math property is : Math.property like:</li>",
+    "<ol><li>Math.PI: returns PI</li>",
+    "<li>Math.E: returns Euler's number</li></ol>",
+    "<p style='font-size:18px;'>Math Methods:</p>",
+    "<li>The syntax for Math any methods is : Math.method(number) like:</li>",
+    "<ol><li>Math.round(x): Returns x rounded to its nearest integer</li>",
+    "<li>Math.ceil(x): Returns x rounded up to its nearest integer</li>",
+    "<li>Math.floor(x): Returns x rounded down to its nearest integer</li>",
+    "<li>Math.trunc(x): Returns the integer part of x </li></ol>",
+
   ],
   "JS Random": [
     "<h2 style='text-align: center;'>JavaScript Random</h2><p>Placeholder text for JavaScript Random.</p>",
