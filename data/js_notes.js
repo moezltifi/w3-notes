@@ -48,6 +48,8 @@ const javascript = {
     "<li>An empty string (like '') converts to 0.</li>",
     "<li>A non numeric string (like 'John') converts to NaN (Not a Number).</li>",
     "<li>The unary + operator can be used to convert a variable to a number.</li>",
+    "<li>parseFloat(): Parses a string and returns a floating point number.</li>",
+    "<li>parseInt(): Parses a string and returns an integer.</li>",
   ],
   "JS Var": [
     "<h2 style='text-align: center;'>JavaScript Var</h2>",
