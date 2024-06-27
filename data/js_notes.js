@@ -136,7 +136,14 @@ const javascript = {
     "<li>If no character is found, [ ] returns undefined, while charAt() returns an empty string.</li>",
   ],
   "JS String Search": [
-    "<h2 style='text-align: center;'>JavaScript String Search</h2><p>Placeholder text for JavaScript String Search.</p>",
+    "<h2 style='text-align: center;'>JavaScript String Search</h2>",
+    "<li>JavaScript String Search allows you to search for a small string within a large string</li>",
+    "<li>The indexOf() method returns the index (position) of the first occurrence of a string in a string.</li>",
+    "<li>JavaScript counts positions from zero.</li>",
+    "<li>The lastIndexOf() method returns the index of the last occurrence of a specified text in a string.</li>",
+    "<li>Both indexOf(), and lastIndexOf() return -1 if the text is not found.</li>",
+    "<li>Both methods accept a second parameter as the starting position for the search.</li>",
+    "<li>The lastIndexOf() methods searches backwards (from the end to the beginning), meaning: if the second parameter is 15, the search starts at position 15, and searches to the beginning of the string.</li>",
   ],
   "JS String Templates": [
     "<h2 style='text-align: center;'>JavaScript String Templates</h2><p>Placeholder text for JavaScript String Templates.</p>",
