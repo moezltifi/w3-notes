@@ -136,7 +136,12 @@ const javascript = {
     "<h2 style='text-align: center;'>JavaScript Number Methods</h2><p>Placeholder text for JavaScript Number Methods.</p>",
   ],
   "JS Number Properties": [
-    "<h2 style='text-align: center;'>JavaScript Number Properties</h2><p>Placeholder text for JavaScript Number Properties.</p>",
+    "<h2 style='text-align: center;'>JavaScript Number Properties</h2>",
+    "<li>JavaScript Number Properties:</li>",
+    "<li>Number.MAX_VALUE is a constant representing the largest possible number in JavaScript.</li>",
+    "<li>Number.MIN_VALUE is a constant representing the lowest possible number in JavaScript.</li>",
+    "<li>Number.MAX_SAFE_INTEGER represents the maximum safe integer in JavaScript.</li>",
+    "<li>Number.MIN_SAFE_INTEGER represents the minimum safe integer in JavaScript.</li>",
   ],
   "JS Arrays": [
     "<h2 style='text-align: center;'>JavaScript Arrays</h2><p>Placeholder text for JavaScript Arrays.</p>",
