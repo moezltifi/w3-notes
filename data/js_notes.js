@@ -204,7 +204,10 @@ const javascript = {
     "<li>The includes() method allows us to check if an element is present in an array.</li>",
   ],
   "JS Array Sort": [
-    "<h2 style='text-align: center;'>JavaScript Array Sort</h2><p>Placeholder text for JavaScript Array Sort.</p>",
+    "<h2 style='text-align: center;'>JavaScript Array Sort</h2>",
+    "<li>The sort() method sorts an array alphabetically.</li>",
+    "<li>The reverse() method reverses the elements in an array.</li>",
+    "<li>By combining sort() and reverse(), you can sort an array in descending order.</li>",
   ],
   "JS Array Iteration": [
     "<h2 style='text-align: center;'>JavaScript Array Iteration</h2><p>Placeholder text for JavaScript Array Iteration.</p>",
