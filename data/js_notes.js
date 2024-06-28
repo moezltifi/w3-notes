@@ -194,6 +194,7 @@ const javascript = {
     "<li>The first parameter defines the position where new elements should be added.</li>",
     "<li>The second parameter defines how many elements should be removed.</li>",
     "<li>The rest of the parameters define the new elements to be added.</li>",
+    "<li>The slice() method slices out a piece of an array into a new array. It does not remove any elements from the source array.</li>",
   ],
   "JS Array Search": [
     "<h2 style='text-align: center;'>JavaScript Array Search</h2><p>Placeholder text for JavaScript Array Search.</p>",
