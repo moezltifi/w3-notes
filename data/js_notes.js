@@ -197,7 +197,11 @@ const javascript = {
     "<li>The slice() method slices out a piece of an array into a new array. It does not remove any elements from the source array.</li>",
   ],
   "JS Array Search": [
-    "<h2 style='text-align: center;'>JavaScript Array Search</h2><p>Placeholder text for JavaScript Array Search.</p>",
+    "<h2 style='text-align: center;'>JavaScript Array Search</h2>",
+    "<li>The indexOf() method searches an array for an element value and returns its position.</li>",
+    "<li>Array.indexOf() returns -1 if the item is not found.</li>",
+    "<li>Array.lastIndexOf() is the same as Array.indexOf(), but returns the position of the last occurrence of the specified element.</li>",
+    "<li>The includes() method allows us to check if an element is present in an array.</li>",
   ],
   "JS Array Sort": [
     "<h2 style='text-align: center;'>JavaScript Array Sort</h2><p>Placeholder text for JavaScript Array Sort.</p>",
