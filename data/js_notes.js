@@ -148,6 +148,10 @@ const javascript = {
     "<li>Both indexOf(), and lastIndexOf() return -1 if the text is not found.</li>",
     "<li>Both methods accept a second parameter as the starting position for the search.</li>",
     "<li>The lastIndexOf() methods searches backwards (from the end to the beginning), meaning: if the second parameter is 15, the search starts at position 15, and searches to the beginning of the string.</li>",
+    "<li>The includes() method returns true if a string contains a specified value.</li>",
+    "<li>The startsWith() method returns true if a string begins with a specified value.</li>",
+    "<li>The endsWith() method returns true if a string ends with a specified value.</li>",
+    "<li>The endsWith() can takes 2 parameters the second parameter specifies the length of the detected part.</li>",
   ],
   "JS String Templates": [
     "<h2 style='text-align: center;'>JavaScript String Templates</h2><p>Placeholder text for JavaScript String Templates.</p>",
