@@ -182,7 +182,13 @@ const javascript = {
     "<li>This statement changes the value of the first element in cars: cars[0] = 'Opel';</li>",
   ],
   "JS Array Methods": [
-    "<h2 style='text-align: center;'>JavaScript Array Methods</h2><p>Placeholder text for JavaScript Array Methods.</p>",
+    "<h2 style='text-align: center;'>JavaScript Array Methods</h2>",
+    "<li>The length property returns the length (size) of an array.</li>",
+    "<li>The push() method adds a new element to an array (at the end).x</li>",
+    "<li>The unshift() method adds a new element to an array (at the beginning).</li>",
+    "<li>The shift() method removes the first element from an array.</li>",
+    "<li>The pop() method removes the last element from an array.</li>",
+    "<li>The unshift() method adds a new element to an array (at the beginning).</li>",
   ],
   "JS Array Search": [
     "<h2 style='text-align: center;'>JavaScript Array Search</h2><p>Placeholder text for JavaScript Array Search.</p>",
