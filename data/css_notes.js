@@ -78,32 +78,32 @@ const css = {
     "<p><strong style='font-size:18px;'>Color Names:</strong></p>",
     "<p><li><strong>Description </strong>: These are predefined color names recognized by CSS. You just use the name of the color.</li></p>",
     "<p><li><strong>Usage </strong>: Simple and easy to remember but limited in number.</li></p>",
-    "<p><li><strong>Number of Colors </strong>: 147.</li></p>",
+    "<p><li><strong>Number of Colors </strong>: 147 Color.</li></p>",
 
     "<p><strong style='font-size:18px;'>Hexadecimal: Colors</strong></p>",
     "<p><li><strong>Description </strong>:  Colors defined using a hex code, which is a # followed by six hexadecimal digits (0-9 and A-F). The first two digits represent red, the next two green, and the last two blue.</li></p>",
     "<p><li><strong>Usage </strong>: Allows for precise color specification.</li></p>",
-    "<p><li><strong>Number of Colors </strong>: 16,777,216.</li></p>",
+    "<p><li><strong>Number of Colors </strong>: 16,777,216 Color.</li></p>",
 
     "<p><strong style='font-size:18px;'>RGB Colors:</strong></p>",
     "<p><li><strong>Description </strong>: Colors defined by specifying the intensity of red, green, and blue components, each ranging from 0 to 255.</li></p>",
     "<p><li><strong>Usage </strong>: Similar to hex colors but using decimal values.</li></p>",
-    "<p><li><strong>Number of Colors </strong>: 16,777,216.</li></p>",
+    "<p><li><strong>Number of Colors </strong>: 16,777,216 Color.</li></p>",
 
     "<p><strong style='font-size:18px;'>RGBA Colors:</strong></p>",
     "<p><li><strong>Description </strong>: Same RGB colors but with an added alpha component for transparency. Alpha ranges from 0 (fully transparent) to 1 (fully opaque).</li></p>",
     "<p><li><strong>Usage </strong>:  Useful for adding transparency to colors.</li></p>",
-    "<p><li><strong>Number of Colors </strong>: 4,294,967,296.</li></p>",
+    "<p><li><strong>Number of Colors </strong>: 4,294,967,296 Color.</li></p>",
 
     "<p><strong style='font-size:18px;'>HSL Colors:</strong></p>",
     "<p><li><strong>Description </strong>: Colors defined by hue (0-360 degrees on the color wheel), saturation (0% to 100%), and lightness (0% to 100%).</li></p>",
     "<p><li><strong>Usage </strong>: Easier to adjust hue, saturation, and lightness separately.</li></p>",
-    "<p><li><strong>Number of Colors </strong>:  3,693,361.</li></p>",
+    "<p><li><strong>Number of Colors </strong>:  3,693,361 Color.</li></p>",
 
     "<p><strong style='font-size:18px;'>HSLA Colors:</strong></p>",
     "<p><li><strong>Description </strong>: Same as HSL colors but with an additional alpha component for transparency.</li></p>",
     "<p><li><strong>Usage </strong>: Useful for adding transparency with hue, saturation, and lightness adjustments.</li></p>",
-    "<p><li><strong>Number of Colors </strong>: 945,179,776.</li></p>",
+    "<p><li><strong>Number of Colors </strong>: 945,179,776 Color.</li></p>",
 
   ],
   "CSS Backgrounds": [
