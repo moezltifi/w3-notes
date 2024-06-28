@@ -174,7 +174,13 @@ const javascript = {
     "<li>Number.MIN_SAFE_INTEGER represents the minimum safe integer in JavaScript.</li>",
   ],
   "JS Arrays": [
-    "<h2 style='text-align: center;'>JavaScript Arrays</h2><p>Placeholder text for JavaScript Arrays.</p>",
+    "<h2 style='text-align: center;'>JavaScript Arrays</h2>",
+    "<li>An array is a special variable, which can hold more than one value.</li>",
+    "<li>An array can hold many values under a single name, and you can access the values by referring to an index number..</li>",
+    "<li>Using an array literal is the easiest way to create a JavaScript Array.</li>",
+    "<li>For simplicity, readability and execution speed, use the array literal method.</li>",
+    "<li>This statement changes the value of the first element in cars: cars[0] = 'Opel';</li>",
+    "<li>Using an array literal is the easiest way to create a JavaScript Array.</li>",
   ],
   "JS Array Methods": [
     "<h2 style='text-align: center;'>JavaScript Array Methods</h2><p>Placeholder text for JavaScript Array Methods.</p>",
