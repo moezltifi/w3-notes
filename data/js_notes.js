@@ -180,7 +180,6 @@ const javascript = {
     "<li>Using an array literal is the easiest way to create a JavaScript Array.</li>",
     "<li>For simplicity, readability and execution speed, use the array literal method.</li>",
     "<li>This statement changes the value of the first element in cars: cars[0] = 'Opel';</li>",
-    "<li>Using an array literal is the easiest way to create a JavaScript Array.</li>",
   ],
   "JS Array Methods": [
     "<h2 style='text-align: center;'>JavaScript Array Methods</h2><p>Placeholder text for JavaScript Array Methods.</p>",
