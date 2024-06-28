@@ -195,6 +195,10 @@ const javascript = {
     "<li>The second parameter defines how many elements should be removed.</li>",
     "<li>The rest of the parameters define the new elements to be added.</li>",
     "<li>The slice() method slices out a piece of an array into a new array. It does not remove any elements from the source array.</li>",
+    "<li>The concat() method creates a new array by merging (concatenating) existing arrays.</li>",
+    "<li>The concat() method does not change the existing arrays. It always returns a new array.</li>",
+    "<li>The concat() method can take any number of array arguments.</li>",
+    "<li>The join() method also joins all array elements into a string.</li>",
   ],
   "JS Array Search": [
     "<h2 style='text-align: center;'>JavaScript Array Search</h2>",
