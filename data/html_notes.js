@@ -188,7 +188,7 @@ const html = {
     "<p>The HTML &lt;a&gt; tag defines a hyperlink. It has the following syntax:</p>",
     "<code>&lt;a href='URL'&gt;link text&lt;/a&gt;</code>",
     "<p>We use 'https:' for external sites:</p>",
-    "<code>&lt;a href='https://www.google.com/'&gt;Google &lt;/a&gt;</code>",
+    "<code>&lt;a href='https://www.google.com/'&gt; Google &lt;/a&gt;</code>",
     "<a href='https://www.google.com/' > Google</a>",
     "<p>We can use the <code>target='_blank'</code> attribute to open the link in a new tab:</p>",
     "<code>&lt;a href='https://www.google.com/' target='_blank'&gt;Google&lt;/a&gt;</code>",

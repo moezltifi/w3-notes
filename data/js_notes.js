@@ -188,7 +188,12 @@ const javascript = {
     "<li>The unshift() method adds a new element to an array (at the beginning).</li>",
     "<li>The shift() method removes the first element from an array.</li>",
     "<li>The pop() method removes the last element from an array.</li>",
-    "<li>The unshift() method adds a new element to an array (at the beginning).</li>",
+    "<li>you can use splice() to remove elements, it contains to parametre.</li>",
+    "<li>To remove elements, specify the start index and number of elements will be deleted removed.</li>",
+    "<li>The splice() method can be used to add new items to an array.</li>",
+    "<li>The first parameter defines the position where new elements should be added.</li>",
+    "<li>The second parameter defines how many elements should be removed.</li>",
+    "<li>The rest of the parameters define the new elements to be added.</li>",
   ],
   "JS Array Search": [
     "<h2 style='text-align: center;'>JavaScript Array Search</h2><p>Placeholder text for JavaScript Array Search.</p>",
