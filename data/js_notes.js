@@ -89,8 +89,8 @@ const javascript = {
   "JS Data Types": [
     "<h2 style='text-align: center;'>JavaScript Data Types</h2>",
     "<li>Here are some JavaScript data types:</li>",
-    `<ol><li>String:A string (or a text string) is a series of characters like "John Doe".Strings are written with quotes. You can use single or double quotes.</li>
-    <li>NumberAll JavaScript numbers are stored as decimal numbers. Numbers can be written with, or without decimals.</li>
+    `<ol><li>String: A string (or a text string) is a series of characters like "John Doe".Strings are written with quotes. You can use single or double quotes.</li>
+    <li>Number: All JavaScript numbers are stored as decimal numbers. Numbers can be written with, or without decimals.</li>
     <li>Bigint: JavaScript BigInt is a new datatype that can be used to store integer values that are too big to be represented by a normal JavaScript Number.</li>
     <li>Boolean: Booleans can only have two values: true or false.</li>
     <li>Undefined: In JavaScript, a variable without a value, has the value undefined. The type is also undefined.</li>
@@ -138,6 +138,9 @@ const javascript = {
     "<li>The difference is that start and end values less than 0 are treated as 0 in substring(). But If a parameter is negative in slice(), the position is counted from the end of the string</li>",
     "<li>substr() is similar to slice().</li>",
     "<li>The difference is that the second parameter specifies the length of the extracted part.</li>",
+    "<li>The trimStart() method removes whitespace only from the start of a string.</li>",
+    "<li>The trimEnd() method removes whitespace only from the end of a string.</li>",
+    "<li>The trim() method removes whitespace from both sides of a string.</li>",
   ],
   "JS String Search": [
     "<h2 style='text-align: center;'>JavaScript String Search</h2>",
