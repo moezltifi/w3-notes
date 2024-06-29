@@ -106,6 +106,9 @@ const javascript = {
     "<li>The parentheses may include parameter names separated by commas:(parameter1, parameter2, ...)</li>",
     "<li>The code to be executed, by the function, is placed inside curly brackets: {}</li>",
     "<li>Function parameters are listed inside the parentheses () in the function definition.</li>",
+    "<li>When JavaScript reaches a return statement, the function will stop executing.</li>",
+    "<li>Function parameters are listed inside the parentheses () in the function definition.</li>",
+    "<li>Accessing a function without () returns the function and not the function result.</li>",
   ],
   "JS Objects": [
     "<h2 style='text-align: center;'>JavaScript Objects</h2><p>Placeholder text for JavaScript Objects.</p>",
