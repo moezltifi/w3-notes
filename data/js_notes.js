@@ -110,6 +110,16 @@ const javascript = {
     "<li>Function parameters are listed inside the parentheses () in the function definition.</li>",
     "<li>Accessing a function without () returns the function and not the function result.</li>",
   ],
+  "JS Hoisting": [
+    "<h2 style='text-align: center;'>JavaScript Hoisting</h2>",
+    "<li>Hoisting is JavaScript's default behavior of moving declarations to the top.</li>",
+    "<li>In JavaScript, a variable can be declared after it has been used. In other words; a variable can be used before it has been declared.</li>",
+    "<li>Hoisting applies to variable declarations and to function declarations.</li>",
+    "<li>Because of this, JavaScript functions can be called before they are declared.</li>",
+    "<li>Variables defined with let and const are hoisted to the top of the block, but not initialized.</li>",
+    "<li>The block of code is aware of the variable, but it cannot be used until it has been declared.</li>",
+    "<li>Using a let or const variable before it is declared will result in a ReferenceError.</li>",
+  ],
   "JS Objects": [
     "<h2 style='text-align: center;'>JavaScript Objects</h2><p>Placeholder text for JavaScript Objects.</p>",
   ],
