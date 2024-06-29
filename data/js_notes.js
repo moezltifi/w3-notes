@@ -247,6 +247,22 @@ const javascript = {
     "<li>Expression 2 defines the condition for the loop to run (i must be less than 5).</li>", 
     "<li>Expression 3 increases a value (i++) each time the code block in the loop has been executed.</li></ol>", 
   ],
+  "JS Loop While": [
+    "<h2 style='text-align: center;'>JavaScript While Loop</h2>",
+    "<li>The while loop loops through a block of code as long as a specified condition is true.</li>", 
+    "<li>If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.</li>", 
+    "<li>In the following example, the code in the loop will run, over and over again, as long as a variable (i) is less than 10:</li>", 
+    `<code><pre>while (i < 10) {
+      text += "The number is " + i;
+      i++;
+    }</pre></code>`, 
+    "<li>The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.</li>", 
+    "<li>The example below uses a do while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:</li>", 
+    `<code><pre>do {
+      text += "The number is " + i;
+      i++;
+    }while (i < 10);</pre></code>`,
+  ],
   "JS Arrays": [
     "<h2 style='text-align: center;'>JavaScript Arrays</h2>",
     "<li>An array is a special variable, which can hold more than one value.</li>",
