@@ -235,6 +235,18 @@ const javascript = {
     "<li>If default is not the last case in the switch block, remember to end the default case with a break.</li>", 
     "<li>Switch cases use strict comparison (===).The values must be of the same type to match.</li>", 
   ],
+  "JS Loop For": [
+    "<h2 style='text-align: center;'>JavaScript For Loop</h2>",
+    "<li>Loops can execute a block of code a number of times.</li>", 
+    "<li>Loops are handy, if you want to run the same code over and over again, each time with a different value.</li>", 
+    "<li>for - loops through a block of code a number of times.</li>", 
+    "<li>The for statement creates a loop with 3 optional expressions.</li>", 
+    "<li><code>for (expression 1; expression 2; expression 3) {// code block to be executed}</code></li>", 
+    "<li>For example:</li>", 
+    "<ol><li>Expression 1 sets a variable before the loop starts (let i = 0).</li>", 
+    "<li>Expression 2 defines the condition for the loop to run (i must be less than 5).</li>", 
+    "<li>Expression 3 increases a value (i++) each time the code block in the loop has been executed.</li></ol>", 
+  ],
   "JS Arrays": [
     "<h2 style='text-align: center;'>JavaScript Arrays</h2>",
     "<li>An array is a special variable, which can hold more than one value.</li>",
