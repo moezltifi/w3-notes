@@ -98,7 +98,14 @@ const javascript = {
 
   ],
   "JS Functions": [
-    "<h2 style='text-align: center;'>JavaScript Functions</h2><p>Placeholder text for JavaScript Functions.</p>",
+    "<h2 style='text-align: center;'>JavaScript Functions</h2>",
+    "<li>A JavaScript function is a block of code designed to perform a particular task.</li>",
+    "<li>A JavaScript function is executed when 'something' invokes it (calls it).</li>",
+    "<li>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().</li>",
+    "<li>Function names can contain letters, digits, underscores, and dollar signs.</li>",
+    "<li>The parentheses may include parameter names separated by commas:(parameter1, parameter2, ...)</li>",
+    "<li>The code to be executed, by the function, is placed inside curly brackets: {}</li>",
+    "<li>Function parameters are listed inside the parentheses () in the function definition.</li>",
   ],
   "JS Objects": [
     "<h2 style='text-align: center;'>JavaScript Objects</h2><p>Placeholder text for JavaScript Objects.</p>",
