@@ -204,7 +204,20 @@ const javascript = {
     "<li>In JavaScript we have the following conditional statements:</li>",
     "<ol><li>Use <code>if</code> to specify a block of code to be executed, if a specified condition is true.</li>",
     "<li>Use <code>else</code> to specify a block of code to be executed, if the same condition is false.</li>", 
-    "<li>Use <code>else if</code> to specify a new condition to test, if the first condition is false</li></ol>", 
+    "<li>Use <code>else if</code> to specify a new condition to test, if the first condition is false</li></ol>",
+
+    "<li>The ternary operator is a compact form of the if-else statement. It is used to assign a value to a variable based on a condition.</li>", 
+    "<li>Here is a simple example of using a ternary operator in JavaScript:</li>", 
+    "<li><code>let result = age < 15 ? 'you are young you can't trade' : 'Welcome to binance';</code></li>", 
+    "<li>Here's what it does:</li>", 
+    "<ol><li>age < 15 is the condition being checked.</li>", 
+    "<li>If age is less than 15, result will be assigned the value 'you are young you can't trade'</li>", 
+    "<li>If age is 15 or greater, result will be assigned the value 'Welcome to binance'</li></ol>", 
+
+    "<li>Ternary operators are concise but can be harder to read if overused or nested.</li>", 
+    "<li>If-else statements are more readable, especially for complex conditions.</li>", 
+    "<li>Ternary operators are best for simple, concise conditions and assignments.</li>", 
+    "<li>If-else statements are better for complex logic, multiple conditions, or where more than one line of code needs to be executed based on the condition.</li>", 
   ],
   "JS Arrays": [
     "<h2 style='text-align: center;'>JavaScript Arrays</h2>",
