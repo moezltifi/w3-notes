@@ -196,6 +196,16 @@ const javascript = {
     "<li>Number.MAX_SAFE_INTEGER represents the maximum safe integer in JavaScript.</li>",
     "<li>Number.MIN_SAFE_INTEGER represents the minimum safe integer in JavaScript.</li>",
   ],
+  "JS If Else": [
+    "<h2 style='text-align: center;'>JavaScript If Else</h2>",
+    "<li>Conditional statements are used to perform different actions based on different conditions.</li>",
+    "<li>Very often when we write code, we want to perform different actions for different decisions.</li>",
+    "<li>You can use conditional statements in our code to do this.</li>",
+    "<li>In JavaScript we have the following conditional statements:</li>",
+    "<ol><li>Use <code>if</code> to specify a block of code to be executed, if a specified condition is true.</li>",
+    "<li>Use <code>else</code> to specify a block of code to be executed, if the same condition is false.</li>", 
+    "<li>Use <code>else if</code> to specify a new condition to test, if the first condition is false</li></ol>", 
+  ],
   "JS Arrays": [
     "<h2 style='text-align: center;'>JavaScript Arrays</h2>",
     "<li>An array is a special variable, which can hold more than one value.</li>",
