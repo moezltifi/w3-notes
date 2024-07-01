@@ -75,7 +75,21 @@ const javascript = {
     "<li>Meaning: Using a let variable before it is declared will result in a ReferenceError.</li>",
   ],
   "JS Const": [
-    "<h2 style='text-align: center;'>JavaScript Const</h2><p>Placeholder text for JavaScript Const.</p>",
+    "<h2 style='text-align: center;'>JavaScript Const</h2>",
+    "<li>The const keyword was introduced in ES6.</li>",
+    "<li>Variables declared with const have Block Scope.</li>",
+    "<li>Variables declared with let must be Declared before use.</li>",
+    "<li>Variables defined with const cannot be Reassigned.</li>",
+    "<li>Variables defined with const cannot be Redeclared.</li>",
+    "<li>JavaScript const variables must be assigned a value when they are declared.</li>",
+    "<li>It does not define a constant value. It defines a constant reference to a value</li>",
+    "<li>Because of this we can NOT:</li>",
+    "<ul><li>Reassign a constant value.</li>",
+    "<li>Reassign a constant array.</li>",
+    "<li>Reassign a constant object.</li></ul>",
+    "<li>But you CAN:</li>",
+    "<ul><li>Change the elements of constant array.</li>",
+    "<li>Change the properties of constant object</li></ul>"
   ],
   "JS Operators": [
     "<h2 style='text-align: center;'>JavaScript Operators</h2><p>Placeholder text for JavaScript Operators.</p>",
