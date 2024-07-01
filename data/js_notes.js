@@ -130,7 +130,7 @@ const javascript = {
     }</code>`,
     "<li>It gets shorter! If the function has only one statement, and the statement returns a value, you can remove the brackets and the return keyword.</li>",
     "<li>Note: This works only if the function has only one statement.</li>",
-    `<code>let hello = () => "Hello World!";</code>`,    
+    `<code>let hello = () => "Hello World!";</code>`,
     "<li>Arrow Function With Parameters:</li>",
     `<code>let calc = (val1,val2,....) => + val1+val2+....+;</code>`,
     "<li>Arrow Function With one Parenthese:</li>",
@@ -168,7 +168,22 @@ const javascript = {
     "<li>A variable declared outside a function, becomes GLOBAL.</li>",
   ],
   "JS Objects": [
-    "<h2 style='text-align: center;'>JavaScript Objects</h2><p>Placeholder text for JavaScript Objects.</p>",
+    "<h2 style='text-align: center;'>JavaScript Objects</h2>",
+    "<li>In real life, objects are things like: houses, cars, people, animals, or any other subjects.</li>",
+    "<li>A real life car has properties like weight and color:</li>",
+    "<li>car.name = Fiat, car.model = 500, car.weight = 850kg, car.color = white.</li>",
+    "<li>Car objects have the same properties, but the values differ from car to car.</li>",
+    "<li>Objects are variables too. But objects can contain many values.</li>",
+    "<li>This code assigns many values (Fiat, 500, white) to an object named car with 3 properties.</li>",
+    "<li><code>const car = {type:'Fiat', model:'500', color:'white'};</code></li>",
+    "<li>This example creates an empty JavaScript object, and then adds 4 properties.</li>",
+    `<li><code>// Create an Object<br>
+    const person = {};<br><br>
+    // Add Properties<br>
+    person.firstName = "John";<br>
+    person.lastName = "Doe";<br>
+    person.age = 50;<br>
+    person.eyeColor = "blue";</code></li>`,
   ],
   "JS Object Properties": [
     "<h2 style='text-align: center;'>JavaScript Object Properties</h2><p>Placeholder text for JavaScript Object Properties.</p>",
