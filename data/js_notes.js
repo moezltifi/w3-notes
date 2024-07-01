@@ -210,7 +210,7 @@ const javascript = {
 
     "<ol><li>Displaying the Object Properties by name</li>",
     "<p>The properties of an object can be displayed as a string:</p>",
-    "<code>document.getElementById(element id).innerHTML = objectName.property1 + ',' + objectName.property2 + ...;</code>",
+    "<code>document.getElementById( id ).innerHTML = objectName.property1 + ',' + objectName.property2 + ...;</code>",
 
     "<li>Displaying the Object Properties in a Loop</li>",
     "<p>The properties of an object can be collected in a loop:</p>",
@@ -218,20 +218,33 @@ const javascript = {
     for (let x in objectName) {<br>
     text += objectName[x] + " ";<br>
     };<br>
-    document.getElementById(element id).innerHTML = text;</code>"`,
+    document.getElementById( id ).innerHTML = text;</code>"`,
 
     "<li>Displaying the Object using Object.values()</li>",
     "<p>Object.values() creates an array from the property values:</p>",
     "<code>const myArray = Object.values(objectName);</code><br>",
-    "<code>document.getElementById(element id).innerHTML = myArray;</code>",
+    "<code>document.getElementById( id ).innerHTML = myArray;</code>",
 
     "<li>Displaying the Object using JSON.stringify()</li>",
     "<p>JavaScript objects can be converted to a string with JSON method JSON.stringify():</p>",
     "<code>let myString = JSON.stringify(objectName);</code><br>",
-    "<code>document.getElementById(element id).innerHTML = myString;</code></ol>",
+    "<code>document.getElementById( id ).innerHTML = myString;</code></ol>",
   ],
   "JS Object Constructors": [
     "<h2 style='text-align: center;'>JavaScript Object Constructors</h2><p>Placeholder text for JavaScript Object Constructors.</p>",
+  ],
+  "JS this Keyword": [
+    "<h2 style='text-align: center;'>JavaScript this Keyword</h2>",
+    "<li>In JavaScript, the this keyword refers to an object.</li>",
+    "<li>The this keyword refers to different objects depending on how it is used:</li>",
+    "<ul><li>In an object method, this refers to the object.</li>",
+    "<li>Alone, this refers to the global object.</li>",
+    "<li>In a function, this refers to the global object.</li>",
+    "<li>In a function, in strict mode, this is undefined.</li>",
+    "<li>In an event, this refers to the element that received the event.</li>",
+    "<li>Methods like call(), apply(), and bind() can refer this to any object.</li></ul>",
+    "<li>this is not a variable. It is a keyword. We cannot change the value of this.</li>",
+    "<li>In HTML event handlers, this refers to the HTML element that received the event.</li>",
   ],
   "JS Events": [
     "<h2 style='text-align: center;'>JavaScript Events</h2><p>Placeholder text for JavaScript Events.</p>",
