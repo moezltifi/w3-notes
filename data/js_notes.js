@@ -134,6 +134,10 @@ const javascript = {
     "<li>Variables declared within a JavaScript function, are LOCAL to the function.</li>",
     "<li>Since local variables are only recognized inside their functions.</li>",
     "<li>Local variables are created when a function starts, and deleted when the function is completed.</li>",
+    "<li>JavaScript has function scope, Each function creates a new scope.</li>",
+    "<li>Variables defined inside a function are not accessible (visible) from outside the function.</li>",
+    "<li>Variables declared with var, let and const are quite similar when declared inside a function. They all have Function Scope.</li>",
+    "<li>A variable declared outside a function, becomes GLOBAL.</li>",
   ],
   "JS Objects": [
     "<h2 style='text-align: center;'>JavaScript Objects</h2><p>Placeholder text for JavaScript Objects.</p>",
