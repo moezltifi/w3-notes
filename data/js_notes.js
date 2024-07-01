@@ -63,7 +63,16 @@ const javascript = {
     "<li>After the declaration, the variable is empty.</li>",
   ],
   "JS Let": [
-    "<h2 style='text-align: center;'>JavaScript Let</h2><p>Placeholder text for JavaScript Let.</p>",
+    "<h2 style='text-align: center;'>JavaScript Let</h2>",
+    "<li>The let keyword was introduced in ES6.</li>",
+    "<li>Variables declared with let have Block Scope</li>",
+    "<li>Variables declared with let must be Declared before use</li>",
+    "<li>Variables declared with let cannot be Redeclared in the same scope.</li>",
+    "<li>Redeclaring a variable using the var keyword can impose problems.</li>",
+    "<li>Redeclaring a variable inside a block will also redeclare the variable outside the block.</li>",
+    "<li>Redeclaring a variable using the let keyword can solve this problem.</li>",
+    "<li>Variables defined with let are also hoisted to the top of the block, but not initialized..</li>",
+    "<li>Meaning: Using a let variable before it is declared will result in a ReferenceError.</li>",
   ],
   "JS Const": [
     "<h2 style='text-align: center;'>JavaScript Const</h2><p>Placeholder text for JavaScript Const.</p>",
