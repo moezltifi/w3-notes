@@ -205,7 +205,30 @@ const javascript = {
     `<li><code>person.name = function () { };</code></li>`,
   ],
   "JS Object Display": [
-    "<h2 style='text-align: center;'>JavaScript Object Display</h2><p>Placeholder text for JavaScript Object Display.</p>",
+    "<h2 style='text-align: center;'>JavaScript Object Display</h2>",
+    "<li>Some solutions to display JavaScript objects are:</li>",
+
+    "<ol><li>Displaying the Object Properties by name</li>",
+    "<p>The properties of an object can be displayed as a string:</p>",
+    "<code>document.getElementById(element id).innerHTML = objectName.property1 + ',' + objectName.property2 + ...;</code>",
+
+    "<li>Displaying the Object Properties in a Loop</li>",
+    "<p>The properties of an object can be collected in a loop:</p>",
+    `"<code>let text = "";<br>
+    for (let x in objectName) {<br>
+    text += objectName[x] + " ";<br>
+    };<br>
+    document.getElementById(element id).innerHTML = text;</code>"`,
+
+    "<li>Displaying the Object using Object.values()</li>",
+    "<p>Object.values() creates an array from the property values:</p>",
+    "<code>const myArray = Object.values(objectName);</code><br>",
+    "<code>document.getElementById(element id).innerHTML = myArray;</code>",
+
+    "<li>Displaying the Object using JSON.stringify()</li>",
+    "<p>JavaScript objects can be converted to a string with JSON method JSON.stringify():</p>",
+    "<code>let myString = JSON.stringify(objectName);</code><br>",
+    "<code>document.getElementById(element id).innerHTML = myString;</code></ol>",
   ],
   "JS Object Constructors": [
     "<h2 style='text-align: center;'>JavaScript Object Constructors</h2><p>Placeholder text for JavaScript Object Constructors.</p>",
