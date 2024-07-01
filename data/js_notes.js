@@ -229,6 +229,7 @@ const javascript = {
     "<li>The Object.create allows the creation of a new object that directly inherits from a specified prototype object.</li>",
     "<li>Allows for defining custom properties on the new object.</li>",
     "<li>Facilitates inheritance without using constructor functions.</li>",
+    "<li>The Object.assign() method copies properties from one or more source objects to a target object.</li>",
   ],
   "JS Object Display": [
     "<h2 style='text-align: center;'>JavaScript Object Display</h2>",
