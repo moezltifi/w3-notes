@@ -131,7 +131,9 @@ const javascript = {
     "<li>ES6 introduced two important new JavaScript keywords: let and const.</li>",
     "<li>These two keywords provide Block Scope in JavaScript.</li>",
     "<li>Variables declared inside a { } block cannot be accessed from outside the block.</li>",
-    "<li>ES6 introduced two important new JavaScript keywords: let and const.</li>",
+    "<li>Variables declared within a JavaScript function, are LOCAL to the function.</li>",
+    "<li>Since local variables are only recognized inside their functions.</li>",
+    "<li>Local variables are created when a function starts, and deleted when the function is completed.</li>",
   ],
   "JS Objects": [
     "<h2 style='text-align: center;'>JavaScript Objects</h2><p>Placeholder text for JavaScript Objects.</p>",
