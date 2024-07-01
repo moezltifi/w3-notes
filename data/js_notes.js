@@ -186,7 +186,14 @@ const javascript = {
     person.eyeColor = "blue";</code></li>`,
   ],
   "JS Object Properties": [
-    "<h2 style='text-align: center;'>JavaScript Object Properties</h2><p>Placeholder text for JavaScript Object Properties.</p>",
+    "<h2 style='text-align: center;'>JavaScript Object Properties</h2>",
+    "<li>Properties are the most important part of JavaScript objects.</li>",
+    "<li>Properties can be changed, added, deleted, and some are read only.</li>",
+    "<li>The syntax for accessing the property of an object is:</li>",
+    `<li><code>objectName.property</code> or <code>objectName["property"]</code></li>`,
+    "<li>You can add new properties to an existing object by simply giving it a value:</li>",
+    `<li>The delete keyword deletes a property from an object:</li>`,
+    `<li><code>delete objectName.property;</code></li>`,
   ],
   "JS Object Methods": [
     "<h2 style='text-align: center;'>JavaScript Object Methods</h2><p>Placeholder text for JavaScript Object Methods.</p>",
