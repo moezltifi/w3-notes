@@ -226,6 +226,9 @@ const javascript = {
     "<li>But if we access the property without (), it will return the function definition.</li>",
     "<li>Adding a new method to an object is easy:</li>",
     `<li><code>person.name = function () { };</code></li>`,
+    "<li>The Object.create allows the creation of a new object that directly inherits from a specified prototype object.</li>",
+    "<li>Allows for defining custom properties on the new object.</li>",
+    "<li>Facilitates inheritance without using constructor functions.</li>",
   ],
   "JS Object Display": [
     "<h2 style='text-align: center;'>JavaScript Object Display</h2>",
