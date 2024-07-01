@@ -317,6 +317,14 @@ const javascript = {
   "JS String Templates": [
     "<h2 style='text-align: center;'>JavaScript String Templates</h2><p>Placeholder text for JavaScript String Templates.</p>",
   ],
+  "JS Selectors": [
+    "<h2 style='text-align: center;'>JavaScript Selectors</h2>",
+    "<li> We can use different methods provided by JavaScript to select elements from HTML.</li>",
+    "<li>getElementById: Selects a single element with the specified ID.</li>",
+    "<li>getElementsByClassName: Selects all elements with the specified class name and returns an HTMLCollection.</li>",
+    "<li>querySelector selects the first element that matches a specified CSS selector.</li>",
+    "<li>While querySelectorAll selects all elements that match the selector and returns a NodeList.</li>",
+  ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
   ],
