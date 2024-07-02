@@ -381,6 +381,17 @@ const javascript = {
     "<li>element.style.removeProperty( 'property to be removed' )  </li>",
     "<li>element.style.setProperty( 'property to be added, value' ) </code></li>etc...</ol>",
   ],
+  "JS Creat Elements": [
+    "<h2 style='text-align: center;'>JavaScript Creat Elements</h2>",
+    "<li>In JavaScript and web development, creating and manipulating elements dynamically in the DOM is a common task.</li>",
+    "<li>Here's how you can use createElement, createTextNode, and appendChild methods to achieve this:</li>",
+    "<li>The createElement method creates a new HTML element with the specified tag name for example:</li>",
+    "<code>let element = document.createElement('div');</code>",
+    "<li>The createTextNode method creates a new text node with the specified text content for example:</li>",
+    "<code>let text = document.createTextNode('Hello, world!');</code>",
+    "<li>The appendChild method adds a node to the end of the list of children of a specified parent node:</li>",
+    "<code>parent.appendChild(child);</code>",
+  ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
   ],
