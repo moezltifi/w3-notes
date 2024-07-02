@@ -241,11 +241,11 @@ const javascript = {
 
     "<li>Displaying the Object Properties in a Loop</li>",
     "<p>The properties of an object can be collected in a loop:</p>",
-    `"<code>let text = "";<br>
+    `<code>let text = "";<br>
     for (let x in objectName) {<br>
     text += objectName[x] + " ";<br>
     };<br>
-    document.getElementById( id ).innerHTML = text;</code>"`,
+    document.getElementById( id ).innerHTML = text;</code>`,
 
     "<li>Displaying the Object using Object.values()</li>",
     "<p>Object.values() creates an array from the property values:</p>",
@@ -324,6 +324,21 @@ const javascript = {
     "<li>getElementsByClassName: Selects all elements with the specified class name and returns an HTMLCollection.</li>",
     "<li>querySelector selects the first element that matches a specified CSS selector.</li>",
     "<li>While querySelectorAll selects all elements that match the selector and returns a NodeList.</li>",
+  ],
+  "JS DOM Attributes": [
+    "<h2 style='text-align: center;'>JavaScript DOM Attributes</h2>",
+    "<li>In HTML elements, attributes are additional properties that define the characteristics or behavior of the element. Examples include id, class, src, href, style, etc..</li>",
+    "<li>You can access attributes of an element using properties of the DOM element object. For example, to get the id attribute of an element:</li>",
+    `<code>var element = document.getElementById('myElement');<br>
+    var idValue = element.id;</code>`,
+    "<li>Attributes can be set or modified using these same properties. For example, to change the class attribute of an element:</li>",
+    `<code>element.className = 'newClass';</code>`,
+    "<li> In some cases, there's a difference between HTML attributes and DOM properties. For instance, className corresponds to the class attribute in HTML.</li>",
+    "<li> The getAttribute() and setAttribute() methods can be used to explicitly get or set an attribute by name:</li>",
+    `<code>var valueAttr = element.getAttribute('value');<br>
+    element.setAttribute('atr name', 'value');</code>`,
+    "<li>Use removeAttribute() to remove an attribute from an element.</li>",
+    "<li>The hasAttribute() method in JavaScript is used to check if a specified attribute exists on an element, it returns values true or false.</li>",
   ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
