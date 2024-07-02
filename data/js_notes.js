@@ -362,6 +362,13 @@ const javascript = {
     `<code>let textContent = element.outerText; //Use to get content<br>
     element.outerText = 'New text content'; //Use to set content</code>`,
   ],
+  "JS Sibling": [
+    "<h2 style='text-align: center;'>JavaScript Sibling</h2>",
+    "<li>n the context of DOM traversal in web development, previousSibling and nextSibling are properties that allow you to navigate between sibling nodes relative to a given element.</li>",
+    "<li>previousSibling it returns the previous sibling node of the specified element node. This means it gives you the node immediately preceding the current node in the DOM tree.</li>",
+    "<li>nextSibling It returns the next sibling node of the specified element node. This means it gives you the node immediately following the current node in the DOM tree.</li>",
+    "<li>If you specifically want to navigate only through element nodes, you may want to use previousElementSibling and nextElementSibling instead.</li>",
+  ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
   ],
