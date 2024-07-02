@@ -340,6 +340,28 @@ const javascript = {
     "<li>Use removeAttribute() to remove an attribute from an element.</li>",
     "<li>The hasAttribute() method in JavaScript is used to check if a specified attribute exists on an element, it returns values true or false.</li>",
   ],
+  "JS Inner Outer": [
+    "<h2 style='text-align: center;'>JavaScript Inner Outer</h2>",
+    "<li>The innerHTML property allows you to access or modify the HTML content inside an element, including its nested elements.</li>",
+    `<code>let htmlContent = element.innerHTML; //Use to get content<br>
+    element.innerHTML = '&lt;p&gt;New content&lt;/p&gt;' //Use to set content</code><br><br>`,
+
+    "<li>The outerHTML property allows you to access or replace the HTML content of an entire element, including the element itself.</li>",
+    `<code>let htmlContent = element.outerHTML; //Use to get content<br>
+    element.outerHTML = '&lt;div&gt;&lt;p&gt;New content&lt;/p&gt;&lt;/div&gt;'; //Use to set content</code><br><br>`,
+
+    "<li>Text content refers specifically to the textual information inside an element, excluding any HTML structure or tags.</li>",
+    `<code>let textContent = element.textContent; //Accessing Text Content:<br>
+    element.innerHTML = element.textContent = 'New text content'; //Modifying Text Content</code><br><br>`,
+
+    "<li>The innerText property retrieves or sets the text content of an element, ignoring any elements that are hidden by CSS.</li>",
+    `<code>let textContent = element.innerText; //Use to get content<br>
+    element.innerText = 'New text content'; //Use to set content</code><br><br>`,
+    
+    "<li>The outerText property is similar to innerText, but it includes the element itself and respects the visibility rules of CSS.</li>",
+    `<code>let textContent = element.outerText; //Use to get content<br>
+    element.outerText = 'New text content'; //Use to set content</code>`,
+  ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
   ],
