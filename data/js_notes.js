@@ -364,12 +364,22 @@ const javascript = {
   ],
   "JS Sibling": [
     "<h2 style='text-align: center;'>JavaScript Sibling</h2>",
-    "<li>n the context of DOM traversal in web development, previousSibling and nextSibling are properties that allow you to navigate between sibling nodes relative to a given element.</li>",
+    "<li>In the context of DOM traversal in web development, previousSibling and nextSibling are properties that allow you to navigate between sibling nodes relative to a given element.</li>",
     "<li>previousSibling it returns the previous sibling node of the specified element node. This means it gives you the node immediately preceding the current node in the DOM tree.</li>",
     "<li>nextSibling It returns the next sibling node of the specified element node. This means it gives you the node immediately following the current node in the DOM tree.</li>",
     "<li>If you specifically want to navigate only through element nodes, you may want to use previousElementSibling and nextElementSibling instead.</li>",
     "<li>In JavaScript and the DOM (Document Object Model), the parentElement property is used to access the parent element of a specified element node. This property allows you to traverse up the DOM hierarchy from a child node to its parent node.</li>",
     "<li>If the current node does not have a parent element (for example, if it's the <html> element or detached from the DOM), parentElement will return null.</li>",
+  ],
+  "JS DOM CSS": [
+    "<h2 style='text-align: center;'>JavaScript DOM CSS</h2>",
+    "<li>The HTML DOM allows JavaScript to change the style of HTML elements.</li>",
+    "<li>There are many ways to change the style of HTML elements.</li>",
+    "<li>For example, to change the style of an HTML element, we can use these syntaxes:</li>",
+    "<ol><li><code>element.style.property = value </li>",
+    "<li>element.style.cssText='css code' </li>",
+    "<li>element.style.removeProperty( 'property to be removed' )  </li>",
+    "<li>element.style.setProperty( 'property to be added, value' ) </code></li>etc...</ol>",
   ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
