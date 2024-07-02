@@ -368,6 +368,8 @@ const javascript = {
     "<li>previousSibling it returns the previous sibling node of the specified element node. This means it gives you the node immediately preceding the current node in the DOM tree.</li>",
     "<li>nextSibling It returns the next sibling node of the specified element node. This means it gives you the node immediately following the current node in the DOM tree.</li>",
     "<li>If you specifically want to navigate only through element nodes, you may want to use previousElementSibling and nextElementSibling instead.</li>",
+    "<li>In JavaScript and the DOM (Document Object Model), the parentElement property is used to access the parent element of a specified element node. This property allows you to traverse up the DOM hierarchy from a child node to its parent node.</li>",
+    "<li>If the current node does not have a parent element (for example, if it's the <html> element or detached from the DOM), parentElement will return null.</li>",
   ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
