@@ -402,6 +402,16 @@ const javascript = {
     "<li>element.style.removeProperty( 'property to be removed' )  </li>",
     "<li>element.style.setProperty( 'property to be added, value' ) </code></li>etc...</ol>",
   ],
+  "JS DOM Insert": [
+    "<h2 style='text-align: center;'>JavaScript Insert CSS</h2>",
+    "<li>We can use many ways to insert elements in HTML for example:</li>",
+    "<ol><li>after: Used to insert or make an HTML element after an other HTML element.</li>",
+    "<code>element.after(element)</code>",
+    "<li>befor: Used to insert or insertan HTML element befor an other HTML element.</li>",
+    "<code>element.before(element)</code>",
+    "<li>append:Used to make an HTML element inside an other HTML element.</li>",
+    "<code>element.append(element)</code></ol>",
+  ],
   "JS Creat Elements": [
     "<h2 style='text-align: center;'>JavaScript Creat Elements</h2>",
     "<li>In JavaScript and web development, creating and manipulating elements dynamically in the DOM is a common task.</li>",
