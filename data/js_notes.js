@@ -287,7 +287,15 @@ const javascript = {
     "<code>&lt;element event='function()'&gt;</code>",
     "<li>Add an event listener that detecte an event is happening.</li>",
     "<code>element.addEventListener('event', function(){});</code></ol></ol>",
-
+    "<li>Here is a list of some common HTML events:</li>",
+    "<ul><li>onclick: When the user clicks an HTML element.</li>",
+    "<ul><li>onkeydown: When the user pushes a keyboard key.</li>",
+    "<li>onfocus: When the user focus an HTML element.</li>",
+    "<li>onblur: When the user blur an HTML element.</li>",
+    "<li>onmouseover: When the user over an HTML element with mouse.</li>",
+    "<li>onmouseout: 	When the user moves the mouse away from an HTML element.</li>",
+    "<li>onload: When the page finish loding.</li>",
+    "<li>onresize: When the user resize the page.</li></ul>",
   ],
   "JS Strings": [
     "<h2 style='text-align: center;'>JavaScript Strings</h2>",
