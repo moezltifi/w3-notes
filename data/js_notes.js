@@ -274,7 +274,17 @@ const javascript = {
     "<li>In HTML event handlers, this refers to the HTML element that received the event.</li>",
   ],
   "JS Events": [
-    "<h2 style='text-align: center;'>JavaScript Events</h2><p>Placeholder text for JavaScript Events.</p>",
+    "<h2 style='text-align: center;'>JavaScript Events</h2>",
+    "<li>HTML events are acts that happen to HTML elements.</li>",
+    "<li>If we use JavaScript in HTML, it can react to these events.</li>",
+    "<li>If we want to do something when an event is happening.</li>",
+    "<li>JavaScript allows us to execute a code, When this event is happening.</li>",
+    "<li>We can add events in two ways:</li>",
+    "<ol><li>Add Javascript code inline in HTML element</li>",
+    "<code>&lt;element event='some JavaScript'&gt;</code>",
+    "<li>Add a Javascript function and call it in the  HTML element</li>",
+    "<code><element event='function()'></code></ol>",
+
   ],
   "JS Strings": [
     "<h2 style='text-align: center;'>JavaScript Strings</h2>",
