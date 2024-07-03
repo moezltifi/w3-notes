@@ -411,6 +411,11 @@ const javascript = {
     "<code>element.before(element)</code>",
     "<li>append:Used to make an HTML element inside an other HTML element.</li>",
     "<code>element.append(element)</code></ol>",
+    "<li>Olso we can add or remove classes in HTML for example:</li>",
+    "<ol><li>add: To add a class or more to an element.</li>",
+    "<code>element.classList.add</code>",
+    "<li>remove: To add a class or more to an element.</li>",
+    "<code>element.classList.remove</code></ol>",
   ],
   "JS Creat Elements": [
     "<h2 style='text-align: center;'>JavaScript Creat Elements</h2>",
