@@ -280,10 +280,13 @@ const javascript = {
     "<li>If we want to do something when an event is happening.</li>",
     "<li>JavaScript allows us to execute a code, When this event is happening.</li>",
     "<li>We can add events in two ways:</li>",
-    "<ol><li>Add Javascript code inline in HTML element</li>",
+    "<ol><li>Add Javascript code inline in HTML element.</li>",
     "<code>&lt;element event='some JavaScript'&gt;</code>",
-    "<li>Add a Javascript function and call it in the  HTML element</li>",
-    "<code><element event='function()'></code></ol>",
+    "<li>Add it using Javascript and there are two ways:</li>",
+    "<ol><li>Add a Javascript function and call it in the  HTML element.</li>",
+    "<code>&lt;element event='function()'&gt;</code>",
+    "<li>Add an event listener that detecte an event is happening.</li>",
+    "<code>element.addEventListener('event', function(){});</code></ol></ol>",
 
   ],
   "JS Strings": [
