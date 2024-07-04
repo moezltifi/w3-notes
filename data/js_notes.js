@@ -464,6 +464,18 @@ const javascript = {
     `<code>window.scrollY // This gives us the position of the scroll bar in the Y axis</code><br>`,
     `<code>window.scrollx // This gives us the position of the scroll bar in the X axis</code>`,
   ],
+  "JS BOM Screen": [
+    "<h2 style='text-align: center;'>JavaScript BOM Screen</h2>",
+    "<li>The window.screen object contains information about the user's screen.:</li>",
+    "<li>It can be written without the window prefix.</li>",
+    "<li>Here are some screen properties:</li>",
+    "<li>screen.width: returns the width of the visitor's screen in pixels.</li>",
+    "<li>screen.height: returns the height of the visitor's screen in pixels.</li>",
+    "<li>screen.availWidth: returns the available width of the visitor's screen in pixels.</li>",
+    "<li>screen.availHeight: returns the available height of the visitor's screen in pixels.</li>",
+    "<li>screen.colorDepth: returns the number of bits used to display one color.</li>",
+    "<li>screen.pixelDepth: returns the pixel depth of the screen.</li>",
+   ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
   ],
