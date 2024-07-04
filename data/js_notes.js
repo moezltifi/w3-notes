@@ -380,6 +380,23 @@ const javascript = {
     "<li>For example the document object is a property of the window object:</li>",
     `<code>window.document.getElementById("header"); teh same of document.getElementById("header");</code>`,
   ],
+  "JS BOM Scroll": [
+    "<h2 style='text-align: center;'>JavaScript BOM Scroll</h2>",
+    "<li>We can control the scroll bar with cahnge his place in the web page using:</li>",
+
+    `<code>window.scroll({left:value, top:value}) //move the scroll bar to the specified position</code><br>`,
+    `<code>window.scroll(X Value, Y Value)</code><br>`,
+
+    `<code>window.scrollTo({left:value, top:value}) //move the scroll bar to the specified position</code><br>`,
+    `<code>window.scrollTo(X Value, Y Value)</code><br>`,
+
+    `<code>window.scrollBy({left:value, top:value}) //Moving the slider by the given values ​​means adding the given values ​​to the actual position</code><br>`,
+    `<code>window.scrollBy(X Value, Y Value)</code><br>`,
+
+    "<li>And we can know the actual position of the scroll bar.</li>",
+    `<code>window.scrollY // This gives us the position of the scroll bar in the Y axis</code><br>`,
+    `<code>window.scrollx // This gives us the position of the scroll bar in the X axis</code>`,
+  ],
   "JS Inner Outer": [
     "<h2 style='text-align: center;'>JavaScript Inner Outer</h2>",
     "<li>The innerHTML property allows you to access or modify the HTML content inside an element, including its nested elements.</li>",
