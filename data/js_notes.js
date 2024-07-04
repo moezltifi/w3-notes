@@ -89,7 +89,7 @@ const javascript = {
     "<li>Reassign a constant object.</li></ul>",
     "<li>But you CAN:</li>",
     "<ul><li>Change the elements of constant array.</li>",
-    "<li>Change the properties of constant object</li></ul>"
+    "<li>Change the properties of constant object</li></ul>",
   ],
   "JS Operators": [
     "<h2 style='text-align: center;'>JavaScript Operators</h2><p>Placeholder text for JavaScript Operators.</p>",
@@ -369,34 +369,6 @@ const javascript = {
     "<li>Use removeAttribute() to remove an attribute from an element.</li>",
     "<li>The hasAttribute() method in JavaScript is used to check if a specified attribute exists on an element, it returns values true or false.</li>",
   ],
-  "JS BOM Window": [
-    "<h2 style='text-align: center;'>JavaScript BOM Window</h2>",
-    "<li>The Browser Object Model (BOM) allows JavaScript to talk to the browser.</li>",
-    "<li>The window object is supported by all the browsers it is the browser window.</li>",
-    "<li>All global JavaScript objects, functions, and variables automatically become members of the window object.</li>",
-    "<li>Global variables are properties of the window object.</li>",
-    "<li>Global functions are methods of the window object.</li>",
-    "<li>For example the document object is a property of the window object.</li>",
-    "<li>For example the document object is a property of the window object:</li>",
-    `<code>window.document.getElementById("header"); teh same of document.getElementById("header");</code>`,
-  ],
-  "JS BOM Scroll": [
-    "<h2 style='text-align: center;'>JavaScript BOM Scroll</h2>",
-    "<li>We can control the scroll bar with cahnge his place in the web page using:</li>",
-
-    `<code>window.scroll({left:value, top:value}) //move the scroll bar to the specified position</code><br>`,
-    `<code>window.scroll(X Value, Y Value)</code><br>`,
-
-    `<code>window.scrollTo({left:value, top:value}) //move the scroll bar to the specified position</code><br>`,
-    `<code>window.scrollTo(X Value, Y Value)</code><br>`,
-
-    `<code>window.scrollBy({left:value, top:value}) //Moving the slider by the given values ​​means adding the given values ​​to the actual position</code><br>`,
-    `<code>window.scrollBy(X Value, Y Value)</code><br>`,
-
-    "<li>And we can know the actual position of the scroll bar.</li>",
-    `<code>window.scrollY // This gives us the position of the scroll bar in the Y axis</code><br>`,
-    `<code>window.scrollx // This gives us the position of the scroll bar in the X axis</code>`,
-  ],
   "JS Inner Outer": [
     "<h2 style='text-align: center;'>JavaScript Inner Outer</h2>",
     "<li>The innerHTML property allows you to access or modify the HTML content inside an element, including its nested elements.</li>",
@@ -414,7 +386,7 @@ const javascript = {
     "<li>The innerText property retrieves or sets the text content of an element, ignoring any elements that are hidden by CSS.</li>",
     `<code>let textContent = element.innerText; //Use to get content<br>
     element.innerText = 'New text content'; //Use to set content</code><br><br>`,
-    
+
     "<li>The outerText property is similar to innerText, but it includes the element itself and respects the visibility rules of CSS.</li>",
     `<code>let textContent = element.outerText; //Use to get content<br>
     element.outerText = 'New text content'; //Use to set content</code>`,
@@ -463,6 +435,34 @@ const javascript = {
     "<code>let text = document.createTextNode('Hello, world!');</code>",
     "<li>The appendChild method adds a node to the end of the list of children of a specified parent node:</li>",
     "<code>parent.appendChild(child);</code>",
+  ],
+  "JS BOM Window": [
+    "<h2 style='text-align: center;'>JavaScript BOM Window</h2>",
+    "<li>The Browser Object Model (BOM) allows JavaScript to talk to the browser.</li>",
+    "<li>The window object is supported by all the browsers it is the browser window.</li>",
+    "<li>All global JavaScript objects, functions, and variables automatically become members of the window object.</li>",
+    "<li>Global variables are properties of the window object.</li>",
+    "<li>Global functions are methods of the window object.</li>",
+    "<li>For example the document object is a property of the window object.</li>",
+    "<li>For example the document object is a property of the window object:</li>",
+    `<code>window.document.getElementById("header"); teh same of document.getElementById("header");</code>`,
+  ],
+  "JS BOM Scroll": [
+    "<h2 style='text-align: center;'>JavaScript BOM Scroll</h2>",
+    "<li>We can control the scroll bar with cahnge his place in the web page using:</li>",
+
+    `<code>window.scroll({left:value, top:value}) //move the scroll bar to the specified position</code><br>`,
+    `<code>window.scroll(X Value, Y Value)</code><br>`,
+
+    `<code>window.scrollTo({left:value, top:value}) //move the scroll bar to the specified position</code><br>`,
+    `<code>window.scrollTo(X Value, Y Value)</code><br>`,
+
+    `<code>window.scrollBy({left:value, top:value}) //Moving the slider by the given values ​​means adding the given values ​​to the actual position</code><br>`,
+    `<code>window.scrollBy(X Value, Y Value)</code><br>`,
+
+    "<li>And we can know the actual position of the scroll bar.</li>",
+    `<code>window.scrollY // This gives us the position of the scroll bar in the Y axis</code><br>`,
+    `<code>window.scrollx // This gives us the position of the scroll bar in the X axis</code>`,
   ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
