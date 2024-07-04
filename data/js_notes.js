@@ -369,6 +369,17 @@ const javascript = {
     "<li>Use removeAttribute() to remove an attribute from an element.</li>",
     "<li>The hasAttribute() method in JavaScript is used to check if a specified attribute exists on an element, it returns values true or false.</li>",
   ],
+  "JS BOM Window": [
+    "<h2 style='text-align: center;'>JavaScript BOM Window</h2>",
+    "<li>The Browser Object Model (BOM) allows JavaScript to talk to the browser.</li>",
+    "<li>The window object is supported by all the browsers it is the browser window.</li>",
+    "<li>All global JavaScript objects, functions, and variables automatically become members of the window object.</li>",
+    "<li>Global variables are properties of the window object.</li>",
+    "<li>Global functions are methods of the window object.</li>",
+    "<li>For example the document object is a property of the window object.</li>",
+    "<li>For example the document object is a property of the window object:</li>",
+    `<code>window.document.getElementById("header"); teh same of document.getElementById("header");</code>`,
+  ],
   "JS Inner Outer": [
     "<h2 style='text-align: center;'>JavaScript Inner Outer</h2>",
     "<li>The innerHTML property allows you to access or modify the HTML content inside an element, including its nested elements.</li>",
