@@ -753,7 +753,21 @@ const javascript = {
 
   ],
   "JS Dates": [
-    "<h2 style='text-align: center;'>JavaScript Dates</h2><p>Placeholder text for JavaScript Dates.</p>",
+    "<h2 style='text-align: center;'>JavaScript Dates</h2>",
+    "<li>Date objects are static. The 'clock' is not 'running'.</li>",
+    "<li>By default, JavaScript will use the browser's time zone and display a date as a full text string.</li>",
+    "<li>By default, JavaScript will use the browser's time zone and display a date as a full text string.</li>",
+    "<li>Date objects are created with the new Date() constructor.</li>",
+    "<li>There are 9 ways to create a new date object:</li>",
+    "<li>new Date()</li>",
+    "<li>new Date(milliseconds)</li>",
+    "<li>new Date(date string)</li>",
+    "<li>new Date(year,month)</li>",
+    "<li>new Date(year,month,day)</li>",
+    "<li>new Date(year,month,day,hours)</li>",
+    "<li>new Date(year,month,day,hours,minutes)</li>",
+    "<li>new Date(year,month,day,hours,minutes,seconds)</li>",
+    "<li>new Date(year,month,day,hours,minutes,seconds,ms)</li>",
   ],
   "JS Date Formats": [
     "<h2 style='text-align: center;'>JavaScript Date Formats</h2><p>Placeholder text for JavaScript Date Formats.</p>",
