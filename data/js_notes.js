@@ -740,7 +740,17 @@ const javascript = {
     "<li>The entries() method returns an Array Iterator object with (key,value) pairs.</li>",
   ],
   "JS Array Const": [
-    "<h2 style='text-align: center;'>JavaScript Array Const</h2><p>Placeholder text for JavaScript Array Const.</p>",
+    "<h2 style='text-align: center;'>JavaScript Array Const</h2>",
+    "<li>In 2015, JavaScript introduced an important new keyword: const.</li>",
+    "<li>It has become a common practice to declare arrays using const.</li>",
+    "<li>An array declared with const cannot be reassigned.</li>",
+    "<li>It does NOT define a constant array. It defines a constant reference to an array.</li>",
+    "<li>Because of this, we can still change the elements of a constant array.</li>",
+    "<li>An array declared with const must be initialized when it is declared.</li>",
+    "<li>Using const without initializing the array is a syntax error.</li>",
+    "<li>Arrays declared with var can be initialized at any time.</li>",
+    "<li>An array declared in a block is not the same as an array declared outside the block.</li>",
+
   ],
   "JS Dates": [
     "<h2 style='text-align: center;'>JavaScript Dates</h2><p>Placeholder text for JavaScript Dates.</p>",
