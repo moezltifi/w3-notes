@@ -129,9 +129,6 @@ const javascript = {
     "<li>++	Increment.</li>",
     "<li>--	Decrement.</li>",
   ],
-  "JS Assignment": [
-    "<h2 style='text-align: center;'>JavaScript Assignment</h2><p>Placeholder text for JavaScript Assignment.</p>",
-  ],
   "JS Data Types": [
     "<h2 style='text-align: center;'>JavaScript Data Types</h2>",
     "<li>Here are some JavaScript data types:</li>",
@@ -281,7 +278,21 @@ const javascript = {
     "<code>document.getElementById( id ).innerHTML = myString;</code></ol>",
   ],
   "JS Object Constructors": [
-    "<h2 style='text-align: center;'>JavaScript Object Constructors</h2><p>Placeholder text for JavaScript Object Constructors.</p>",
+    "<h2 style='text-align: center;'>JavaScript Object Constructors</h2>",
+    "<li>Sometimes we need to create many objects of the same type.</li>",
+    "<li>To create an object type we use an object constructor function.</li>",
+    "<li>It is considered good practice to name constructor functions with an upper-case first letter.</li>",
+    "<li>For example:</li>",
+    `<code>function Person(first, last, age, eye) {<br>
+    this.firstName = first;<br>
+    this.lastName = last;<br>
+    this.age = age;<br>
+    this.eyeColor = eye;<br>
+    }</code><br>`,
+    "<li>In the constructor function, this has no value.</li>",
+    "<li>The value of this will become the new object when a new object is created.</li>",
+    "<li>Now we can use new Person() to create many new Person objects:</li>",
+    `<code>const myFather = new Person("John", "Doe", 50, "blue");</code><br>`,
   ],
   "JS this Keyword": [
     "<h2 style='text-align: center;'>JavaScript this Keyword</h2>",
