@@ -378,7 +378,13 @@ const javascript = {
     "<li>The endsWith() can takes 2 parameters the second parameter specifies the length of the detected part.</li>",
   ],
   "JS String Templates": [
-    "<h2 style='text-align: center;'>JavaScript String Templates</h2><p>Placeholder text for JavaScript String Templates.</p>",
+    "<h2 style='text-align: center;'>JavaScript String Templates.</h2>",
+    "<li>Template strings use back-hash marks (``) instead of quotes ('') to delimit a string.</li>",
+    "<li>Template Strings allow both single and double quotes inside a string.</li>",
+    "<li>Template Strings allow multiline strings.</li>",
+    "<li>Template String provide an easy way to interpolate variables and expressions into strings  .</li>",
+    "<li>The method is called string interpolation.</li>",
+    "<li>The syntax is: let text = `Welcome ${var1}, ${var2}!`;.</li>",
   ],
   "JS Selectors": [
     "<h2 style='text-align: center;'>JavaScript Selectors</h2>",
