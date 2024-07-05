@@ -105,7 +105,17 @@ const javascript = {
     "<li>Change the properties of constant object</li></ul>",
   ],
   "JS Operators": [
-    "<h2 style='text-align: center;'>JavaScript Operators</h2><p>Placeholder text for JavaScript Operators.</p>",
+    "<h2 style='text-align: center;'>JavaScript Operators</h2>",
+    "<li>Javascript operators are used to perform different types of mathematical and logical computations.</li>",
+    "<li>Examples:</li>",
+    "<li>The Assignment Operator = assigns values</li>",
+    "<li>The Addition Operator + adds values</li>",
+    "<li>The Subtraction Operator - subtracts values</li>",
+    "<li>The Multiplication Operator * multiplies values</li>",
+    "<li>This Operator && is the	logical and</li>",
+    "<li>This Operator || is the	logical or</li>",
+    "<li>This Operator ! is the	logical not</li>",
+    "<li>The Comparison Operator > compares values</li>",
   ],
   "JS Arithmetic": [
     "<h2 style='text-align: center;'>JavaScript Arithmetic</h2>",
