@@ -45,7 +45,12 @@ const javascript = {
     "<li>function keyword: A JavaScript function is a block of code designed to perform a particular task</li>",
   ],
   "JS Comments": [
-    "<h2 style='text-align: center;'>JavaScript Comments</h2><p>Placeholder text for JavaScript Comments.</p>",
+    "<h2 style='text-align: center;'>JavaScript Comments</h2>",
+    "<li>JavaScript comments can be used to explain JavaScript code, and to make it more readable.</li>",
+    "<li>Single line comments start with //.</li>",
+    "<li>Any text between // and the end of the line will be ignored by JavaScript (will not be executed).</li>",
+    "<li>Multi-line comments start with /* and end with */.</li>",
+    "<li>Any text between /* and */ will be ignored by JavaScript.</li>",
   ],
   "JS Type Conversion": [
     "<h2 style='text-align: center;'>JavaScript Type Conversion</h2>",
