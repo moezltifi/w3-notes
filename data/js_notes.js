@@ -521,7 +521,15 @@ const javascript = {
     "<li> <code>sessionStorage.getItem('name');</code></li>",
    ],
   "JS Numbers": [
-    "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
+    "<h2 style='text-align: center;'>JavaScript Numbers</h2>",
+    "<li>JavaScript has only one type of number. Numbers can be written with or without decimals.</li>",
+    "<li>Extra large or extra small numbers can be written with scientific (exponent) notation.</li>",
+    "<li>Integers (numbers without a period or exponent notation) are accurate up to 15 digits.</li>",
+    "<li>The maximum number of decimals is 17.</li>",
+    "<li>If you add a number and a string, the result will be a string concatenation.</li>",
+    "<li>You can use the global JavaScript function isNaN() to find out if a value is not a number.</li>",
+    "<li>NaN is a number: typeof NaN returns number.</li>",
+
   ],
   "JS BigInt": [
     "<h2 style='text-align: center;'>JavaScript BigInt</h2><p>Placeholder text for JavaScript BigInt.</p>",
