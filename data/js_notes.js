@@ -532,7 +532,12 @@ const javascript = {
 
   ],
   "JS BigInt": [
-    "<h2 style='text-align: center;'>JavaScript BigInt</h2><p>Placeholder text for JavaScript BigInt.</p>",
+    "<h2 style='text-align: center;'>JavaScript BigInt</h2>",
+    "<li>JavaScript BigInt variables are used to store big integer  values that are too big to be represented by a normal JavaScript Number.</li>",
+    "<li>To create a BigInt, append n to the end of an integer or call BigInt().</li>",
+    "<li>The JavaScript typeof a BigInt is bigint</li>",
+    "<li>Operators that can be used on a JavaScript Number can also be used on a BigInt.</li>",
+
   ],
   "JS Number Methods": [
     "<h2 style='text-align: center;'>JavaScript Number Methods</h2><p>Placeholder text for JavaScript Number Methods.</p>",
