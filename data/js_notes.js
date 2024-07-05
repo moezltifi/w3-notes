@@ -529,7 +529,6 @@ const javascript = {
     "<li>If you add a number and a string, the result will be a string concatenation.</li>",
     "<li>You can use the global JavaScript function isNaN() to find out if a value is not a number.</li>",
     "<li>NaN is a number: typeof NaN returns number.</li>",
-
   ],
   "JS BigInt": [
     "<h2 style='text-align: center;'>JavaScript BigInt</h2>",
@@ -537,10 +536,16 @@ const javascript = {
     "<li>To create a BigInt, append n to the end of an integer or call BigInt().</li>",
     "<li>The JavaScript typeof a BigInt is bigint</li>",
     "<li>Operators that can be used on a JavaScript Number can also be used on a BigInt.</li>",
-
   ],
   "JS Number Methods": [
-    "<h2 style='text-align: center;'>JavaScript Number Methods</h2><p>Placeholder text for JavaScript Number Methods.</p>",
+    "<h2 style='text-align: center;'>JavaScript Number Methods</h2>",
+    "<li>These number methods can be used on all JavaScript numbers:</li>",
+    "<ul><li>toString()	Returns a number as a string.</li>",
+    "<li>toExponential()	Returns a number written in exponential notation.</li>",
+    "<li>toFixed()	Returns a number written with a number of decimals.</li>",
+    "<li>toPrecision()	Returns a number written with a specified length.</li>",
+    "<li>toExponential()	Returns a number written in exponential notation.</li>",
+    "<li>valueOf()	Returns a string as a number.</li></ul>",
   ],
   "JS Comparison": [
     "<h2 style='text-align: center;'>JavaScript Comparison</h2>",
