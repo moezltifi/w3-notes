@@ -34,7 +34,15 @@ const javascript = {
     "<li>JavaScript is case-sensitive, and white spaces are ignored.</li>",
   ],
   "JS Syntax": [
-    "<h2 style='text-align: center;'>JavaScript Syntax</h2><p>Placeholder text for JavaScript Syntax.</p>",
+    "<h2 style='text-align: center;'>JavaScript Syntax</h2>",
+    "<li>JavaScript syntax can be summarized in these key points:</li>",
+    "<li>Variables are declared using var, let, or const.</li>",
+    "<li>JavaScript has dynamic typing (variables can hold values of any type).</li>",
+    "<li>Data types include number, string, boolean, null, undefined, object, and symbol.</li>",
+    "<li>Conditional statements: if, else if, else.</li>",
+    "<li>Loops: for, while, do-while.</li>",
+    "<li>Switch statement for multi-way branching.</li>",
+    "<li>function keyword: A JavaScript function is a block of code designed to perform a particular task</li>",
   ],
   "JS Comments": [
     "<h2 style='text-align: center;'>JavaScript Comments</h2><p>Placeholder text for JavaScript Comments.</p>",
