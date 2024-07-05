@@ -498,6 +498,20 @@ const javascript = {
     "<li><code>setInterval(function, milliseconds)</code></li>",
     "<li>The setTimeout() and setInterval() are both methods of the HTML DOM Window object.</li>",
    ],
+   "JS Storage": [
+    "<h2 style='text-align: center;'>JavaScript Storage</h2>",
+    "<li>The Web Storage API is a simple syntax for storing and retrieving data in the browser. It is very easy to use.</li>",
+    "<li>Web storage can be used using two methods:</li>",
+    "<li>The localStorage object provides access to a local storage for a particular Web Site.</li>",
+    "<li>It allows us to store, read, add, modify, and delete data items for that domain.</li>",
+    "<li>The data is stored with no expiration date, and will not be deleted when the browser is closed.</li>",
+    "<li>The data will be available for ever.</li>",
+    "<li>The <code>localStorage.setItem()</code> method stores a data item in a storage.</li>",
+    "<li> <code>localStorage.setItem('name', 'John Doe');</code></li>",
+    "<li>The localStorage.getItem() method retrieves a data item from the storage.</li>",
+    "<li> <code>localStorage.getItem('name');</code></li>",
+
+   ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
   ],
