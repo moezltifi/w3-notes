@@ -466,7 +466,7 @@ const javascript = {
   ],
   "JS BOM Screen": [
     "<h2 style='text-align: center;'>JavaScript BOM Screen</h2>",
-    "<li>The window.screen object contains information about the user's screen.:</li>",
+    "<li>The window.screen object contains information about the user's screen.</li>",
     "<li>It can be written without the window prefix.</li>",
     "<li>Here are some screen properties:</li>",
     "<li>screen.width: returns the width of the visitor's screen in pixels.</li>",
@@ -475,6 +475,17 @@ const javascript = {
     "<li>screen.availHeight: returns the available height of the visitor's screen in pixels.</li>",
     "<li>screen.colorDepth: returns the number of bits used to display one color.</li>",
     "<li>screen.pixelDepth: returns the pixel depth of the screen.</li>",
+   ],
+   "JS BOM Location": [
+    "<h2 style='text-align: center;'>JavaScript BOM Location</h2>",
+    "<li>The window.location object can be used to get the current page address and to redirect the browser to a new page.</li>",
+    "<li>It can also be written location whithout the window prefix</li>",
+    "<li>Some examples:</li>",
+    "<li>location.href returns the href of the current page</li>",
+    "<li>location.hostname returns the domain name of the web host</li>",
+    "<li>location.pathname returns the path and filename of the current page</li>",
+    "<li>location.protocol returns the web protocol used (http: or https:)</li>",
+    "<li>location.assign() loads a new document</li>",
    ],
   "JS Numbers": [
     "<h2 style='text-align: center;'>JavaScript Numbers</h2><p>Placeholder text for JavaScript Numbers.</p>",
