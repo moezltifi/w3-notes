@@ -770,7 +770,11 @@ const javascript = {
     "<li>new Date(year,month,day,hours,minutes,seconds,ms)</li>",
   ],
   "JS Date Formats": [
-    "<h2 style='text-align: center;'>JavaScript Date Formats</h2><p>Placeholder text for JavaScript Date Formats.</p>",
+    "<h2 style='text-align: center;'>JavaScript Date Formats</h2>",
+    "<li>There are generally 3 types of JavaScript date input formats:</li>",
+    "<ul><li>ISO Date	'2015-03-25' (The International Standard)</li>",
+    "<li>Short Date	'03/25/2015'</li>",
+    "<li>Long Date	'Mar 25 2015' or '25 Mar 2015'</li></ul>",
   ],
   "JS Date Get Methods": [
     "<h2 style='text-align: center;'>JavaScript Date Get Methods</h2><p>Placeholder text for JavaScript Date Get Methods.</p>",
