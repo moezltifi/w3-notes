@@ -829,6 +829,13 @@ const javascript = {
     "<code>Math.floor(Math.random() * 10); // Returns a random integer from 0 to 9</code>",
   ],
   "JS Booleans": [
-    "<h2 style='text-align: center;'>JavaScript Booleans</h2><p>Placeholder text for JavaScript Booleans.</p>",
+    "<h2 style='text-align: center;'>JavaScript Booleans</h2>",
+    "<li>Very often, in programming, you will need a data type that can only have one of two values, like:</li>",
+    "<ul><li>YES / NO</li>",
+    "<li>ON / OFF</li>",
+    "<li>TRUE / FALSE</li></ul>",
+    "<li>For this, JavaScript has a Boolean data type.</li>",
+    "<li>A JavaScript Boolean represents one of two values: true or false.</li>",
+    "<li>You can use the Boolean() function to find out if an expression is true.</li>",
   ],
 };
