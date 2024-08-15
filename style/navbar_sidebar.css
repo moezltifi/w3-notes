@@ -8,8 +8,25 @@
   background-color: #282a35;
   color: #dfeaeb;
   height: 50px;
+  overflow-x: auto;
+  white-space: nowrap; 
+  scrollbar-width: none; 
 }
-
+.w3-bar button.open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px; 
+}
+.w3-bar a {
+  flex-shrink: 0;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
 /* Sidebar */
 .w3-sidebar {
   width: 20%;
