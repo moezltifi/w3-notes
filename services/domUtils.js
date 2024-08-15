@@ -8,7 +8,7 @@ function createSectionButton(section, index) {
 
 function showContent(course, section) {
   const content = document.getElementById("content");
-  const courseContent = { HTML: html, CSS: css, JavaScript: javascript };
+  const courseContent = { HTML: html, CSS: css, JavaScript: javascript, Java: java};
   const contentToDisplay = (courseContent[course]?.[section] || ["<h2>No content available</h2>"]).join("");
   content.innerHTML = contentToDisplay;
   
