@@ -2,7 +2,8 @@ const sections = {
   HTML: Object.keys(html),
   CSS: Object.keys(css),
   JavaScript: Object.keys(javascript),
-  Java: Object.keys(java)
+  Java: Object.keys(java),
+  data_structures_and_algorithms: Object.keys(data_structures_and_algorithms)
 };
 
 let currentSectionIndex = 0;
