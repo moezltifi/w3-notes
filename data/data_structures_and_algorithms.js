@@ -13,4 +13,11 @@ const DSA = {
         "<li>Algorithms are fundamental to computer programming because they provide step-by-step instructions for performing tasks.</li>",
         "<li> An efficient algorithm can help us find the solution we are looking for and turn a slow program into a faster one.</li>",
       ],
+      "DSA Arrays": [
+        "<h2 style='text-align: center;'>Arrays</h2>",
+        "<li>Contiguous block memory.</li>",
+        "<li>Evry elements occupies the same amount of space in memory.</li>",
+        "<li>If an array starts at memory address x and the size of each element in the array is y, we can calculate the memory address of the ith element using the following expression: x + i * y.</li>",
+        "<li>If we know the index of an element, the time to retrieve the element will be the same no matter where it is in the array.</li>",
+      ],
   }
