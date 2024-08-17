@@ -20,4 +20,15 @@ const DSA = {
         "<li>If an array starts at memory address x and the size of each element in the array is y, we can calculate the memory address of the ith element using the following expression: x + i * y.</li>",
         "<li>If we know the index of an element, the time to retrieve the element will be the same no matter where it is in the array.</li>",
       ],
+      "DSA Complexity": [
+        "<h2 style='text-align: center;'>DSA Complexity</h2>",
+        "<li>To compare the performance of one algorithm against another algorithm.</li>",
+        "<li>It might think that one way we could do this is to implement an algorithm and then insert a line of code that records the start and end of the algorithm's execution.</li>",
+        "<li>But using this method, the result will vary from one computer to another.</li>",
+        "<li>So we need a more objective measure than just distraint running time.</li>",
+        "<li>And so what we do is we look at the number of steps that it takes to execute an algorithm and we call this the time complexity.</li>",
+        "<li>there are two types of complexity there is time complexity and memory complexity:</li>",
+        "<li><strong>Time Complexity:</strong> which is the number of steps involved to run an algorithm.</li>",
+        "<li><strong>Memory Complexity:</strong> which is the amount of memory it takes to run an algorithm.</li>",
+      ],
   }
