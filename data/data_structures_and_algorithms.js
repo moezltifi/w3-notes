@@ -31,4 +31,14 @@ const DSA = {
         "<li><strong>Time Complexity:</strong> which is the number of steps involved to run an algorithm.</li>",
         "<li><strong>Memory Complexity:</strong> which is the amount of memory it takes to run an algorithm.</li>",
       ],
+      "DSA Big-O val eg": [
+        "<h2 style='text-align: center;'>DSA Big-O Values Examples</h2>",
+        "<li>Retrieve with index: O(1) ==> constant time</li>",
+        "<li>Retrieve without index: O(n) ==> linear time.</li>",
+        "<li>Add an element to a full array: O(n).</li>",
+        "<li>Add an element to the end of an array: O(1).</li>",
+        "<li>Insert or update an element at a specific index: O(1).</li>",
+        "<li>Delete an element by setting it to null: O(1).</li>",
+        "<li>Delete an element by sifting elements: O(n).</li>",
+      ],
   }
