@@ -41,4 +41,13 @@ const DSA = {
         "<li>Delete an element by setting it to null: O(1).</li>",
         "<li>Delete an element by sifting elements: O(n).</li>",
       ],
+      "DSA Bubble Sort": [
+        "<h2 style='text-align: center;'>DSA Bubble Sort</h2>",
+        "<li>Bubble sort is a simple comparison-based sorting algorithm. It works by repeatedly stepping through the list to be sorted.</li>",
+        "<li>Compares adjacent elements.</li>",
+        "<li>Swaps elements if they are in the wrong order.</li>",
+        "<li>Multiple passes through the list are made, with each pass placing the next largest item in its correct position.</li>",
+        "<li>Can be optimized by stopping early if no swaps are made during a pass, which indicates the list is already sorted.</li>",
+        "<li>Time Complexity: O(n²).</li>",
+      ],
   }
