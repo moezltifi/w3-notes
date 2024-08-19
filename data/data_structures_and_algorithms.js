@@ -49,5 +49,10 @@ const DSA = {
         "<li>Multiple passes through the list are made, with each pass placing the next largest item in its correct position.</li>",
         "<li>Can be optimized by stopping early if no swaps are made during a pass, which indicates the list is already sorted.</li>",
         "<li>Time Complexity: O(n²).</li>",
+      ],      
+      "DSA Stable Vs Unstable Sort": [
+        "<h2 style='text-align: center;'>DSA Stable Vs Unstable Sort</h2>",
+        "<li><strong>Stable Sorting Algorithms:</strong> A sorting algorithm is considered stable if it maintains the relative order of records with equal keys (if two elements are equal, they remain in the same order after sorting)</li>",
+        "<li><strong>Unstable Sorting Algorithms:</strong> A sorting algorithm is considered unstable if it does not necessarily maintain the relative order of records with equal keys.</li>",
       ],
   }
