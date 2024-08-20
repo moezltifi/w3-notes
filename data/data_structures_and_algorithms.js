@@ -31,8 +31,9 @@ const DSA = {
         "<li><strong>Time Complexity:</strong> which is the number of steps involved to run an algorithm.</li>",
         "<li><strong>Memory Complexity:</strong> which is the amount of memory it takes to run an algorithm.</li>",
       ],
-      "DSA Big-O val eg": [
-        "<h2 style='text-align: center;'>DSA Big-O Values Examples</h2>",
+      "DSA Big-O Values": [
+        "<h2 style='text-align: center;'>DSA Big-O Values</h2>",
+        "<li>The time complexities of common array operations</li>",
         "<li>Retrieve with index: O(1) ==> constant time</li>",
         "<li>Retrieve without index: O(n) ==> linear time.</li>",
         "<li>Add an element to a full array: O(n).</li>",
@@ -40,6 +41,11 @@ const DSA = {
         "<li>Insert or update an element at a specific index: O(1).</li>",
         "<li>Delete an element by setting it to null: O(1).</li>",
         "<li>Delete an element by sifting elements: O(n).</li>",
+      ],
+      "DSA Stable Vs Unstable Sort": [
+        "<h2 style='text-align: center;'>DSA Stable Vs Unstable Sort</h2>",
+        "<li><strong>Stable Sorting Algorithms:</strong> A sorting algorithm is considered stable if it maintains the relative order of records with equal keys (if two elements are equal, they remain in the same order after sorting)</li>",
+        "<li><strong>Unstable Sorting Algorithms:</strong> A sorting algorithm is considered unstable if it does not necessarily maintain the relative order of records with equal keys.</li>",
       ],
       "DSA Bubble Sort": [
         "<h2 style='text-align: center;'>DSA Bubble Sort</h2>",
@@ -50,9 +56,4 @@ const DSA = {
         "<li>Can be optimized by stopping early if no swaps are made during a pass, which indicates the list is already sorted.</li>",
         "<li>Time Complexity: O(n²).</li>",
       ],      
-      "DSA Stable Vs Unstable Sort": [
-        "<h2 style='text-align: center;'>DSA Stable Vs Unstable Sort</h2>",
-        "<li><strong>Stable Sorting Algorithms:</strong> A sorting algorithm is considered stable if it maintains the relative order of records with equal keys (if two elements are equal, they remain in the same order after sorting)</li>",
-        "<li><strong>Unstable Sorting Algorithms:</strong> A sorting algorithm is considered unstable if it does not necessarily maintain the relative order of records with equal keys.</li>",
-      ],
   }
