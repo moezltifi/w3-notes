@@ -55,5 +55,14 @@ const DSA = {
         "<li>Multiple passes through the list are made, with each pass placing the next largest item in its correct position.</li>",
         "<li>Can be optimized by stopping early if no swaps are made during a pass, which indicates the list is already sorted.</li>",
         "<li>Time Complexity: O(n²).</li>",
+      ],   
+      "DSA Selection Sort": [
+        "<h2 style='text-align: center;'>DSA Selection Sort</h2>",
+        "<li>Selection sort is a simple comparison-based sorting algorithm.</li>",
+        "<li>start from the first element and find the largest element in the entire array.</li>",
+        "<li>swap the largest element with the last element.</li>",
+        "<li>repeat it for the array without the last element to find the next largest element.</li>",
+        "<li>continue this until the entire array sorted</li>",
+        "<li>Time Complexity: O(n²).</li>",
       ],      
   }
