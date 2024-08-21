@@ -64,5 +64,15 @@ const DSA = {
         "<li>repeat it for the array without the last element to find the next largest element.</li>",
         "<li>continue this until the entire array sorted</li>",
         "<li>Time Complexity: O(n²).</li>",
-      ],      
+      ],    
+      "DSA Insertion Sort": [
+        "<h2 style='text-align: center;'>DSA Insertion Sort</h2>",
+        "<li>Insertion sort is a simple comparison-based sorting algorithm.</li>",
+        "<li>The algorithm begins with the second element in the list, assuming that the first element is already sorted.</li>",
+        "<li>It picks the current element and compares it to the elements before it.</li>",
+        "<li>If the key element is smaller than the element it's compared to, it shifts the larger elements one position to the right to make space for the element.</li>",
+        "<li>The element is then placed in the correct position.</li>",
+        "<li>This process repeats for each element in the list, moving from left to right.</li>",
+        "<li>Time Complexity: O(n²).</li>",
+      ],  
   }
