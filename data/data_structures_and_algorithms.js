@@ -83,4 +83,13 @@ const DSA = {
         "<li>When the gap reaches 1, the algorithm performs a final pass, which is actually a standard insertion sort. Since the list is already partially sorted, this scroll is very important.</li>",
         "<li>Time Complexity: O(n²).</li>",
       ],  
+      "DSA Recursion": [
+        "<h2 style='text-align: center;'>DSA Recursion</h2>",
+        "<li>Recursion is a programming technique in which a function calls itself directly or indirectly in order to solve a problem.</li>",
+        "<li>The function continues to call itself with a modified version of the original problem until it reaches a base case, which is a condition that stops the recursive calls.</li>",
+        "<li>The base case is the condition under which the recursion stops. Without a base case, the function would continue to call itself indefinitely, leading to a stack overflow.</li>",
+        "<li><strong>Example:</strong> In calculating the factorial of a number, the base case is when the number is 1 or 0, because the factorial of 1 or 0 is 1.</li>",
+        "<li>The recursive case is the part of the function that reduces the problem into smaller instances and calls itself to solve those smaller instances.</li>",
+        "<li><strong>Example:</strong> To calculate the factorial of a number 𝑛, the recursive case involves multiplying n by the factorial of  n−1.</li>",
+      ],  
   }
