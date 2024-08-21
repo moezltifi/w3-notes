@@ -75,4 +75,12 @@ const DSA = {
         "<li>This process repeats for each element in the list, moving from left to right.</li>",
         "<li>Time Complexity: O(n²).</li>",
       ],  
+      "DSA Shell Sort": [
+        "<h2 style='text-align: center;'>DSA Shell Sort</h2>",
+        "<li>Shell sort is an in-place comparison-based sorting algorithm that generalizes insertion sort.</li>",
+        "<li>Shell sort works by repeatedly performing a gapped insertion sort on the list.</li>",
+        "<li>After each pass, the gap is reduced according to the chosen sequence, and the process repeats. As the gap reduces, the list becomes increasingly sorted.</li>",
+        "<li>When the gap reaches 1, the algorithm performs a final pass, which is actually a standard insertion sort. Since the list is already partially sorted, this scroll is very important.</li>",
+        "<li>Time Complexity: O(n²).</li>",
+      ],  
   }
