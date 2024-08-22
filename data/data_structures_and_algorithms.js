@@ -102,6 +102,5 @@ const DSA = {
         "<li>After the first merge, we will have a brunch of 2-element sorted arrays.</li>",
         "<li>Then merge those sorted arrays left/rigth sibling to end up with a brunch of 4-element sorted arrays .</li>",
         "<li>Repeat until you have a single sorted array.</li>",
-        "<li>Time Complexity: O(n²).</li>",
       ],  
   }
