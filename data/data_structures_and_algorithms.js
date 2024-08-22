@@ -92,4 +92,16 @@ const DSA = {
         "<li>The recursive case is the part of the function that reduces the problem into smaller instances and calls itself to solve those smaller instances.</li>",
         "<li><strong>Example:</strong> To calculate the factorial of a number 𝑛, the recursive case involves multiplying n by the factorial of  n−1.</li>",
       ],  
+      "DSA Merge Sort": [
+        "<h2 style='text-align: center;'>DSA Merge Sort</h2>",
+        "<li>Merge Sort is a classic, efficient, and stable sorting algorithm.</li>",
+        "<li>Divide the array into two arrays, which are unsorted. The first array is the left array and the second array is the rigth array .</li>",
+        "<li>Split the left and rigth array into two arrays each.</li>",
+        "<li>Keep spliting until all the arrays have only one element each these arrays are sorted.</li>",
+        "<li>Merge evry left/rigth pair of sibling arrays into a sorted array.</li>",
+        "<li>After the first merge, we will have a brunch of 2-element sorted arrays.</li>",
+        "<li>Then merge those sorted arrays left/rigth sibling to end up with a brunch of 4-element sorted arrays .</li>",
+        "<li>Repeat until you have a single sorted array.</li>",
+        "<li>Time Complexity: O(n²).</li>",
+      ],  
   }
