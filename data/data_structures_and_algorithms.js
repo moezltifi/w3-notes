@@ -103,4 +103,15 @@ const DSA = {
         "<li>Then merge those sorted arrays left/rigth sibling to end up with a brunch of 4-element sorted arrays .</li>",
         "<li>Repeat until you have a single sorted array.</li>",
       ],  
+      "DSA Quick Sort": [
+        "<h2 style='text-align: center;'>DSA Quick Sort</h2>",
+        "<li>QuickSort is a highly efficient and widely used sorting algorithm.</li>",
+        "<li>QuickSort starts by selecting a pivot element from the array.</li>",
+        "<li>The pivot can be any element, but often it's the first element, the last element, the middle element, or a random element.</li>",
+        "<li>The array is then partitioned into two sub-arrays: one containing elements less than or equal to the pivot, and the other containing elements greater than the pivot.</li>",
+        "<li>During this partitioning process, elements are rearranged.</li>",
+        "<li>so that each element in the left sub-array is less than or equal to the pivot,and each element in the right sub-array is greater than or equal to the pivot.</li>",
+        "<li>The pivot is then placed in its correct position in the sorted array.</li>",
+        "<li>After partitioning, the QuickSort algorithm recursively sorts the left sub-array and the right sub-array like the MergeSort .</li>",
+      ],  
   }
