@@ -102,6 +102,7 @@ const DSA = {
         "<li>After the first merge, we will have a brunch of 2-element sorted arrays.</li>",
         "<li>Then merge those sorted arrays left/rigth sibling to end up with a brunch of 4-element sorted arrays .</li>",
         "<li>Repeat until you have a single sorted array.</li>",
+        "<li>Time Complexity: O(n(log(n))).</li>"
       ],  
       "DSA Quick Sort": [
         "<h2 style='text-align: center;'>DSA Quick Sort</h2>",
@@ -113,6 +114,7 @@ const DSA = {
         "<li>so that each element in the left sub-array is less than or equal to the pivot,and each element in the right sub-array is greater than or equal to the pivot.</li>",
         "<li>The pivot is then placed in its correct position in the sorted array.</li>",
         "<li>After partitioning, the QuickSort algorithm recursively sorts the left sub-array and the right sub-array like the MergeSort .</li>",
+        "<li>Time Complexity: O(n(log(n))).</li>"
       ], 
       "DSA Counting Sort": [
         "<h2 style='text-align: center;'>DSA Counting Sort</h2>",
@@ -124,5 +126,6 @@ const DSA = {
         "<li>Traverse the input array from left to rigth.</li>",
         "<li>Use the counting array to track how many of each value are in the input array.</li>",
         "<li>Using the counts in the counting array, write the values in sorted order to the input array.</li>",
+        "<li>Time Complexity: O(n + k).</li>"
       ],  
   }
