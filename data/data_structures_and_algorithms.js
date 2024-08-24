@@ -113,5 +113,16 @@ const DSA = {
         "<li>so that each element in the left sub-array is less than or equal to the pivot,and each element in the right sub-array is greater than or equal to the pivot.</li>",
         "<li>The pivot is then placed in its correct position in the sorted array.</li>",
         "<li>After partitioning, the QuickSort algorithm recursively sorts the left sub-array and the right sub-array like the MergeSort .</li>",
+      ], 
+      "DSA Counting Sort": [
+        "<h2 style='text-align: center;'>DSA Counting Sort</h2>",
+        "<li>The counting array in the Counting Sort algorithm is a key component used to keep track of the number of occurrences of each element within the input array..</li>",
+        "<li>Dosen't use the comparisons.</li>",
+        "<li>Counts the number of occurances of each value.</li>",
+        "<li>Only works with non-negetive discrete values(can't work ).</li>",
+        "<li>Values must be within a specific range.</li>",
+        "<li>Traverse the input array from left to rigth.</li>",
+        "<li>Use the counting array to track how many of each value are in the input array.</li>",
+        "<li>Using the counts in the counting array, write the values in sorted order to the input array.</li>",
       ],  
   }
