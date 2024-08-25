@@ -118,7 +118,7 @@ const DSA = {
       ], 
       "DSA Counting Sort": [
         "<h2 style='text-align: center;'>DSA Counting Sort</h2>",
-        "<li>The counting array in the Counting Sort algorithm is a key component used to keep track of the number of occurrences of each element within the input array..</li>",
+        "<li>The counting array in the Counting Sort algorithm is a key component used to keep track of the number of occurrences of each element within the input array.</li>",
         "<li>Dosen't use the comparisons.</li>",
         "<li>Counts the number of occurances of each value.</li>",
         "<li>Only works with non-negetive discrete values(can't work ).</li>",
@@ -126,6 +126,17 @@ const DSA = {
         "<li>Traverse the input array from left to rigth.</li>",
         "<li>Use the counting array to track how many of each value are in the input array.</li>",
         "<li>Using the counts in the counting array, write the values in sorted order to the input array.</li>",
+        "<li>Time Complexity: O(n + k).</li>"
+      ],  
+      "DSA Redix Sort": [
+        "<h2 style='text-align: center;'>DSA Redix Sort</h2>",
+        "<li>Radix Sort is a non-comparative sorting algorithm that sorts numbers by processing individual digits.</li>",
+        "<li>It works well when the range of digits (or radix) is relatively small compared to the range of possible values.</li>",
+        "<li>The radix is base of the numeral system. For decimal numbers, the radix is 10.</li>",
+        "<li>The width is The number of digits in the largest number in the array.</li>",
+        "<li>The radix sort sorts the numbers by the least significant digit first.</li>",
+        "<li>Radix Sort relies on a stable sorting algorithm (such as Counting Sort) to sort numbers based on individual digit positions.</li>",
+        "<li> A stable sort maintains the relative order of elements with equal keys.</li>",
         "<li>Time Complexity: O(n + k).</li>"
       ],  
   }
