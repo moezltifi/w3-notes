@@ -128,8 +128,8 @@ const DSA = {
         "<li>Using the counts in the counting array, write the values in sorted order to the input array.</li>",
         "<li>Time Complexity: O(n + k).</li>"
       ],  
-      "DSA Redix Sort": [
-        "<h2 style='text-align: center;'>DSA Redix Sort</h2>",
+      "DSA Radix Sort": [
+        "<h2 style='text-align: center;'>DSA Radix Sort</h2>",
         "<li>Radix Sort is a non-comparative sorting algorithm that sorts numbers by processing individual digits.</li>",
         "<li>It works well when the range of digits (or radix) is relatively small compared to the range of possible values.</li>",
         "<li>The radix is base of the numeral system. For decimal numbers, the radix is 10.</li>",
