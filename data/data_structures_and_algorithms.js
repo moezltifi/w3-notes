@@ -139,4 +139,13 @@ const DSA = {
         "<li> A stable sort maintains the relative order of elements with equal keys.</li>",
         "<li>Time Complexity: O(n + k).</li>"
       ],  
+      "DSA JDK Sort": [
+        "<h2 style='text-align: center;'>DSA JDK Sort</h2>",
+        "<li>We can use one of the above algorithms to sort the array .</li>",
+        "<li>But we have JDK at our disposal.</li>",
+        "<li>JDK contains in a race class and that class has methods that sort arrays.</li>",
+        "<li>We must to import the class to our java class.</li>",
+        "<li>Then we can use the class we import it.</li>",
+    
+      ],  
   }
