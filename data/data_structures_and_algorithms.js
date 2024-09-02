@@ -156,4 +156,14 @@ const DSA = {
         "<li>Lists are widely used in programming to handle data.</li>",
         "<li>Lists can contain elements of different types and can be changed after creation.</li>",
       ],
+      "DSA Abstract Data Type": [
+        "<h2 style='text-align: center;'>DSA Abstract Data Type</h2>",
+        "<li>An abstract data type ise't a concret data structure in the sense that array is.</li>",
+        "<li>With arrays we know that we have to store all the items as one contiguous block and arrays also dictate that evry item in the array occupy the same amount of memory so arrays are telling us how the data has to be sorted.</li>",
+        "<li>But lists are more of a conceptuel idea and they dictate the operations we can performe onthe data set not the items themselves they are an abstract data type.</li>",
+        "<li>It's more that it dictates how we can access the items. can we do random access, can we get to the first item that we added, can we get to the last item that we added.</li>",
+        "<li>So an abstract data type is more about behavior and what operation we can do.</li>",
+        "<li>basically any data structure can be used to implement an abstract data type as long as you have a class that implements the interface for the abstract data type.</li>",
+        "<li>any calss can behave like that abstract data type so in the case of lists any class that implements the list interface is a list.</li>",
+      ],
   }
