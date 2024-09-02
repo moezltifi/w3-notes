@@ -147,5 +147,13 @@ const DSA = {
         "<li>We must to import the class to our java class.</li>",
         "<li>Then we can use the class we import it.</li>",
     
-      ],  
+      ],
+      "DSA Lists Introduction": [
+        "<h2 style='text-align: center;'>DSA Lists Introduction</h2>",
+        "<li>The list is an abstract data type.</li>",
+        "<li>A list is a collection of items that are ordered and mutable.</li>",
+        "<li>It allows you to store multiple values in a single variable.</li>",
+        "<li>Lists are widely used in programming to handle data.</li>",
+        "<li>Lists can contain elements of different types and can be changed after creation.</li>",
+      ],
   }
