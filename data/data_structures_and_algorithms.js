@@ -181,12 +181,20 @@ const DSA = {
         "<li><code> String firstElement = list.get(0);</code>.</li>",
         "<li><code>int size = list.size(); </code></li>",
       ],
-       "DSA Vectors": [
+      "DSA Vectors": [
         "<h2 style='text-align: center;'>DSA Vectors</h2>",
         "<li>In Java, Vector is a class that implements a dynamic array capable of growing as needed.</li>",
         "<li>Unlike ArrayList, Vector is synchronized.</li>",
         "<li>Vector is part of the java.util package.</li>",
         "<li>which makes it thread safe but potentially slower due to synchronization overhead.</li>",
         "<li>It stores elements in a resizable array and allows dynamic resizing and access to elements via an index.</li>",
+      ],
+        "DSA Singly Linked List": [
+        "<h2 style='text-align: center;'>DSA Singly Linked List</h2>",
+        "<li> In the singly linked list Each node points to the next node in the sequence. The last node points to null, which indicates the end of the list.</li>",
+        "<li>Unlike arrays, linked lists do not store elements in contiguous memory locations.</li>",
+        "<li>Instead, it consists of nodes, where each node contains two parts:</li>",
+        "<li>Data: The actual value or information that the node is storing.</li>",
+        "<li>Next: A pointer to the next node in the sequence.</li>",
       ],
   }
