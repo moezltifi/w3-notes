@@ -181,4 +181,12 @@ const DSA = {
         "<li><code> String firstElement = list.get(0);</code>.</li>",
         "<li><code>int size = list.size(); </code></li>",
       ],
+       "DSA Vectors": [
+        "<h2 style='text-align: center;'>DSA Vectors</h2>",
+        "<li>In Java, Vector is a class that implements a dynamic array capable of growing as needed.</li>",
+        "<li>Unlike ArrayList, Vector is synchronized.</li>",
+        "<li>He is part of the java.util package.</li>",
+        "<li>which makes it thread safe but potentially slower due to synchronization overhead.</li>",
+        "<li>It stores elements in a resizable array and allows dynamic resizing and access to elements via an index.</li>",
+      ],
   }
