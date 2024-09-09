@@ -197,4 +197,13 @@ const DSA = {
         "<li>Data: The actual value or information that the node is storing.</li>",
         "<li>Next: A pointer to the next node in the sequence.</li>",
       ],
+      "DSA Doubly Linked List": [
+        "<h2 style='text-align: center;'>DSA Singly Linked List</h2>",
+        "<li>A doubly linked list is a type of linked list where each node contains pointers to both the next node and the previous node in the sequence.</li>",
+        "<li>This bidirectional linkage allows for more flexible navigation through the list.</li>",
+        "<li>In summary, a doubly linked list consists of nodes where each node contains three parts:</li>",
+        "<li>Data: The actual value or information that the node is storing.</li>",
+        "<li>Next: A pointer to the next node in the sequence.</li>",
+        "<li>Previous: A pointer to the previous node in the sequence.</li>",
+      ],
   }
