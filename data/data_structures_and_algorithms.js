@@ -206,4 +206,12 @@ const DSA = {
         "<li>Next: A pointer to the next node in the sequence.</li>",
         "<li>Previous: A pointer to the previous node in the sequence.</li>",
       ],
+      "DSA JDK LinkedList Class": [
+        "<h2 style='text-align: center;'>DSA JDK LinkedList Class</h2>",
+        "<li>In Java, the LinkedList class is implemented in the java.util package.</li>",
+        "<li>It provides a doubly-linked list data structure.</li>",
+        "<li>This means that each element in the list is linked to both the previous and next elements.</li>",
+        "<li>We can create a linked list only using:</li>",
+        "<li><code>LinkedList<Employee> listJDK = new LinkedList<>();</code>.</li>",
+      ],
   }
