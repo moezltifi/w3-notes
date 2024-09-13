@@ -214,4 +214,16 @@ const DSA = {
         "<li>We can create a linked list only using:</li>",
         "<li><code>LinkedList<Employee> listJDK = new LinkedList<>();</code>.</li>",
       ],
+      "DSA Stacks": [
+        "<h2 style='text-align: center;'>DSA Stacks</h2>",
+        "<li>A stack is a data structure that can hold many elements.</li>",
+        "<li>When removing an element, it will always be the last element we added.</li>",
+        "<li>This way of organizing elements is called LIFO: Last In First Out.</li>",
+        "<li>Basic operations we can do on a stack are:</li>",
+        "<ul>Push: Adds a new element on the stack.</ul>",
+        "<ul>Pop: Removes and returns the top element from the stack.</ul>",
+        "<ul>Peek: Returns the top element on the stack.</ul>",
+        "<ul>isEmpty: Checks if the stack is empty.</ul>",
+        "<ul>Size: Finds the number of elements in the stack.</ul>",
+      ],
   }
