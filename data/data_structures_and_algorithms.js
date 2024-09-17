@@ -226,4 +226,17 @@ const DSA = {
         "<ul>isEmpty: Checks if the stack is empty.</ul>",
         "<ul>Size: Finds the number of elements in the stack.</ul>",
       ],
+      "DSA Queues": [
+        "<h2 style='text-align: center;'>DSA Queues</h2>",
+        "<li>A queue is a data structure that can hold many elements.</li>",
+        "<li>When removing an element, it will always be the first element we added.</li>",
+        "<li>This way of organizing elements is called FIFO: First In First Out.</li>",
+        "<li>Basic operations we can do on a queue are:</li>",
+        "<ul>add: Adds a new element to the end of the queue.</ul>",
+        "<ul>remove: Removes and returns the element at the front of the queue.</ul>",
+        "<ul>Peek: Returns the element at the front of the queue.</ul>",
+        "<ul>isEmpty: Checks if the queue is empty.</ul>",
+        "<ul>Size: Finds the number of elements in the queue.</ul>",
+
+      ],
   }
