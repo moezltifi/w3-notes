@@ -237,6 +237,17 @@ const DSA = {
         "<ul>Peek: Returns the element at the front of the queue.</ul>",
         "<ul>isEmpty: Checks if the queue is empty.</ul>",
         "<ul>Size: Finds the number of elements in the queue.</ul>",
-
+      ],
+      "DSA Hashtables": [
+        "<h2 style='text-align: center;'>DSA Hashtables</h2>",
+        "<li>The Hashtabeles provides access to data using keys.</li>",
+        "<li>Key doesn't have to be an integer.</li>",
+        "<li>Consists of key/value pairs-data type don't have to match.</li>",
+        "<li>Optimzed for retrieval when we know the key.</li>",
+        "<li>Associative array is one type of hash table.</li>",  
+        "<li>Maps Keys of any data type to an integer.</li>",  
+        "<li>Hash function maps keys to int.</li>",  
+        "<li>In java, hash function is Object.hashCode().</li>",  
+        "<li>Collision occurs when more than one value has the same hashed value.</li>",  
       ],
   }
