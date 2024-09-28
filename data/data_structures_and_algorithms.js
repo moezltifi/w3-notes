@@ -250,4 +250,19 @@ const DSA = {
         "<li>In java, hash function is Object.hashCode().</li>",  
         "<li>Collision occurs when more than one value has the same hashed value.</li>",  
       ],
+      "DSA HashMap in Java": [
+        "<h2 style='text-align: center;'>HashMap in Java</h2>",
+        "<li>HashMap stores data in key-value pairs, similar to Hashtables.</li>",
+        "<li>Key doesn't have to be an integer.</li>",
+        "<li>The values ​​associated with the keys can also be of different data types.</li>",
+        "<li>Some operations we can do on a hashMap:</li>",
+        "<li><strong>put(K key, V value)</strong>: Adds a key-value pair (e.g., adds 'Smith' with marySmith).</li>",
+        "<li><strong>putIfAbsent(K key, V value)</strong>: Adds the specified key with its value if the key is not already present, returns the existing value if the key exists.</li>",
+        "<li><strong>getOrDefault(Object key, V defaultValue)</strong>: Returns the specified default value if the key is not found.</li>",
+        "<li><strong>remove(Object key)</strong>: Attempts to remove the specified key and returns the value, or null if not found.</li>",
+        "<li><strong>containsKey(Object key)</strong>: Checks if the specified key exists, returning true or false.</li>",
+        "<li><strong>containsValue(Object value)</strong>: Checks if the specified value is present in the map.</li>",
+        "<li><strong>forEach(BiConsumer<? super K, ? super V> action)</strong>: Iterates over the map, printing each key-value pair.</li>"
+
+      ]
   }
