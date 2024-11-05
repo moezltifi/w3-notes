@@ -274,5 +274,15 @@ const DSA = {
         "<li>If the current element is not equal to the target, move to the next element.</li>",
         "<li>Repeat steps until either the target is found or the end of the list is reached.</li>",
         "<li>If the target is not found by the end of the list, return a value indicating the target is not present example -1.</li>",
+      ],
+      "DSA Binary Search": [
+        "<h2 style='text-align: center;'>Binary Search</h2>",
+        "<li>Data must be sorted.</li>",
+        "<li>Chooses the element in the middle of the array and compares it against the search value.</li>",
+        "<li>If element is equal to the value we're done.</li>",
+        "<li>If element is greater than the value , search the left half of the array.</li>",
+        "<li>If element is less than the value , search the right half of the array.</li>",
+        "<li>Repeat the process until the target is found or the search space is exhausted when the start index exceeds the end index.</li>",
+        "<li>If the target is not found by the end of the list, return a value indicating the target is not present example -1.</li>",
       ]
   }
