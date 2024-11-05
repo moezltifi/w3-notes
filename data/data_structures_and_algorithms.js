@@ -264,5 +264,15 @@ const DSA = {
         "<li><strong>containsValue(Object value)</strong>: Checks if the specified value is present in the map.</li>",
         "<li><strong>forEach(BiConsumer<? super K, ? super V> action)</strong>: Iterates over the map, printing each key-value pair.</li>"
 
+      ],
+      "DSA Linear Search": [
+        "<h2 style='text-align: center;'>Linear Search</h2>",
+        "<li>Linear search is one of the simplest search algorithms.</li>",
+        "<li>Start from the first element of the list.</li>",
+        "<li>Compare the current element with the target element.</li>",
+        "<li>If the current element is equal to the target, return the index of the current element.</li>",
+        "<li>If the current element is not equal to the target, move to the next element.</li>",
+        "<li>Repeat steps until either the target is found or the end of the list is reached.</li>",
+        "<li>If the target is not found by the end of the list, return a value indicating the target is not present example -1.</li>",
       ]
   }
