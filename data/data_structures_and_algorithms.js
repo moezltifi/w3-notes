@@ -284,5 +284,14 @@ const DSA = {
         "<li>If element is less than the value , search the right half of the array.</li>",
         "<li>Repeat the process until the target is found or the search space is exhausted when the start index exceeds the end index.</li>",
         "<li>If the target is not found by the end of the list, return a value indicating the target is not present example -1.</li>",
+      ],
+      "DSA Trees": [
+        "<h2 style='text-align: center;'>Binary Search</h2>",
+        "<li>Tree is a data type.</li>",
+        "<li>Evry item in the tree is a node.</li>",
+        "<li>the node at the top of the tree is the root.</li>",
+        "<li>Evry non-root node has one and only one parent.</li>",
+        "<li>A leaf node has no children.</li>",
+        "<li>A singleton tree has only one node (the root).</li>",
       ]
   }
