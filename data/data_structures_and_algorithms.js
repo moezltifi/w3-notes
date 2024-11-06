@@ -301,4 +301,13 @@ const DSA = {
         "<li>In practice, we use binary search trees.</li>",
         "<li>A binary tree called full if every level except the last one is complete.</li>",
       ],
+      "DSA BST": [
+        "<h2 style='text-align: center;'>Binary Search Tree</h2>",
+        "<li>The Binary Search Tree can perform insertions, deletions, and retrievals.</li>",
+        "<li>The left child always has a smaller value than its parent.</li>",
+        "<li>The right child always has a larger value than its parent.</li>",
+        "<li>This means everything to the left of the root is less than the value of the root.</li>",
+        "<li>Everything to the right of the root is greater than the value of the root.</li>",
+        "<li>Because of that, we can do a binary search.</li>",
+      ],
   }
