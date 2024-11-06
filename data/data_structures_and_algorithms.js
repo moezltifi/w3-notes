@@ -294,4 +294,11 @@ const DSA = {
         "<li>A leaf node has no children.</li>",
         "<li>A singleton tree has only one node (the root).</li>",
       ],
+      "DSA Binary Tree": [
+        "<h2 style='text-align: center;'>Binary Tree</h2>",
+        "<li>In a Binary Tree evry node has 0, 1, or 2 children.</li>",
+        "<li>Children are referred to right child and left child.</li>",
+        "<li>In practice, we use binary search trees.</li>",
+        "<li>A binary tree called full if every level except the last one is complete.</li>",
+      ],
   }
